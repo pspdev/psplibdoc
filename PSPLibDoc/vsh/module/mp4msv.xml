@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+  <PRXFILES>
+    <PRXFILE>
+      <PRX>mp4msv.prx</PRX>
+      <PRXNAME>mp4msv_module</PRXNAME>
+      <LIBRARIES>
+        <LIBRARY>
+          <NAME>mp4msv</NAME>
+          <FLAGS>0x00090011</FLAGS>
+          <FUNCTIONS/>
+        </LIBRARY>
+      </LIBRARIES>
+    </PRXFILE>
+  </PRXFILES>
+</PSPLIBDOC>

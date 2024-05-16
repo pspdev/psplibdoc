@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+  <PRXFILES>
+    <PRXFILE>
+      <PRX>np_core.prx</PRX>
+      <PRXNAME>sceNpCore</PRXNAME>
+      <LIBRARIES>
+        <LIBRARY>
+          <NAME>sceNpCore</NAME>
+          <FLAGS>0x40010011</FLAGS>
+          <FUNCTIONS/>
+        </LIBRARY>
+      </LIBRARIES>
+    </PRXFILE>
+  </PRXFILES>
+</PSPLIBDOC>

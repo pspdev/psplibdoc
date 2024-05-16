@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+  <PRXFILES>
+    <PRXFILE>
+      <PRX>mebooter.prx</PRX>
+      <PRXNAME>sceMeBooter</PRXNAME>
+      <LIBRARIES>
+        <LIBRARY>
+          <NAME>sceMeBooter_driver</NAME>
+          <FLAGS>0x00010000</FLAGS>
+          <FUNCTIONS>
+            <FUNCTION>
+              <NID>0x3BCB751E</NID>
+              <NAME>me_init</NAME>
+              <SOURCE>matching</SOURCE>
+              <VERSIONS>
+                <VERSION>1.00</VERSION>
+                <VERSION>1.03</VERSION>
+                <VERSION>1.50</VERSION>
+                <VERSION>1.51</VERSION>
+                <VERSION>1.52</VERSION>
+                <VERSION>2.00</VERSION>
+                <VERSION>2.01</VERSION>
+              </VERSIONS>
+            </FUNCTION>
+          </FUNCTIONS>
+        </LIBRARY>
+        <LIBRARY>
+          <NAME>syslib</NAME>
+          <FLAGS>0x80000000</FLAGS>
+          <FUNCTIONS/>
+        </LIBRARY>
+      </LIBRARIES>
+    </PRXFILE>
+  </PRXFILES>
+</PSPLIBDOC>

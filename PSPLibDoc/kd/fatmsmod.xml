@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+  <PRXFILES>
+    <PRXFILE>
+      <PRX>fatmsmod.prx</PRX>
+      <PRXNAME>sceMSFAT_Driver</PRXNAME>
+      <LIBRARIES>
+        <LIBRARY>
+          <NAME>sceFatMS_driver</NAME>
+          <FLAGS>0x00010000</FLAGS>
+          <FUNCTIONS>
+            <FUNCTION>
+              <NID>0xBCB9DEDB</NID>
+              <NAME>sceFatMS_driver_BCB9DEDB</NAME>
+              <VERSIONS>
+                <VERSION>1.00</VERSION>
+                <VERSION>1.03</VERSION>
+                <VERSION>1.50</VERSION>
+                <VERSION>1.51</VERSION>
+                <VERSION>1.52</VERSION>
+                <VERSION>2.00</VERSION>
+                <VERSION>2.01</VERSION>
+                <VERSION>2.50</VERSION>
+                <VERSION>2.60</VERSION>
+                <VERSION>2.70</VERSION>
+                <VERSION>2.71</VERSION>
+                <VERSION>2.80</VERSION>
+                <VERSION>2.81</VERSION>
+                <VERSION>2.82</VERSION>
+              </VERSIONS>
+            </FUNCTION>
+          </FUNCTIONS>
+        </LIBRARY>
+        <LIBRARY>
+          <NAME>syslib</NAME>
+          <FLAGS>0x80000000</FLAGS>
+          <FUNCTIONS/>
+        </LIBRARY>
+      </LIBRARIES>
+    </PRXFILE>
+  </PRXFILES>
+</PSPLIBDOC>

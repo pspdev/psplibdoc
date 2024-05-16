@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+  <PRXFILES>
+    <PRXFILE>
+      <PRX>kermit_tty.prx</PRX>
+      <PRXNAME>sceKermitTTY_driver</PRXNAME>
+      <LIBRARIES>
+        <LIBRARY>
+          <NAME>sceKermitTTY_driver</NAME>
+          <FLAGS>0x00010011</FLAGS>
+          <FUNCTIONS>
+            <FUNCTION>
+              <NID>0x33E1D00F</NID>
+              <NAME>sceKermitTTY_driver_33E1D00F</NAME>
+              <VERSIONS>
+                <VERSION>vita-0.931</VERSION>
+                <VERSION>vita-0.940</VERSION>
+                <VERSION>vita-0.945</VERSION>
+                <VERSION>vita-0.990</VERSION>
+                <VERSION>vita-0.995</VERSION>
+              </VERSIONS>
+            </FUNCTION>
+          </FUNCTIONS>
+        </LIBRARY>
+        <LIBRARY>
+          <NAME>syslib</NAME>
+          <FLAGS>0x80000000</FLAGS>
+          <FUNCTIONS/>
+        </LIBRARY>
+      </LIBRARIES>
+    </PRXFILE>
+  </PRXFILES>
+</PSPLIBDOC>

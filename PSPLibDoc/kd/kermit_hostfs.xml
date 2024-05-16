@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+  <PRXFILES>
+    <PRXFILE>
+      <PRX>kermit_hostfs.prx</PRX>
+      <PRXNAME>sceKermitHostfs_driver</PRXNAME>
+      <LIBRARIES>
+        <LIBRARY>
+          <NAME>sceKermitHostfs_driver</NAME>
+          <FLAGS>0x00010011</FLAGS>
+          <FUNCTIONS>
+            <FUNCTION>
+              <NID>0x493F2EEC</NID>
+              <NAME>sceKermitHostfs_driver_493F2EEC</NAME>
+              <VERSIONS>
+                <VERSION>vita-0.931</VERSION>
+                <VERSION>vita-0.940</VERSION>
+                <VERSION>vita-0.945</VERSION>
+              </VERSIONS>
+            </FUNCTION>
+          </FUNCTIONS>
+        </LIBRARY>
+        <LIBRARY>
+          <NAME>syslib</NAME>
+          <FLAGS>0x80000000</FLAGS>
+          <FUNCTIONS/>
+        </LIBRARY>
+      </LIBRARIES>
+    </PRXFILE>
+  </PRXFILES>
+</PSPLIBDOC>

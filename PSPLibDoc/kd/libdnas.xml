@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+  <PRXFILES>
+    <PRXFILE>
+      <PRX>libdnas.prx</PRX>
+      <PRXNAME>sceDNAS_Library</PRXNAME>
+      <LIBRARIES>
+        <LIBRARY>
+          <NAME>sceDNAS_lib</NAME>
+          <FLAGS>0x00010011</FLAGS>
+          <FUNCTIONS/>
+        </LIBRARY>
+      </LIBRARIES>
+    </PRXFILE>
+  </PRXFILES>
+</PSPLIBDOC>
