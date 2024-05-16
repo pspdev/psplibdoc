@@ -195,8 +195,10 @@ def exportKnownFunctionNames(nidEntries, outFile):
 			if not libDocNidNameUnk:
 				f.write(nidEntry.name + '\n')
 
-def exportPSPLibdocCombined(nidEntries, outFile):
+def exportPSPLibdocCombined(nidEntries, outFile, firmwareVersion):
 	entries = sorted(nidEntries, key=lambda x: [x.prx, x.libraryName, int(x.nid, 16)])
+	if firmwareVersion is not None:
+	    entries = filter(lambda x : firmwareVersion in x.versions, entries)
 
 	root = ET.Element("PSPLIBDOC")
 	root.addprevious(ET.ProcessingInstruction('xml-stylesheet', 'type="text/xsl" href="psplibdocdisplay.xsl" '))
@@ -241,11 +243,12 @@ def exportPSPLibdocCombined(nidEntries, outFile):
 		name = ET.SubElement(function, "NAME")
 		name.text = entry.name
 
-		versions = ET.SubElement(function, "VERSIONS")
-		for v in entry.versions:
-		    ET.SubElement(versions, "VERSION").text = v
+        # Do not export the "VERSIONS" and "SOURCE" fields in the combined libdoc, in order to save space
+		#versions = ET.SubElement(function, "VERSIONS")
+		#for v in entry.versions:
+		#    ET.SubElement(versions, "VERSION").text = v
 
-		ET.SubElement(function, "SOURCE").text = entry.source
+		#ET.SubElement(function, "SOURCE").text = entry.source
 
 
 	ET.ElementTree(root).write(outFile, encoding='utf-8', method="xml", xml_declaration=True, pretty_print=True)
@@ -323,6 +326,11 @@ if __name__ == '__main__':
 						type=str,
 						help='Write PSP-Libdoc XML file for each loaded PRX module to the specified folder.')
 
+	parser.add_argument('-v', '--firmwareVersion',
+	                    required=False,
+	                    type=str,
+	                    help='Extract only the NIDs from a given firmware version')
+
 	nidEntries = []
 	args = parser.parse_args(sys.argv[1:])
 
@@ -362,7 +370,7 @@ if __name__ == '__main__':
 		exportKnownFunctionNames(nidEntries, args.exportKnownFunctionNames)
 
 	if(args.writeLibdocCombined):
-		exportPSPLibdocCombined(nidEntries, args.writeLibdocCombined)
+		exportPSPLibdocCombined(nidEntries, args.writeLibdocCombined, args.firmwareVersion)
 
 	if(args.writeLibdocSplit):
 		exportPSPLibdocModules(nidEntries, args.writeLibdocSplit)
