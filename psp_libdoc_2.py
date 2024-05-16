@@ -191,7 +191,7 @@ def exportKnownFunctionNames(nidEntries, outFile):
 				f.write(nidEntry.name + '\n')
 
 def exportPSPLibdocCombined(nidEntries, outFile):
-	entries = sorted(nidEntries, key=lambda x: [x.prx, x.libraryName, x.firmwareVersion, int(x.nid, 16)])
+	entries = sorted(list(dict.fromkeys(nidEntries)), key=lambda x: [x.prx, x.libraryName, x.firmwareVersion, int(x.nid, 16)])
 
 	root = ET.Element("PSPLIBDOC")
 	root.addprevious(ET.ProcessingInstruction('xml-stylesheet', 'type="text/xsl" href="psplibdocdisplay.xsl" '))

@@ -10,7 +10,7 @@ import sys
 from collections import namedtuple
 from lxml import etree as ET
 
-NIDEntry = namedtuple('NIDEntry', ['nid', 'name', 'prx', 'prxName', 'libraryName', 'libraryFlags'])
+NIDEntry = namedtuple('NIDEntry', ['nid', 'name', 'prx', 'prxName', 'libraryName', 'libraryFlags', 'versions', 'source'])
 
 def compute_nid(name):
     return hashlib.sha1(name.encode('ascii')).digest()[:4][::-1].hex().upper()
@@ -29,8 +29,12 @@ def loadPSPLibdoc(xmlFile):
 			for function in library.findall("FUNCTIONS/FUNCTION"):
 				functionNID = function.find("NID").text.upper().removeprefix('0X')
 				functionName = function.find("NAME").text
+				versions = [x.text for x in function.findall("VERSIONS/VERSION")]
+				source_elem = function.find("SOURCE")
+				source = '' if source_elem is None else source_elem.text
 				entries.append(NIDEntry(nid=functionNID, name=functionName, prx=prxFile,
-										prxName=prxName, libraryName=libraryName, libraryFlags=libraryFlags))
+										prxName=prxName, libraryName=libraryName, libraryFlags=libraryFlags,
+										versions=versions, source=source))
 
 	return entries
 
@@ -234,6 +238,12 @@ def exportPSPLibdocCombined(nidEntries, outFile):
 
 		name = ET.SubElement(function, "NAME")
 		name.text = entry.name
+
+		versions = ET.SubElement(function, "VERSIONS")
+		for v in entry.versions:
+		    ET.SubElement(versions, "VERSION").text = v
+
+		ET.SubElement(function, "SOURCE").text = entry.source
 
 
 	ET.ElementTree(root).write(outFile, encoding='utf-8', method="xml", xml_declaration=True, pretty_print=True)

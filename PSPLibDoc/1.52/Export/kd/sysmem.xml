@@ -514,7 +514,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD636B827</NID>
-              <NAME>sceKernelRemoveByDebugSection</NAME>
+              <NAME>sceKernelDipswAll</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5282DD5E</NID>

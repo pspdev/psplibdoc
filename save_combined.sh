@@ -19,7 +19,7 @@ do
 
         COMBINED_LIBDOC_FILE="${REPOSITORY}_${FIRMWARE}.xml"
         echo "Saving combined PSP-Libdoc file ${COMBINED_LIBDOC_FILE}"
-        ./psp_libdoc.py -l ${PRX_FILES[@]} -c "./${REPOSITORY}/${FIRMWARE}/${COMBINED_LIBDOC_FILE}"
+        echo ./psp_libdoc.py -l ${PRX_FILES[@]} -c "./${REPOSITORY}/${FIRMWARE}/${COMBINED_LIBDOC_FILE}"
     done
 done
 

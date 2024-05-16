@@ -48,7 +48,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0F9547E6</NID>
-              <NAME>scePspNpDrmInitFromGameIdMs4</NAME>
+              <NAME>sceNpDrmGetVersionKey</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x17E3F4BB</NID>

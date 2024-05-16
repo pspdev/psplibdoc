@@ -1212,7 +1212,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD636B827</NID>
-              <NAME>sceKernelRemoveByDebugSection</NAME>
+              <NAME>sceKernelDipswAll</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDBB5597F</NID>
