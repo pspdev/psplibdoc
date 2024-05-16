@@ -12,7 +12,7 @@ all_nids = defaultdict(set)
 all_unk_nids = []
 
 # Browse all the export files
-filelist = glob.glob('*PSP*/*/Export/**/*.xml', recursive=True)
+filelist = glob.glob('PSPLibDoc/**/*.xml', recursive=True)
 for (idx, file) in enumerate(filelist):
     entries = psp_libdoc.loadPSPLibdoc(file)
     # Get the version and module name from the path

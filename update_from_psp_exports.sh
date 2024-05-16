@@ -13,28 +13,21 @@ EXPORT_PATH="$1"
 for EXPORT in `ls -1 $EXPORT_PATH`
 do
     PRX_MODULE=${EXPORT%%.exp}
-    for REPOSITORY in ${NID_REPOSITORIES[@]}
+    for PRX_FOLDER in ${PRX_FOLDERS[@]}
     do
-        FIRMWARE_PATH="./${REPOSITORY}"
-        for FIRMWARE in `ls $FIRMWARE_PATH`
-        do
-            for PRX_FOLDER in ${PRX_FOLDERS[@]}
-            do
-                PRX_PATH="${FIRMWARE_PATH}/${FIRMWARE}/Export/${PRX_FOLDER}/${PRX_MODULE}.xml"
-                if [ -f "${PRX_PATH}" ]; then
-                    echo "Updating Repository: ${REPOSITORY} Firmware: ${FIRMWARE} PRX: ${PRX_MODULE}"
-                    psp_libdoc.py -e "${EXPORT_PATH}/${EXPORT}" -u "${PRX_PATH}"
-                    echo ""
-                fi
+        PRX_PATH="PSPLibDoc/${PRX_FOLDER}/${PRX_MODULE}.xml"
+        if [ -f "${PRX_PATH}" ]; then
+            echo "Updating PRX: ${PRX_MODULE}"
+            ./psp_libdoc.py -e "${EXPORT_PATH}/${EXPORT}" -u "${PRX_PATH}"
+            echo ""
+        fi
 
-                PRX_PATH_KERMIT="${FIRMWARE_PATH}/${FIRMWARE}/Export/${PRX_FOLDER}/kermit_${PRX_MODULE}.xml"
-                if [ -f "${PRX_PATH_KERMIT}" ]; then
-                    echo "Updating Repository: ${REPOSITORY} Firmware: ${FIRMWARE} PRX: kermit_${PRX_MODULE}"
-                    psp_libdoc.py -e "${EXPORT_PATH}/${EXPORT}" -u "${PRX_PATH_KERMIT}"
-                    echo ""
-                fi
-            done
-        done
+        PRX_PATH_KERMIT="PSPLibDoc/${PRX_FOLDER}/kermit_${PRX_MODULE}.xml"
+        if [ -f "${PRX_PATH_KERMIT}" ]; then
+            echo "Updating PRX: kermit_${PRX_MODULE}"
+            ./psp_libdoc.py -e "${EXPORT_PATH}/${EXPORT}" -u "${PRX_PATH_KERMIT}"
+            echo ""
+        fi
     done
 done
 

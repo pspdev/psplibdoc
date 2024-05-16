@@ -14,7 +14,6 @@ jobs:
         run: |
           python3 ./make_statistics.py
       - name: Deploy documentation
-        if: github.ref == 'refs/heads/main'
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

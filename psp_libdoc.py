@@ -31,7 +31,7 @@ def loadPSPLibdoc(xmlFile):
 				functionName = function.find("NAME").text
 				versions = [x.text for x in function.findall("VERSIONS/VERSION")]
 				source_elem = function.find("SOURCE")
-				source = '' if source_elem is None else source_elem.text
+				source = '' if source_elem is None else ('' if source_elem.text is None else source_elem.text)
 				entries.append(NIDEntry(nid=functionNID, name=functionName, prx=prxFile,
 										prxName=prxName, libraryName=libraryName, libraryFlags=libraryFlags,
 										versions=versions, source=source))
@@ -110,13 +110,15 @@ def loadPSPExportFile(exportFile):
 			functionName = functionName.strip()
 			functionNID = functionNID.strip().upper().removeprefix('0X')
 			entries.append(NIDEntry(nid=functionNID, name=functionName, prx=" ",
-									prxName=" ", libraryName=libraryName, libraryFlags=libraryFlags))
+									prxName=" ", libraryName=libraryName, libraryFlags=libraryFlags,
+									versions=[], source=""))
 
 		elif line.startswith("PSP_EXPORT_FUNC_HASH"):
 			functionName = line[line.find("(") + 1 : line.find(")")].strip()
 			functionNID = getNidForString(functionName)
 			entries.append(NIDEntry(nid=functionNID, name=functionName, prx=" ",
-									prxName=" ", libraryName=libraryName, libraryFlags=libraryFlags))
+									prxName=" ", libraryName=libraryName, libraryFlags=libraryFlags,
+									versions=[], source=""))
 
 		elif line.startswith("PSP_EXPORT_END"):
 			libraryName = " "
@@ -135,7 +137,7 @@ def loadFunctionFile(xmlFile):
 		functionNID = function.find("NID").text.upper().removeprefix('0X')
 		functionName =function.find("NAME").text
 		entries.append(NIDEntry(nid=functionNID, name=functionName, prx=" ",
-								prxName=" ", libraryName=" ", libraryFlags=" "))
+								prxName=" ", libraryName=" ", libraryFlags=" ", versions=[], source=""))
 
 	return entries
 
@@ -161,7 +163,7 @@ def loadHLEFunctionFile(inputFile):
 			functionNID = hleEntry[0].upper().removeprefix('0X')
 			functionName = hleEntry[2].strip()[1:-1]
 			entries.append(NIDEntry(nid=functionNID, name=functionName, prx=" ",
-								prxName=" ", libraryName=libraryName, libraryFlags=" "))
+								prxName=" ", libraryName=libraryName, libraryFlags=" ", versions=[], source=""))
 
 	return entries
 

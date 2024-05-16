@@ -29,20 +29,20 @@ def loadPSPLibdoc(xmlFile, targetLibrary):
 
 	return nidEntries
 
-def loadPrxModule(directory, category, module, library):
+def loadPrxModule(directory, module, library):
 	nidEntries = {}
 	for prxFolder in prxFolders:
-		filePath = directory + '/' + category + '/' + prxFolder + '/' + module + '.xml'
+		filePath = directory + '/' + prxFolder + '/' + module + '.xml'
 		if os.path.isfile(filePath):
 			print("Loading NID entries from '{}' ...".format(filePath))
 			nidEntries.update(loadPSPLibdoc(filePath, library))
 
 	return nidEntries
 
-def loadAllPrxModules(directory, category, library):
+def loadAllPrxModules(directory, library):
 	nidEntries = {}
 	for prxFolder in prxFolders:
-		dirPath = directory + '/' + category + '/' + prxFolder + '/'
+		dirPath = directory + '/' + prxFolder + '/'
 		for libdocFile in os.listdir(dirPath):
 			filePath = os.path.join(dirPath, libdocFile)
 			fileEntries = loadPSPLibdoc(filePath, library)
@@ -70,7 +70,7 @@ def printPrxFunctions(entries):
 		print()
 
 def printModuleExports(directory, module):
-	exports = loadPrxModule(directory, "Export", module, "")
+	exports = loadPrxModule(directory, module, "")
 
 	if(len(exports) == 0):
 		print("No exports found for module '{}'".format(module))
@@ -78,32 +78,14 @@ def printModuleExports(directory, module):
 		print("\nExports for module '{}':".format(module))
 		printPrxFunctions(exports)
 
-def printModuleImports(directory, module):
-	imports = loadPrxModule(directory, "Import", module, "")
-
-	if(len(imports) == 0):
-		print("No imports found for module '{}'".format(module))
-	else:
-		print("\nImports for module '{}':".format(module))
-		printPrxFunctions(imports)
-
 def printLibraryExports(directory, library):
-	exports = loadAllPrxModules(directory, "Export", library)
+	exports = loadAllPrxModules(directory, library)
 
 	if(len(exports) == 0):
 		print("No modules found exporting library '{}'".format(library))
 	else:
 		print("\nModules exporting library '{}':".format(library))
 		printPrxFunctions(exports)
-
-def printLibraryImports(directory, library):
-	imports = loadAllPrxModules(directory, "Import", library)
-
-	if(len(imports) == 0):
-		print("No modules found importing library '{}'".format(library))
-	else:
-		print("\nModules importing library '{}':".format(library))
-		printPrxFunctions(imports)
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser()

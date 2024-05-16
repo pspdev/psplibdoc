@@ -74,7 +74,7 @@ def html_library(module, lib, stats_byver, versions):
         for status in stats_byver[ver][0]:
             if status == "total":
                 continue
-            for (nid, _) in stats_byver[ver][0][status]:
+            for (nid, _, _, _) in stats_byver[ver][0][status]:
                 status_bynid[nid] = status
     cnt = Counter(status_bynid.values())
     both_stats = []
@@ -143,11 +143,13 @@ Hover a cell to know the meaning of the color. <br />
     output += '</tr>'
     # Sort NIDs by the first firmware version they appear in, then by the names associated to them
     sorted_nids = []
+    sources = {}
     for v in versions:
         ver_nids = []
         for nid in stats_bynid:
             if v in stats_bynid[nid]:
-                (_, name) = stats_bynid[nid][v]
+                (_, name, source) = stats_bynid[nid][v]
+                sources[name] = source
                 ver_nids.append((name, nid))
         for (_, nid) in sorted(ver_nids):
             if nid not in sorted_nids:
@@ -160,13 +162,16 @@ Hover a cell to know the meaning of the color. <br />
             if v not in stats_bynid[nid]:
                 output += "<td></td>"
             else:
-                (status, name) = stats_bynid[nid][v]
+                (status, name, source) = stats_bynid[nid][v]
                 show_name = name
+                source_str = ''
                 if name == last_name:
                     show_name = '...'
+                elif source != '' and source != 'matching':
+                    source_str = ' (source: ' + source + ')'
                 last_name = name
                 (color, desc) = find_html_status(status)
-                output += f"""<td class="w3-{color}"><div class="w3-tooltip">{show_name}<span style="position:absolute;left:0;bottom:18px" class="w3-text w3-tag">NID is {desc}</span></div></td>"""
+                output += f"""<td class="w3-{color}"><div class="w3-tooltip">{show_name}{source_str}<span style="position:absolute;left:0;bottom:18px" class="w3-text w3-tag">NID is {desc}</span></div></td>"""
         output += "</tr>"
     output += "</table></div></body></html>"
     return output
@@ -179,15 +184,17 @@ def make_stats(module, lib, version, obfuscated, cur_nids, prev_nonobf, prev_ok)
     nok_nids = []
     ok_nids = []
     # Sort NIDs by category: unknown (name ends with the NID), ok (NID matches the hash) and nok (NID doesn't match the hash)
-    for (nid, name) in cur_nids:
+    for cur_nid in cur_nids:
+        nid = cur_nid["nid"]
+        name = cur_nid["name"]
         if not obfuscated:
             prev_nonobf[nid] = (version, name)
         if name.endswith(nid):
-            unk_nids.append((nid, name))
+            unk_nids.append(cur_nid)
         elif psp_libdoc.compute_nid(name) == nid:
-            ok_nids.append((nid, name))
+            ok_nids.append(cur_nid)
         else:
-            nok_nids.append((nid, name))
+            nok_nids.append(cur_nid)
 
     if obfuscated:
         nok_dubious = []
@@ -195,7 +202,9 @@ def make_stats(module, lib, version, obfuscated, cur_nids, prev_nonobf, prev_ok)
         # If the NIDs have been randomized, it means they cannot be confirmed using the hash,
         # but they might come from previous versions of the libraries when the NIDs were not randomized.
         # Here, check if the names were found in previous non-randomized versions of the library.
-        for (nid, name) in nok_nids:
+        for cur_nid in nok_nids:
+            nid = cur_nid["nid"]
+            name = cur_nid["name"]
             if nid in prev_ok or nid in prev_nonobf:
                 print("WARN: previously seen non-obfuscated:", module, lib, version, nid, name, prev_nonobf[nid], file=sys.stderr)
             found_prev = False
@@ -204,47 +213,57 @@ def make_stats(module, lib, version, obfuscated, cur_nids, prev_nonobf, prev_ok)
                     found_prev = True
                     break
             if not found_prev:
-                nok_dubious.append((nid, name))
+                nok_dubious.append(cur_nid)
             else:
-                nok_from_prev.append((nid, name))
+                nok_from_prev.append(cur_nid)
 
         # For unknown names, differentiate between the ones seen in non-randomized versions, and the ones never seen in one (ie most likely randomized).
         unk_nonobf = []
         unk_obf = []
-        for (nid, name) in unk_nids:
+        for cur_nid in unk_nids:
+            nid = cur_nid["nid"]
             if nid in prev_ok: # could by prev_nonobf, for pure information
                 print("WARN: previously seen non-obfuscated OK:", module, lib, version, nid, prev_ok[nid], file=sys.stderr)
             if nid in prev_nonobf:
-                unk_nonobf.append((nid, name))
+                unk_nonobf.append(cur_nid)
             else:
-                unk_obf.append((nid, name))
+                unk_obf.append(cur_nid)
         stats = {"known": ok_nids, "unknown_nonobf": unk_nonobf, "unknown_obf": unk_obf, "nok_from_previous": nok_from_prev, "nok_dubious": nok_dubious}
     else:
         # For non-obfuscated modules, it's more simple, just do a safety check to see if there's no NID which was known in previous versions but is wrong or unknown in a later one.
-        for (nid, name) in (nok_nids + unk_nids):
+        for cur_nid in (nok_nids + unk_nids):
+            nid = cur_nid["nid"]
+            name = cur_nid["name"]
             if nid in prev_ok:
                 print("WARN: previously seen OK:", module, lib, version, nid, name, prev_ok[nid], file=sys.stderr)
         stats = {"known": ok_nids, "unknown": unk_nids, "wrong": nok_nids}
 
     stats['total'] = len(cur_nids)
 
-    for (nid, name) in ok_nids:
-        prev_ok[nid] = (version, name)
+    for cur_nid in ok_nids:
+        prev_ok[cur_nid["nid"]] = (version, cur_nid["name"])
 
     return stats
 
+def get_nids_ver(nids, ver):
+    output = []
+    for nid in nids:
+        if ver in nid["versions"]:
+            output.append(nid)
+    return output
+
 # Make statistics for all the versions of a library, write the single HTML page, and return the row for the main page
 def handle_library(module, lib, nids, versions):
-    vers = list(sorted(nids.keys()))
+    vers = list(sorted(set([v for nid in nids for v in nid["versions"]])))
     # Indicates the NIDs had at least one round of randomization in previous (or current) firmware version
     now_obfuscated = False
     prev_nonobf = {}
     prev_ok = {}
-    stats_byver = {vers[0]: (make_stats(module, lib, vers[0], now_obfuscated, nids[vers[0]], prev_nonobf, prev_ok), False)}
+    stats_byver = {vers[0]: (make_stats(module, lib, vers[0], now_obfuscated, get_nids_ver(nids, vers[0]), prev_nonobf, prev_ok), False)}
     for (v1, v2) in zip(vers, vers[1:]):
         # For each consecutive firmware versions v1 and v2, see their respective NIDs
-        v1_nids = set([x[0] for x in nids[v1]])
-        v2_nids = set([x[0] for x in nids[v2]])
+        v1_nids = set([x["nid"] for x in get_nids_ver(nids, v1)])
+        v2_nids = set([x["nid"] for x in get_nids_ver(nids, v2)])
         # Check the NIDs which appeared and the ones which disappeared
         new_nids = v2_nids - v1_nids
         disappear_nids = v1_nids - v2_nids
@@ -258,14 +277,14 @@ def handle_library(module, lib, nids, versions):
             # If we find a new NID whose name is known, then it means there cannot have been a randomization here (note this check triggers rarely), except for 5.55 which misses functions from 5.51
             for n in new_nids:
                 name = None
-                for (x, y) in nids[v2]:
-                    if x == n:
-                        name = y
+                for nid in get_nids_ver(nids, v2):
+                    if nid["nid"] == n:
+                        name = nid["name"]
                 if psp_libdoc.compute_nid(name) == n and v1 != '5.55': # some exceptions exist for 5.55 (which misses functions from 5.51)
                     is_obfuscated = False
         if is_obfuscated:
             now_obfuscated = True
-        stats_byver[v2] = (make_stats(module, lib, v2, now_obfuscated, nids[v2], prev_nonobf, prev_ok), is_obfuscated)
+        stats_byver[v2] = (make_stats(module, lib, v2, now_obfuscated, get_nids_ver(nids, v2), prev_nonobf, prev_ok), is_obfuscated)
 
     # Get the results by NID for the individual pages
     stats_bynid = defaultdict(dict)
@@ -273,8 +292,8 @@ def handle_library(module, lib, nids, versions):
         for status in stats_byver[v][0]:
             if status == "total":
                 continue
-            for (nid, name) in stats_byver[v][0][status]:
-                stats_bynid[nid][v] = (status, name)
+            for cur_nid in stats_byver[v][0][status]:
+                stats_bynid[cur_nid["nid"]][v] = (status, cur_nid["name"], cur_nid["source"])
     with open(OUTPUT_HTML + '/modules/' + module + '_' + lib + '.html', 'w') as fd:
         fd.write(html_single_library(module, lib, stats_bynid, vers))
 
@@ -286,26 +305,28 @@ def main():
     os.makedirs(OUTPUT_HTML + "/modules", exist_ok=True)
 
     # Parse all the NID export files
-    filelist = glob.glob('PSP*/*/Export/**/*.xml', recursive=True)
+    filelist = glob.glob('PSPLibDoc/**/*.xml', recursive=True)
 
-    nid_bylib = defaultdict(lambda: defaultdict(set))
-    lib_info = {}
+    nid_bylib = defaultdict(lambda: defaultdict(list))
     versions = set()
 
-    for (idx, file) in enumerate(filelist):
-        version = file.split('/')[1]
-        versions.add(version)
+    for file in filelist:
         entries = psp_libdoc.loadPSPLibdoc(file)
         for e in entries:
-            lib_info[e.libraryName] = (file.split('/')[-1].replace('xml', 'prx'), e.libraryFlags)
-            nid_bylib[e.libraryName][version].add((e.nid, e.name))
+            cur_ver = [v for v in e.versions if not v.startswith('vita')]
+            for v in cur_ver:
+                versions.add(v)
+            if len(cur_ver) == 0:
+                continue
+            nid_bylib[e.prx][e.libraryName].append({"nid": e.nid, "name": e.name, "versions": cur_ver, "source": e.source})
 
     versions = list(sorted(versions))
 
     # Output the main and single HTML pages
     html_output = html_header(versions)
-    for (lib, libinfo) in sorted(lib_info.items(), key = lambda x: (x[1][0], x[0])):
-        html_output += handle_library(libinfo[0], lib, nid_bylib[lib], versions)
+    for prx in sorted(nid_bylib):
+        for lib in sorted(nid_bylib[prx]):
+            html_output += handle_library(prx, lib, nid_bylib[prx][lib], versions)
     html_output += html_footer()
     with open(OUTPUT_HTML + "/index.html", 'w') as fd:
         fd.write(html_output)
