@@ -74,8 +74,8 @@ def html_library(module, lib, stats_byver, versions):
         for status in stats_byver[ver][0]:
             if status == "total":
                 continue
-            for (nid, _, _, _) in stats_byver[ver][0][status]:
-                status_bynid[nid] = status
+            for cur_nid in stats_byver[ver][0][status]:
+                status_bynid[cur_nid["nid"]] = status
     cnt = Counter(status_bynid.values())
     both_stats = []
     nonobf_ok = cnt["known"]
@@ -305,7 +305,7 @@ def main():
     os.makedirs(OUTPUT_HTML + "/modules", exist_ok=True)
 
     # Parse all the NID export files
-    filelist = glob.glob('PSPLibDoc/**/*.xml', recursive=True)
+    filelist = glob.glob('PSPLibDoc/kd/*.xml') + glob.glob('PSPLibDoc/vsh/module/*.xml')
 
     nid_bylib = defaultdict(lambda: defaultdict(list))
     versions = set()
