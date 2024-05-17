@@ -13,7 +13,7 @@ from lxml import etree as ET
 NIDEntry = namedtuple('NIDEntry', ['nid', 'name', 'prx', 'prxName', 'libraryName', 'libraryFlags', 'versions', 'source'])
 
 def compute_nid(name):
-    return hashlib.sha1(name.encode('ascii')).digest()[:4][::-1].hex().upper()
+	return hashlib.sha1(name.encode('ascii')).digest()[:4][::-1].hex().upper()
 
 def loadPSPLibdoc(xmlFile):
 	tree = ET.parse(xmlFile)
@@ -195,10 +195,10 @@ def exportKnownFunctionNames(nidEntries, outFile):
 			if not libDocNidNameUnk:
 				f.write(nidEntry.name + '\n')
 
-def exportPSPLibdocCombined(nidEntries, outFile, firmwareVersion):
-	entries = sorted(nidEntries, key=lambda x: [x.prx, x.libraryName, int(x.nid, 16)])
+def exportPSPLibdocCombined(nidEntries, outFile, firmwareVersion=None, includeAll=False):
+	entries = sorted(nidEntries, key=lambda x: [x.prx, x.libraryName, x.versions[0], int(x.nid, 16)])
 	if firmwareVersion is not None:
-	    entries = filter(lambda x : firmwareVersion in x.versions, entries)
+		entries = filter(lambda x : firmwareVersion in x.versions, entries)
 
 	root = ET.Element("PSPLIBDOC")
 	root.addprevious(ET.ProcessingInstruction('xml-stylesheet', 'type="text/xsl" href="psplibdocdisplay.xsl" '))
@@ -243,13 +243,14 @@ def exportPSPLibdocCombined(nidEntries, outFile, firmwareVersion):
 		name = ET.SubElement(function, "NAME")
 		name.text = entry.name
 
-        # Do not export the "VERSIONS" and "SOURCE" fields in the combined libdoc, in order to save space
-		#versions = ET.SubElement(function, "VERSIONS")
-		#for v in entry.versions:
-		#    ET.SubElement(versions, "VERSION").text = v
+		# Do not export the "VERSIONS" and "SOURCE" fields in the combined libdoc, in order to save space
+		if includeAll:
+			if len(entry.source) > 0:
+				ET.SubElement(function, "SOURCE").text = entry.source
 
-		#ET.SubElement(function, "SOURCE").text = entry.source
-
+			versions = ET.SubElement(function, "VERSIONS")
+			for v in entry.versions:
+				ET.SubElement(versions, "VERSION").text = v
 
 	ET.ElementTree(root).write(outFile, encoding='utf-8', method="xml", xml_declaration=True, pretty_print=True)
 
@@ -327,9 +328,9 @@ if __name__ == '__main__':
 						help='Write PSP-Libdoc XML file for each loaded PRX module to the specified folder.')
 
 	parser.add_argument('-v', '--firmwareVersion',
-	                    required=False,
-	                    type=str,
-	                    help='Extract only the NIDs from a given firmware version')
+						required=False,
+						type=str,
+						help='Extract only the NIDs from a given firmware version')
 
 	nidEntries = []
 	args = parser.parse_args(sys.argv[1:])
