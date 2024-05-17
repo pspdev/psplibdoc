@@ -103,11 +103,12 @@ def fix_psplibdoc(libdoc, modules):
         funname = e.libraryName + '_' + e.nid
         if e.name.endswith(e.nid) and funname in nid_matches:
             prev_name = check_entry(entries, nid_matches[funname])
-            print(funname, '->', prev_name)
-            e = e._replace(name = prev_name, source = "previous version (automated)")
+            if prev_name is not None:
+                print(funname, '->', prev_name)
+                e = e._replace(name = prev_name, source = "previous version (automated)")
         entries2.append(e)
 
-    psp_libdoc.exportPSPLibdocCombined(entries2, libdoc, None, True)
+    psp_libdoc.updatePSPLibdoc(entries2, libdoc)
 
 if __name__ == '__main__':
     #get_raw_functions(sys.argv[1])
