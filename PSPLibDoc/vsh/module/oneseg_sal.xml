@@ -3416,7 +3416,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFDB25338</NID>
-              <NAME>onesegSal_FDB25338</NAME>
+              <NAME>atexit</NAME>
               <VERSIONS>
                 <VERSION>3.80</VERSION>
                 <VERSION>3.90</VERSION>

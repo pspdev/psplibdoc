@@ -12,7 +12,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x42C68F08</NID>
-              <NAME>sceVshNetconfRaku_42C68F08</NAME>
+              <NAME>necApConfigStart</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>2.00</VERSION>
@@ -60,7 +60,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB29274F1</NID>
-              <NAME>sceVshNetconfRaku_B29274F1</NAME>
+              <NAME>necApConfigEnd</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>2.00</VERSION>
@@ -84,7 +84,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD030086D</NID>
-              <NAME>sceVshNetconfRaku_D030086D</NAME>
+              <NAME>necApConfigGetResult</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>2.00</VERSION>
@@ -108,7 +108,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF3AF9DD1</NID>
-              <NAME>sceVshNetconfRaku_F3AF9DD1</NAME>
+              <NAME>necApConfigGetState</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>2.00</VERSION>

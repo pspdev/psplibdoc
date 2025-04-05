@@ -6797,7 +6797,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAA8B9556</NID>
-              <NAME>vsh_AA8B9556</NAME>
+              <NAME>_ZN3vsh15RaiseFatalErrorEj</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -6939,7 +6939,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2B8B7775</NID>
-              <NAME>vsh_2B8B7775</NAME>
+              <NAME>_ZN3vsh16RebootSafeMemory8SetBlockENS0_5BlockEPvj</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>1.50</VERSION>
@@ -6993,7 +6993,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x741C9BE1</NID>
-              <NAME>vsh_741C9BE1</NAME>
+              <NAME>_ZN3vsh16RebootSafeMemory8GetBlockENS0_5BlockEPvj</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>1.50</VERSION>
@@ -7245,7 +7245,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x16DA723A</NID>
-              <NAME>vsh_16DA723A</NAME>
+              <NAME>_ZN3vsh11ContentInfo4HalfEff</NAME>
               <VERSIONS>
                 <VERSION>2.00</VERSION>
                 <VERSION>2.01</VERSION>
@@ -7659,7 +7659,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x566AA22F</NID>
-              <NAME>vsh_566AA22F</NAME>
+              <NAME>_ZN3vsh11ContentInfo10SetTextureERKN3paf12SurfaceRCPtrINS1_7SurfaceEEEi</NAME>
               <VERSIONS>
                 <VERSION>2.00</VERSION>
                 <VERSION>2.01</VERSION>
@@ -7754,7 +7754,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5D36BCE6</NID>
-              <NAME>vsh_5D36BCE6</NAME>
+              <NAME>_ZN3vsh11ContentInfo4InfoEff</NAME>
               <VERSIONS>
                 <VERSION>2.00</VERSION>
                 <VERSION>2.01</VERSION>
@@ -7800,7 +7800,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x61A1FA3A</NID>
-              <NAME>vsh_61A1FA3A</NAME>
+              <NAME>_ZN3vsh11ContentInfo4MenuEff</NAME>
               <VERSIONS>
                 <VERSION>2.00</VERSION>
                 <VERSION>2.01</VERSION>
@@ -7847,7 +7847,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x72C75A14</NID>
-              <NAME>vsh_72C75A14</NAME>
+              <NAME>_ZN3vsh11ContentInfo8SetMusicERKN3paf10MiconRCPtrINS1_13MusicResourceEEE</NAME>
               <VERSIONS>
                 <VERSION>2.00</VERSION>
                 <VERSION>2.01</VERSION>
@@ -8066,7 +8066,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9C50A821</NID>
-              <NAME>vsh_9C50A821</NAME>
+              <NAME>_ZN3vsh11ContentInfo6DeleteEff</NAME>
               <VERSIONS>
                 <VERSION>2.00</VERSION>
                 <VERSION>2.01</VERSION>
@@ -8206,7 +8206,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC4D809CB</NID>
-              <NAME>vsh_C4D809CB</NAME>
+              <NAME>_ZN3vsh11ContentInfo8SetMovieERKN3paf10MiconRCPtrINS1_13MovieResourceEEEb</NAME>
               <VERSIONS>
                 <VERSION>2.00</VERSION>
                 <VERSION>2.01</VERSION>
@@ -8277,7 +8277,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDE027583</NID>
-              <NAME>vsh_DE027583</NAME>
+              <NAME>_ZN3vsh11ContentInfoC1EPN3paf8PhWidgetEPviPNS1_8PhXmListE</NAME>
               <VERSIONS>
                 <VERSION>2.00</VERSION>
                 <VERSION>2.01</VERSION>
@@ -8394,7 +8394,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF4FD56D2</NID>
-              <NAME>vsh_F4FD56D2</NAME>
+              <NAME>_ZN3vsh11ContentInfo4FullEff</NAME>
               <VERSIONS>
                 <VERSION>2.00</VERSION>
                 <VERSION>2.01</VERSION>
@@ -8441,7 +8441,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFA1DE461</NID>
-              <NAME>vsh_FA1DE461</NAME>
+              <NAME>_ZN3vsh11ContentInfo13SetOnplayFuncEPFvPvES1_</NAME>
               <VERSIONS>
                 <VERSION>2.00</VERSION>
                 <VERSION>2.01</VERSION>

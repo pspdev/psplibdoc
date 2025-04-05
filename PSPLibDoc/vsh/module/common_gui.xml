@@ -197,7 +197,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x566AA22F</NID>
-              <NAME>sceVshCommonGui_566AA22F</NAME>
+              <NAME>_ZN3vsh11ContentInfo10SetTextureERKN3paf12SurfaceRCPtrINS1_7SurfaceEEEi</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -234,7 +234,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5D36BCE6</NID>
-              <NAME>sceVshCommonGui_5D36BCE6</NAME>
+              <NAME>_ZN3vsh11ContentInfo4InfoEff</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -274,7 +274,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x61A1FA3A</NID>
-              <NAME>sceVshCommonGui_61A1FA3A</NAME>
+              <NAME>_ZN3vsh11ContentInfo4MenuEff</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -342,7 +342,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x72C75A14</NID>
-              <NAME>sceVshCommonGui_72C75A14</NAME>
+              <NAME>_ZN3vsh11ContentInfo8SetMusicERKN3paf10MiconRCPtrINS1_13MusicResourceEEE</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -461,7 +461,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x891E0954</NID>
-              <NAME>sceVshCommonGui_891E0954</NAME>
+              <NAME>_ZN3vsh10OptionMenu8SetAlphaEf</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -518,7 +518,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9C50A821</NID>
-              <NAME>sceVshCommonGui_9C50A821</NAME>
+              <NAME>_ZN3vsh11ContentInfo6DeleteEff</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -540,7 +540,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9FAA1BC2</NID>
-              <NAME>sceVshCommonGui_9FAA1BC2</NAME>
+              <NAME>_ZN3vsh11ContentInfo12DeleteMotionEff</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -724,7 +724,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC4D809CB</NID>
-              <NAME>sceVshCommonGui_C4D809CB</NAME>
+              <NAME>_ZN3vsh11ContentInfo8SetMovieERKN3paf10MiconRCPtrINS1_13MovieResourceEEEb</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -889,7 +889,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFA1DE461</NID>
-              <NAME>sceVshCommonGui_FA1DE461</NAME>
+              <NAME>_ZN3vsh11ContentInfo13SetOnplayFuncEPFvPvES1_</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -940,7 +940,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x16DA723A</NID>
-              <NAME>sceVshCommonGui_16DA723A</NAME>
+              <NAME>_ZN3vsh11ContentInfo4HalfEff</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>1.50</VERSION>
@@ -1017,7 +1017,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5074C948</NID>
-              <NAME>sceVshCommonGui_5074C948</NAME>
+              <NAME>_ZN3vsh11ContentInfo7SetTypeEiPv</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>1.50</VERSION>
@@ -1055,7 +1055,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8A029A78</NID>
-              <NAME>sceVshCommonGui_8A029A78</NAME>
+              <NAME>_ZN3vsh11ContentInfo11SetAnimIconERKN3paf12SurfaceRCPtrINS1_7SurfaceEEES6_</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>1.50</VERSION>
@@ -1065,7 +1065,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA939DDF9</NID>
-              <NAME>sceVshCommonGui_A939DDF9</NAME>
+              <NAME>_ZN3vsh11ContentInfo12PlayAnimIconEb</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>1.50</VERSION>
@@ -1075,7 +1075,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF4FD56D2</NID>
-              <NAME>sceVshCommonGui_F4FD56D2</NAME>
+              <NAME>_ZN3vsh11ContentInfo4FullEff</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>1.50</VERSION>
@@ -1105,7 +1105,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDE027583</NID>
-              <NAME>sceVshCommonGui_DE027583</NAME>
+              <NAME>_ZN3vsh11ContentInfoC1EPN3paf8PhWidgetEPviPNS1_8PhXmListE</NAME>
               <VERSIONS>
                 <VERSION>1.50</VERSION>
                 <VERSION>1.51</VERSION>
@@ -1206,7 +1206,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCD76A885</NID>
-              <NAME>sceVshCommonGui_CD76A885</NAME>
+              <NAME>_ZN3vsh10OptionMenu18SetTheme_ColorModeEi</NAME>
               <VERSIONS>
                 <VERSION>2.00</VERSION>
                 <VERSION>2.01</VERSION>

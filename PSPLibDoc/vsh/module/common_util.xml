@@ -218,7 +218,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2B8B7775</NID>
-              <NAME>sceVshCommonUtil_2B8B7775</NAME>
+              <NAME>_ZN3vsh16RebootSafeMemory8SetBlockENS0_5BlockEPvj</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
               </VERSIONS>
@@ -430,7 +430,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x741C9BE1</NID>
-              <NAME>sceVshCommonUtil_741C9BE1</NAME>
+              <NAME>_ZN3vsh16RebootSafeMemory8GetBlockENS0_5BlockEPvj</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
               </VERSIONS>
@@ -873,7 +873,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0713D516</NID>
-              <NAME>sceVshCommonUtil_0713D516</NAME>
+              <NAME>_ZN3vsh10RebootLock4ExitEv</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>1.50</VERSION>
@@ -928,7 +928,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x12F5429A</NID>
-              <NAME>sceVshCommonUtil_12F5429A</NAME>
+              <NAME>_ZN3vsh10RebootLock4InitEv</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>1.50</VERSION>
@@ -955,7 +955,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x249059B5</NID>
-              <NAME>sceVshCommonUtil_249059B5</NAME>
+              <NAME>RebootLock_Lock</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>1.50</VERSION>
@@ -982,7 +982,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3FAF35EC</NID>
-              <NAME>sceVshCommonUtil_3FAF35EC</NAME>
+              <NAME>_ZN3vsh10RebootLock6RebootEv</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>1.50</VERSION>
@@ -1009,7 +1009,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5A0B7762</NID>
-              <NAME>sceVshCommonUtil_5A0B7762</NAME>
+              <NAME>_ZN3vsh9PowerLock10SetHandlerEPFiiES2_</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>1.50</VERSION>
@@ -1064,7 +1064,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7683BE4D</NID>
-              <NAME>sceVshCommonUtil_7683BE4D</NAME>
+              <NAME>RebootLock_Unlock</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>1.50</VERSION>
@@ -1204,7 +1204,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x29B75E11</NID>
-              <NAME>sceVshCommonUtil_29B75E11</NAME>
+              <NAME>_ZN3vsh19DeallocateCccBufferEv</NAME>
               <VERSIONS>
                 <VERSION>2.00</VERSION>
                 <VERSION>2.01</VERSION>
@@ -1320,7 +1320,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB9578145</NID>
-              <NAME>sceVshCommonUtil_B9578145</NAME>
+              <NAME>_ZN3vsh17AllocateCccBufferEjj</NAME>
               <VERSIONS>
                 <VERSION>2.00</VERSION>
                 <VERSION>2.01</VERSION>

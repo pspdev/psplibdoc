@@ -77045,7 +77045,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x09FA691C</NID>
-              <NAME>sceHVNetfront_Module_09FA691C</NAME>
+              <NAME>jpeg_destroy_decompress</NAME>
               <VERSIONS>
                 <VERSION>2.70</VERSION>
                 <VERSION>2.71</VERSION>
@@ -77259,7 +77259,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x108703C2</NID>
-              <NAME>sceHVNetfront_Module_108703C2</NAME>
+              <NAME>jpeg_CreateDecompress</NAME>
               <VERSIONS>
                 <VERSION>2.70</VERSION>
                 <VERSION>2.71</VERSION>
@@ -77366,7 +77366,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1171FA01</NID>
-              <NAME>sceHVNetfront_Module_1171FA01</NAME>
+              <NAME>jpeg_start_decompress</NAME>
               <VERSIONS>
                 <VERSION>2.70</VERSION>
                 <VERSION>2.71</VERSION>
@@ -78116,7 +78116,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x20D27DB1</NID>
-              <NAME>sceHVNetfront_Module_20D27DB1</NAME>
+              <NAME>jpeg_finish_decompress</NAME>
               <VERSIONS>
                 <VERSION>2.70</VERSION>
                 <VERSION>2.71</VERSION>
@@ -78331,7 +78331,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x26B067E3</NID>
-              <NAME>sceHVNetfront_Module_26B067E3</NAME>
+              <NAME>jpeg_read_header</NAME>
               <VERSIONS>
                 <VERSION>2.70</VERSION>
                 <VERSION>2.71</VERSION>
@@ -81329,7 +81329,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAB30BEB4</NID>
-              <NAME>sceHVNetfront_Module_AB30BEB4</NAME>
+              <NAME>jpeg_resync_to_restart</NAME>
               <VERSIONS>
                 <VERSION>2.70</VERSION>
                 <VERSION>2.71</VERSION>
@@ -83362,7 +83362,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF6376D31</NID>
-              <NAME>sceHVNetfront_Module_F6376D31</NAME>
+              <NAME>jpeg_read_scanlines</NAME>
               <VERSIONS>
                 <VERSION>2.70</VERSION>
                 <VERSION>2.71</VERSION>

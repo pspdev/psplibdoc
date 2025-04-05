@@ -451,7 +451,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x27F9052C</NID>
-              <NAME>sceVshLftvMw_27F9052C</NAME>
+              <NAME>sscanf</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>2.50</VERSION>

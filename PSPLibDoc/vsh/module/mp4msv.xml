@@ -225,7 +225,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x08F96BE2</NID>
-              <NAME>mp4msv_08F96BE2</NAME>
+              <NAME>smf_ApPs_GetDataRefLocStrLen</NAME>
               <VERSIONS>
                 <VERSION>5.50</VERSION>
                 <VERSION>5.51</VERSION>
@@ -296,7 +296,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0C06DACB</NID>
-              <NAME>mp4msv_0C06DACB</NAME>
+              <NAME>smf_ApPs_GetTrackHndl</NAME>
               <VERSIONS>
                 <VERSION>5.50</VERSION>
                 <VERSION>5.51</VERSION>
@@ -580,7 +580,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0DF0B9AD</NID>
-              <NAME>mp4msv_0DF0B9AD</NAME>
+              <NAME>smf_ApPs_GetAudioProfileInfo</NAME>
               <VERSIONS>
                 <VERSION>5.50</VERSION>
                 <VERSION>5.51</VERSION>
@@ -1077,7 +1077,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x287B3FDA</NID>
-              <NAME>mp4msv_287B3FDA</NAME>
+              <NAME>smf_ApPs_GetTrackPresentationType</NAME>
               <VERSIONS>
                 <VERSION>5.50</VERSION>
                 <VERSION>5.51</VERSION>
@@ -1361,7 +1361,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2BAF7C25</NID>
-              <NAME>mp4msv_2BAF7C25</NAME>
+              <NAME>smf_ApPs_GetVideoSampleDes2</NAME>
               <VERSIONS>
                 <VERSION>5.50</VERSION>
                 <VERSION>5.51</VERSION>
@@ -1432,7 +1432,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2BFE233D</NID>
-              <NAME>mp4msv_2BFE233D</NAME>
+              <NAME>smf_ApPs_GetDecoderSpecificInfo</NAME>
               <VERSIONS>
                 <VERSION>5.50</VERSION>
                 <VERSION>5.51</VERSION>
@@ -1783,7 +1783,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3D57BA52</NID>
-              <NAME>mp4msv_3D57BA52</NAME>
+              <NAME>smf_ApPs_GetTrackNum</NAME>
               <VERSIONS>
                 <VERSION>5.50</VERSION>
                 <VERSION>5.51</VERSION>
@@ -1854,7 +1854,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3D8D41A0</NID>
-              <NAME>mp4msv_3D8D41A0</NAME>
+              <NAME>smf_ApCm_SetFileDescriptor</NAME>
               <VERSIONS>
                 <VERSION>5.50</VERSION>
                 <VERSION>5.51</VERSION>
@@ -1925,7 +1925,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3F6B6C59</NID>
-              <NAME>mp4msv_3F6B6C59</NAME>
+              <NAME>smf_ApPs_GetMediaType</NAME>
               <VERSIONS>
                 <VERSION>5.50</VERSION>
                 <VERSION>5.51</VERSION>
@@ -2067,7 +2067,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x46186C26</NID>
-              <NAME>mp4msv_46186C26</NAME>
+              <NAME>smf_ApPl_InitPlayStatus</NAME>
               <VERSIONS>
                 <VERSION>5.50</VERSION>
                 <VERSION>5.51</VERSION>
@@ -2635,7 +2635,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5EE48079</NID>
-              <NAME>mp4msv_5EE48079</NAME>
+              <NAME>smf_ApPs_GetSampleNum</NAME>
               <VERSIONS>
                 <VERSION>5.50</VERSION>
                 <VERSION>5.51</VERSION>
@@ -2777,7 +2777,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x65C17387</NID>
-              <NAME>mp4msv_65C17387</NAME>
+              <NAME>smf_ApPs_GetMpeg4ESDesInfo</NAME>
               <VERSIONS>
                 <VERSION>5.50</VERSION>
                 <VERSION>5.51</VERSION>
@@ -2848,7 +2848,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x67AF9E0F</NID>
-              <NAME>mp4msv_67AF9E0F</NAME>
+              <NAME>smf_ApPs_ReadMovieRes_M</NAME>
               <VERSIONS>
                 <VERSION>5.50</VERSION>
                 <VERSION>5.51</VERSION>
@@ -3132,7 +3132,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6D619263</NID>
-              <NAME>mp4msv_6D619263</NAME>
+              <NAME>smf_ApPs_GetSampleDesHndl</NAME>
               <VERSIONS>
                 <VERSION>5.50</VERSION>
                 <VERSION>5.51</VERSION>
@@ -4055,7 +4055,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9BB5E338</NID>
-              <NAME>mp4msv_9BB5E338</NAME>
+              <NAME>smf_ApPs_GetMediaTimeScale</NAME>
               <VERSIONS>
                 <VERSION>5.50</VERSION>
                 <VERSION>5.51</VERSION>
@@ -4197,7 +4197,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9D56A7CC</NID>
-              <NAME>mp4msv_9D56A7CC</NAME>
+              <NAME>smf_ApCm_DeleteMovie</NAME>
               <VERSIONS>
                 <VERSION>5.50</VERSION>
                 <VERSION>5.51</VERSION>
@@ -4410,7 +4410,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA418509D</NID>
-              <NAME>mp4msv_A418509D</NAME>
+              <NAME>smf_ApPs_GetSoundSampleDes2</NAME>
               <VERSIONS>
                 <VERSION>5.50</VERSION>
                 <VERSION>5.51</VERSION>
@@ -4552,7 +4552,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA55AF94C</NID>
-              <NAME>mp4msv_A55AF94C</NAME>
+              <NAME>smf_ApPs_GetTrackInfo2</NAME>
               <VERSIONS>
                 <VERSION>5.50</VERSION>
                 <VERSION>5.51</VERSION>
@@ -4836,7 +4836,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAD3AF34E</NID>
-              <NAME>mp4msv_AD3AF34E</NAME>
+              <NAME>smf_ApPs_GetVideoProfileInfo</NAME>
               <VERSIONS>
                 <VERSION>5.50</VERSION>
                 <VERSION>5.51</VERSION>
@@ -5468,7 +5468,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCFF25FAC</NID>
-              <NAME>mp4msv_CFF25FAC</NAME>
+              <NAME>smf_ApPs_ReadFileProperty</NAME>
               <VERSIONS>
                 <VERSION>5.50</VERSION>
                 <VERSION>5.51</VERSION>
@@ -6029,7 +6029,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE5C33D61</NID>
-              <NAME>mp4msv_E5C33D61</NAME>
+              <NAME>smf_ApPl_GetSampleInfo_M</NAME>
               <VERSIONS>
                 <VERSION>5.50</VERSION>
                 <VERSION>5.51</VERSION>
@@ -6455,7 +6455,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF595F917</NID>
-              <NAME>mp4msv_F595F917</NAME>
+              <NAME>smf_ApCm_NewMovie</NAME>
               <VERSIONS>
                 <VERSION>5.50</VERSION>
                 <VERSION>5.51</VERSION>

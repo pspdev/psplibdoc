@@ -12,7 +12,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x92136BE5</NID>
-              <NAME>sceVshNetconf_92136BE5</NAME>
+              <NAME>_Z18netconf_init_apcnfv</NAME>
               <VERSIONS>
                 <VERSION>2.50</VERSION>
                 <VERSION>2.60</VERSION>
@@ -55,7 +55,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB4006E84</NID>
-              <NAME>sceVshNetconf_B4006E84</NAME>
+              <NAME>_Z19netconf_write_apcnfi</NAME>
               <VERSIONS>
                 <VERSION>2.50</VERSION>
                 <VERSION>2.60</VERSION>
@@ -76,7 +76,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBEAC6DF3</NID>
-              <NAME>sceVshNetconf_BEAC6DF3</NAME>
+              <NAME>_Z28netconf_init_temporary_apcnfv</NAME>
               <VERSIONS>
                 <VERSION>2.50</VERSION>
                 <VERSION>2.60</VERSION>
@@ -97,7 +97,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC721AEF6</NID>
-              <NAME>sceVshNetconf_C721AEF6</NAME>
+              <NAME>_Z29netconf_write_temporary_apcnfv</NAME>
               <VERSIONS>
                 <VERSION>2.50</VERSION>
                 <VERSION>2.60</VERSION>
@@ -140,7 +140,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xED56BC38</NID>
-              <NAME>sceVshNetconf_ED56BC38</NAME>
+              <NAME>_Z29netconf_clear_temporary_apcnfv</NAME>
               <VERSIONS>
                 <VERSION>2.50</VERSION>
                 <VERSION>2.60</VERSION>
