@@ -33,7 +33,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAA073A3D</NID>
-              <NAME>sceVshNetconf_AA073A3D</NAME>
+              <NAME>_Z23netconf_set_apcnf_entryiP23SceUtilityNetParamEntry</NAME>
               <VERSIONS>
                 <VERSION>2.50</VERSION>
                 <VERSION>2.60</VERSION>
@@ -117,7 +117,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE5C98505</NID>
-              <NAME>sceVshNetconf_E5C98505</NAME>
+              <NAME>_Z33netconf_set_temporary_apcnf_entryiP23SceUtilityNetParamEntry</NAME>
               <VERSIONS>
                 <VERSION>2.50</VERSION>
                 <VERSION>2.60</VERSION>

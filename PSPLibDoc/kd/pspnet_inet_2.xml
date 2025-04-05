@@ -553,7 +553,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3D905F34</NID>
-              <NAME>sceNetInet_lib_3D905F34</NAME>
+              <NAME>sceNetConfigGetRouteInfo</NAME>
               <VERSIONS>
                 <VERSION>vita-1.60</VERSION>
                 <VERSION>vita-1.61</VERSION>
@@ -567,7 +567,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3FDDB0BA</NID>
-              <NAME>sceNetInet_lib_3FDDB0BA</NAME>
+              <NAME>sceNetConfigDelDefaultRoute</NAME>
               <VERSIONS>
                 <VERSION>vita-1.60</VERSION>
                 <VERSION>vita-1.61</VERSION>
@@ -581,7 +581,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4459EAAF</NID>
-              <NAME>sceNetInet_lib_4459EAAF</NAME>
+              <NAME>sceNetConfigAddRoute</NAME>
               <VERSIONS>
                 <VERSION>vita-1.60</VERSION>
                 <VERSION>vita-1.61</VERSION>
@@ -609,7 +609,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4F68DB0E</NID>
-              <NAME>sceNetInet_lib_4F68DB0E</NAME>
+              <NAME>sceNetConfigSetIfaddr</NAME>
               <VERSIONS>
                 <VERSION>vita-1.60</VERSION>
                 <VERSION>vita-1.61</VERSION>
@@ -623,7 +623,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5155EC8A</NID>
-              <NAME>sceNetInet_lib_5155EC8A</NAME>
+              <NAME>sceNetConfigGetIfaddr</NAME>
               <VERSIONS>
                 <VERSION>vita-1.60</VERSION>
                 <VERSION>vita-1.61</VERSION>
@@ -637,7 +637,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x59561561</NID>
-              <NAME>sceNetInet_lib_59561561</NAME>
+              <NAME>sceNetConfigAddArp</NAME>
               <VERSIONS>
                 <VERSION>vita-1.60</VERSION>
                 <VERSION>vita-1.61</VERSION>
@@ -651,7 +651,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6A046357</NID>
-              <NAME>sceNetInet_lib_6A046357</NAME>
+              <NAME>sceNetConfigDelIfaddr</NAME>
               <VERSIONS>
                 <VERSION>vita-1.60</VERSION>
                 <VERSION>vita-1.61</VERSION>
@@ -665,7 +665,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7776A492</NID>
-              <NAME>sceNetInet_lib_7776A492</NAME>
+              <NAME>sceNetConfigSetDefaultRoute</NAME>
               <VERSIONS>
                 <VERSION>vita-1.60</VERSION>
                 <VERSION>vita-1.61</VERSION>
@@ -707,7 +707,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8FE19FC4</NID>
-              <NAME>sceNetInet_lib_8FE19FC4</NAME>
+              <NAME>sceNetConfigGetDefaultRoute</NAME>
               <VERSIONS>
                 <VERSION>vita-1.60</VERSION>
                 <VERSION>vita-1.61</VERSION>
@@ -721,7 +721,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA94A75E7</NID>
-              <NAME>sceNetInet_lib_A94A75E7</NAME>
+              <NAME>sceNetConfigAddMRoute</NAME>
               <VERSIONS>
                 <VERSION>vita-1.60</VERSION>
                 <VERSION>vita-1.61</VERSION>
@@ -735,7 +735,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAAF4895A</NID>
-              <NAME>sceNetInet_lib_AAF4895A</NAME>
+              <NAME>sceNetConfigSetDNS</NAME>
               <VERSIONS>
                 <VERSION>vita-1.60</VERSION>
                 <VERSION>vita-1.61</VERSION>
@@ -749,7 +749,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAC9D90A5</NID>
-              <NAME>sceNetInet_lib_AC9D90A5</NAME>
+              <NAME>sceNetConfigGetDNS</NAME>
               <VERSIONS>
                 <VERSION>vita-1.60</VERSION>
                 <VERSION>vita-1.61</VERSION>
@@ -833,7 +833,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDC38FEE9</NID>
-              <NAME>sceNetInet_lib_DC38FEE9</NAME>
+              <NAME>sceNetConfigDelArp</NAME>
               <VERSIONS>
                 <VERSION>vita-1.60</VERSION>
                 <VERSION>vita-1.61</VERSION>
@@ -875,7 +875,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEB7A7E4F</NID>
-              <NAME>sceNetInet_lib_EB7A7E4F</NAME>
+              <NAME>sceNetConfigDelRoute</NAME>
               <VERSIONS>
                 <VERSION>vita-1.60</VERSION>
                 <VERSION>vita-1.61</VERSION>
@@ -889,7 +889,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFDE938A7</NID>
-              <NAME>sceNetInet_lib_FDE938A7</NAME>
+              <NAME>sceNetConfigDelMRoute</NAME>
               <VERSIONS>
                 <VERSION>vita-1.60</VERSION>
                 <VERSION>vita-1.61</VERSION>

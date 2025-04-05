@@ -12577,7 +12577,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF811A628</NID>
-              <NAME>sceNet_lib_F811A628</NAME>
+              <NAME>sceNetGetSystemClockUsec</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
               </VERSIONS>
@@ -14827,7 +14827,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB755FA98</NID>
-              <NAME>sceNet_lib_B755FA98</NAME>
+              <NAME>sceNetConfig80211InfraScanJoinRequest</NAME>
               <VERSIONS>
                 <VERSION>2.00</VERSION>
                 <VERSION>2.01</VERSION>

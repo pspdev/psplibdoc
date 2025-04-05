@@ -75,7 +75,7 @@ def updatePSPLibdoc(nidEntries, xmlFile, version=None):
 				if libDocNidNameUnk:
 					numUnkFunctions = numUnkFunctions + 1
 
-				if funvarNID in entries and entries[funvarNID].libraryName == libraryName and entries[funvarNID].prx == prxFile:
+				if funvarNID in entries and entries[funvarNID].libraryName == libraryName:
 					nidEntry = entries[funvarNID]
 					dictNidNameUnk = nidEntry.name.upper().endswith(funvarNID)
 
@@ -163,14 +163,14 @@ def loadPSPExportFile(exportFile):
 			functionName, functionNID = nidNamePair.split(',')
 			functionName = functionName.strip()
 			functionNID = functionNID.strip().upper().removeprefix('0X')
-			entries.append(NIDEntry(nid=functionNID, name=functionName, prx=" ",
+			entries.append(NIDEntry(nidtype="fun", nid=functionNID, name=functionName, prx=" ",
 									prxName=" ", libraryName=libraryName, libraryFlags=libraryFlags,
 									versions=[], source=""))
 
 		elif line.startswith("PSP_EXPORT_FUNC_HASH"):
 			functionName = line[line.find("(") + 1 : line.find(")")].strip()
 			functionNID = getNidForString(functionName)
-			entries.append(NIDEntry(nid=functionNID, name=functionName, prx=" ",
+			entries.append(NIDEntry(nidtype="fun", nid=functionNID, name=functionName, prx=" ",
 									prxName=" ", libraryName=libraryName, libraryFlags=libraryFlags,
 									versions=[], source=""))
 
@@ -190,7 +190,7 @@ def loadFunctionFile(xmlFile):
 	for function in root.findall("FUNC"):
 		functionNID = function.find("NID").text.upper().removeprefix('0X')
 		functionName =function.find("NAME").text
-		entries.append(NIDEntry(nid=functionNID, name=functionName, prx=" ",
+		entries.append(NIDEntry(nidtype="fun", nid=functionNID, name=functionName, prx=" ",
 								prxName=" ", libraryName=" ", libraryFlags=" ", versions=[], source=""))
 
 	return entries
@@ -216,7 +216,7 @@ def loadHLEFunctionFile(inputFile):
 			hleEntry = match.group(1).split(',')
 			functionNID = hleEntry[0].upper().removeprefix('0X')
 			functionName = hleEntry[2].strip()[1:-1]
-			entries.append(NIDEntry(nid=functionNID, name=functionName, prx=" ",
+			entries.append(NIDEntry(nidtype="fun", nid=functionNID, name=functionName, prx=" ",
 								prxName=" ", libraryName=libraryName, libraryFlags=" ", versions=[], source=""))
 
 	return entries
