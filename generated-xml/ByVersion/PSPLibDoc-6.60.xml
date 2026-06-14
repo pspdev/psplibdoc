@@ -45099,7 +45099,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x03B20F85</NID>
-              <NAME>_ZN3paf7PhModel12SetFrameRateEf</NAME>
+              <NAME>scePaf_03B20F85</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x03E687CA</NID>
@@ -45139,7 +45139,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x05E14B72</NID>
-              <NAME>PAF_Resource_ResolveRefString</NAME>
+              <NAME>scePaf_05E14B72</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x072C7245</NID>
@@ -45407,7 +45407,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x167BA176</NID>
-              <NAME>scePaf_167BA176</NAME>
+              <NAME>_ZN3paf7PhModel8SetFrameEf</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1688EC0C</NID>
@@ -45647,7 +45647,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x23A245C3</NID>
-              <NAME>scePaf_23A245C3</NAME>
+              <NAME>_ZNK3paf4View10GetTextureEPKc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x23E88D78</NID>
@@ -46011,7 +46011,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3A4504D5</NID>
-              <NAME>_ZNK3paf7PhModel8GetFrameEv</NAME>
+              <NAME>_ZN3paf7PhModel14SetFrameRepeatEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3A5E1022</NID>
@@ -46563,7 +46563,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x58BD2AEB</NID>
-              <NAME>_ZN3paf7PhModel16SetCurrentMotionEif</NAME>
+              <NAME>secPaf_58BD2AEB</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x58C1510D</NID>
@@ -46839,7 +46839,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6A17A477</NID>
-              <NAME>scePaf_6A17A477</NAME>
+              <NAME>_ZNK3paf7PhModel16GetCurrentMotionEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6A7B4B18</NID>
@@ -47667,7 +47667,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9AE88FFF</NID>
-              <NAME>scePaf_9AE88FFF</NAME>
+              <NAME>_ZNK3paf7PhModel8GetFrameEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9AF12ADC</NID>
@@ -48099,7 +48099,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB515A7EC</NID>
-              <NAME>_ZNK3paf7PhModel16GetCurrentMotionEv</NAME>
+              <NAME>scePaf_B515A7EC</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB52933D3</NID>
@@ -48635,7 +48635,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD21E2DFC</NID>
-              <NAME>_ZN3paf7PhMicon4StopEv</NAME>
+              <NAME>_ZN3paf7PhModel16SetCurrentMotionEif</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD229572C</NID>
@@ -73174,7 +73174,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x31AAE310</NID>
-              <NAME>vsh_31AAE310</NAME>
+              <NAME>_ZN3vsh11ContentInfo4MenuEff</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x323EF1FA</NID>

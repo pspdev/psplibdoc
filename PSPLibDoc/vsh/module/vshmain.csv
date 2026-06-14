@@ -18,7 +18,7 @@ vsh,fun,5452A47B,_ZN11PageManagerC2Ei,matching
 vsh,fun,58925420,vsh_58925420,
 vsh,fun,5E43E468,_ZN11PageManager4PushEPKc,matching
 vsh,fun,61FE226A,_ZN11PageManager4ExitEv,matching
-vsh,fun,6286E89D,vsh_6286E89D,
+vsh,fun,6286E89D,_ZN3vsh10FixedAlloc6UnlockEPKc,matching
 vsh,fun,7485813E,vsh_7485813E,
 vsh,fun,78A67F41,vsh_78A67F41,
 vsh,fun,7ADF6A69,_ZN11PageManager5ClearEv,matching
@@ -37,7 +37,7 @@ vsh,fun,2B8B7775,_ZN3vsh16RebootSafeMemory8SetBlockENS0_5BlockEPvj,matching
 vsh,fun,595F8E64,vsh_595F8E64,
 vsh,fun,741C9BE1,_ZN3vsh16RebootSafeMemory8GetBlockENS0_5BlockEPvj,matching
 vsh,fun,B55DCA45,vsh_B55DCA45,
-vsh,fun,163B90CB,vsh_163B90CB,
+vsh,fun,163B90CB,_ZN3vsh12RemoveConfigEi,matching
 vsh,fun,71C15234,vsh_71C15234,
 vsh,fun,7B9AA4D4,vsh_7B9AA4D4,
 vsh,fun,8F76CA2A,vsh_8F76CA2A,
@@ -86,7 +86,7 @@ vsh,fun,9BF26B96,vsh_9BF26B96,
 vsh,fun,9C50A821,_ZN3vsh11ContentInfo6DeleteEff,matching
 vsh,fun,9C91AC59,vsh_9C91AC59,
 vsh,fun,9E7D761E,vsh_9E7D761E,
-vsh,fun,B296D591,vsh_B296D591,
+vsh,fun,B296D591,_ZN3vsh9GetMsInfoEPjS0_S0_S0_,matching
 vsh,fun,BA7237F4,vshRegSysconfGetTimezoneArea,matching
 vsh,fun,C403411C,vshRegSysconfInitRegistry,matching
 vsh,fun,C4D809CB,_ZN3vsh11ContentInfo8SetMovieERKN3paf10MiconRCPtrINS1_13MovieResourceEEEb,matching
@@ -94,7 +94,7 @@ vsh,fun,CFB4A59E,vshRegSysconfSetAuthPassword,matching
 vsh,fun,D9E2759B,vshRegSysconfSetTimezoneOffset,matching
 vsh,fun,DE027583,_ZN3vsh11ContentInfoC1EPN3paf8PhWidgetEPviPNS1_8PhXmListE,matching
 vsh,fun,DEB009C6,vshRegSysconfSetTimezoneArea,matching
-vsh,fun,E3870928,vsh_E3870928,
+vsh,fun,E3870928,_ZN3vsh10MSCodePage11SetCodePageEi,matching
 vsh,fun,EE3D8305,vshRegSysconfSetThemeSystemColor,matching
 vsh,fun,EE5869D8,vsh_EE5869D8,
 vsh,fun,F4FD56D2,_ZN3vsh11ContentInfo4FullEff,matching
@@ -103,11 +103,11 @@ vsh,fun,FA1DE461,_ZN3vsh11ContentInfo13SetOnplayFuncEPFvPvES1_,matching
 vsh,fun,FE0FDCDB,vsh_FE0FDCDB,
 vsh,fun,8A06C72F,vsh_8A06C72F,
 vsh,fun,EC393D3F,vsh_EC393D3F,
-vsh,fun,1D1B8F4F,vsh_1D1B8F4F,
-vsh,fun,2B8D9350,vsh_2B8D9350,
-vsh,fun,01995126,vsh_01995126,
-vsh,fun,78F451BB,vsh_78F451BB,
-vsh,fun,9D9DFC1B,vsh_9D9DFC1B,
+vsh,fun,1D1B8F4F,vshRegSysconfGetWMAActivation,matching
+vsh,fun,2B8D9350,vshRegSysconfSetWMAActivation,matching
+vsh,fun,01995126,vshRegSysconfSetFlashActivation,matching
+vsh,fun,78F451BB,vshRegSysconfSetFlashPlay,matching
+vsh,fun,9D9DFC1B,vshRegSysconfGetFlashActivation,matching
 vsh,fun,06421E9F,vsh_06421E9F,
 vsh,fun,A86C387A,vsh_A86C387A,
 vsh,fun,D4854F34,vsh_D4854F34,

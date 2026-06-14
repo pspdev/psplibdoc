@@ -117738,7 +117738,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x03B20F85</NID>
-              <NAME>_ZN3paf7PhModel12SetFrameRateEf</NAME>
+              <NAME>scePaf_03B20F85</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -117818,7 +117818,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x05E14B72</NID>
-              <NAME>PAF_Resource_ResolveRefString</NAME>
+              <NAME>scePaf_05E14B72</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -118330,7 +118330,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x167BA176</NID>
-              <NAME>scePaf_167BA176</NAME>
+              <NAME>_ZN3paf7PhModel8SetFrameEf</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -118802,7 +118802,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x23A245C3</NID>
-              <NAME>scePaf_23A245C3</NAME>
+              <NAME>_ZNK3paf4View10GetTextureEPKc</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -119514,7 +119514,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3A4504D5</NID>
-              <NAME>_ZNK3paf7PhModel8GetFrameEv</NAME>
+              <NAME>_ZN3paf7PhModel14SetFrameRepeatEi</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -120602,7 +120602,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x58BD2AEB</NID>
-              <NAME>_ZN3paf7PhModel16SetCurrentMotionEif</NAME>
+              <NAME>secPaf_58BD2AEB</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -121146,7 +121146,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6A17A477</NID>
-              <NAME>scePaf_6A17A477</NAME>
+              <NAME>_ZNK3paf7PhModel16GetCurrentMotionEv</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -122786,7 +122786,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9AE88FFF</NID>
-              <NAME>scePaf_9AE88FFF</NAME>
+              <NAME>_ZNK3paf7PhModel8GetFrameEv</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -123642,7 +123642,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB515A7EC</NID>
-              <NAME>_ZNK3paf7PhModel16GetCurrentMotionEv</NAME>
+              <NAME>scePaf_B515A7EC</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -124674,7 +124674,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD21E2DFC</NID>
-              <NAME>_ZN3paf7PhMicon4StopEv</NAME>
+              <NAME>_ZN3paf7PhModel16SetCurrentMotionEif</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>

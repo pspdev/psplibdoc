@@ -28266,7 +28266,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6286E89D</NID>
-              <NAME>vsh_6286E89D</NAME>
+              <NAME>_ZN3vsh10FixedAlloc6UnlockEPKc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x78A67F41</NID>

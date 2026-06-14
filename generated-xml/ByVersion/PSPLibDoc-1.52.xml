@@ -21653,7 +21653,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6286E89D</NID>
-              <NAME>vsh_6286E89D</NAME>
+              <NAME>_ZN3vsh10FixedAlloc6UnlockEPKc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x78A67F41</NID>
@@ -21721,7 +21721,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x163B90CB</NID>
-              <NAME>vsh_163B90CB</NAME>
+              <NAME>_ZN3vsh12RemoveConfigEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x71C15234</NID>

@@ -36150,7 +36150,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6286E89D</NID>
-              <NAME>vsh_6286E89D</NAME>
+              <NAME>_ZN3vsh10FixedAlloc6UnlockEPKc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x78A67F41</NID>
@@ -36206,7 +36206,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x163B90CB</NID>
-              <NAME>vsh_163B90CB</NAME>
+              <NAME>_ZN3vsh12RemoveConfigEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7B9AA4D4</NID>
@@ -36386,7 +36386,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB296D591</NID>
-              <NAME>vsh_B296D591</NAME>
+              <NAME>_ZN3vsh9GetMsInfoEPjS0_S0_S0_</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBA7237F4</NID>
@@ -36418,7 +36418,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE3870928</NID>
-              <NAME>vsh_E3870928</NAME>
+              <NAME>_ZN3vsh10MSCodePage11SetCodePageEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEE3D8305</NID>
@@ -36454,23 +36454,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1D1B8F4F</NID>
-              <NAME>vsh_1D1B8F4F</NAME>
+              <NAME>vshRegSysconfGetWMAActivation</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2B8D9350</NID>
-              <NAME>vsh_2B8D9350</NAME>
+              <NAME>vshRegSysconfSetWMAActivation</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x01995126</NID>
-              <NAME>vsh_01995126</NAME>
+              <NAME>vshRegSysconfSetFlashActivation</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x78F451BB</NID>
-              <NAME>vsh_78F451BB</NAME>
+              <NAME>vshRegSysconfSetFlashPlay</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9D9DFC1B</NID>
-              <NAME>vsh_9D9DFC1B</NAME>
+              <NAME>vshRegSysconfGetFlashActivation</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x06421E9F</NID>
