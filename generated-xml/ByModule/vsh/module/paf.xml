@@ -117666,7 +117666,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x02374143</NID>
-              <NAME>_ZN3paf9Framework8InstanceEv</NAME>
+              <NAME>scePaf_02374143</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -118434,7 +118434,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1941469E</NID>
-              <NAME>_Z25PSJS_ClassType_ScriptFuncv</NAME>
+              <NAME>scePaf_1941469E</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -119434,7 +119434,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3876721B</NID>
-              <NAME>scePaf_3876721B</NAME>
+              <NAME>_ZN3paf4View8PageOpenEPKcii</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -120786,7 +120786,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5E9078F9</NID>
-              <NAME>scePaf_5E9078F9</NAME>
+              <NAME>_ZN3paf9PhHandler11SetCallBackEiPFvPNS_8PhWidgetEPNS_7PhEventEPvES5_</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -124066,7 +124066,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC45BFF80</NID>
-              <NAME>scePaf_C45BFF80</NAME>
+              <NAME>_Z25PSJS_ClassType_ScriptFuncv</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -124250,7 +124250,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC7F002F1</NID>
-              <NAME>_ZN3paf6PhSpin10WidgetTypeEv</NAME>
+              <NAME>_ZN3paf9Framework8InstanceEv</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -125090,7 +125090,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDD23970A</NID>
-              <NAME>_ZN10psjsvectorC1EjPf</NAME>
+              <NAME>scePaf_DD23970A</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -125410,7 +125410,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE9570AA3</NID>
-              <NAME>scePaf_E9570AA3</NAME>
+              <NAME>_ZN3paf7Surface4CopyEiPKv10ImageOrderi</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
