@@ -37,7 +37,7 @@ scePaf,fun,15947A70,scePaf_15947A70,
 scePaf,fun,15EF8E18,_ZN3paf8PhXmItemC1EPNS_8PhWidgetEPNS_8PhAppearE,matching
 scePaf,fun,16033F84,scePaf_16033F84,
 scePaf,fun,17308FC9,_Z25PSJS_BuildValueImpl_ArrayRK11PSJSContextiP9PSJSValue,matching
-scePaf,fun,1811AD32,scePaf_1811AD32,
+scePaf,fun,1811AD32,_ZN3paf4View8PageOpenEPvii,matching
 scePaf,fun,1943B875,_ZN3paf8PhXmList11FocusGlobalEf,matching
 scePaf,fun,199896A3,_ZN3paf8PhXmList8CloseOffEiff,matching
 scePaf,fun,19A779E2,_ZN3paf8PhButton8SetFocusEPNS_7PhEventEb,matching
@@ -157,7 +157,7 @@ scePaf,fun,48B5C1C0,_ZN13PSJSValueImpl6DecRefEv,matching
 scePaf,fun,49A81B18,sce_paf_private_swprintf,matching
 scePaf,fun,49CE42F7,_ZN3paf4View9PlaySoundEPKc,matching
 scePaf,fun,4AB0D3F4,_ZN3paf11SurfaceCLUTC1EPNS_11SurfacePoolE9ImageModei,matching
-scePaf,fun,4ADAEF94,scePaf_4ADAEF94,
+scePaf,fun,4ADAEF94,_ZN3paf7PhMiconC1EPNS_8PhWidgetEPNS_8PhAppearE,matching
 scePaf,fun,4B1A374C,sce_paf_private_tolower,matching
 scePaf,fun,4B4F39FC,sceGuDisable,matching
 scePaf,fun,4BDEB2A8,sceCccStrlenUTF16,matching
@@ -311,7 +311,7 @@ scePaf,fun,83944053,sce_paf_private_fclose,matching
 scePaf,fun,8406F469,sceCccEncodeUTF16,matching
 scePaf,fun,84240C1D,_ZN3paf9FrameworkC1ERKNS0_9InitParamE,matching
 scePaf,fun,84485F54,_ZN3paf8PhWidgetC1EPS0_PNS_8PhAppearE,matching
-scePaf,fun,846E1F0A,scePaf_846E1F0A,
+scePaf,fun,846E1F0A,_ZN3paf7Surface4CopyEiPKv10ImageOrderi,matching
 scePaf,fun,84913A3A,_ZNK3paf7PhMicon7GetTimeEv,matching
 scePaf,fun,849ED670,_ZN8PSJSExec7SuspendEPFvPvS0_S0_bES0_S0_S0_,matching
 scePaf,fun,84A71447,_ZN3paf8PhXmList12ReleaseLabelEii,matching
@@ -613,7 +613,7 @@ scePaf,fun,F47CA1C2,_ZN3paf9PhHandler11SetCallBackEiPFvPNS_8PhWidgetEPNS_7PhEven
 scePaf,fun,F49F3C59,_ZN3paf8PhXmList9HideItemsEff,matching
 scePaf,fun,F4AB3180,_ZN3paf9Framework3RunEi,matching
 scePaf,fun,F577BC82,scePaf_F577BC82,
-scePaf,fun,F609FA81,scePaf_F609FA81,
+scePaf,fun,F609FA81,_ZN3paf4View8PageOpenEPKcii,matching
 scePaf,fun,F6AB6655,scePaf_F6AB6655,
 scePaf,fun,F6F3E99E,_ZN3paf17PhAppearBtnShadowC1EPKNS_8PhWidgetE,matching
 scePaf,fun,F7FB133E,_ZN3paf8PhScroll10WidgetTypeEv,matching
@@ -625,7 +625,7 @@ scePaf,fun,FA05BF7B,scePaf_FA05BF7B,
 scePaf,fun,FA758B05,_ZNK3paf6PhText12GetFirstLineEv,matching
 scePaf,fun,FA78AF39,_ZNK3paf7PhMicon9GetVolumeEv,matching
 scePaf,fun,FA87D725,_ZNK3paf6PhText12GetLineCountEv,matching
-scePaf,fun,FB3A9617,scePaf_FB3A9617,
+scePaf,fun,FB3A9617,_ZN3paf7SurfaceC1EPNS_11SurfacePoolEii9ImageMode10ImageOrderbi,matching
 scePaf,fun,FB3DB2FF,paf_fini,matching
 scePaf,fun,FBA47E77,sce_paf_private_strtol,matching
 scePaf,fun,FBC76D05,sce_png_read,matching

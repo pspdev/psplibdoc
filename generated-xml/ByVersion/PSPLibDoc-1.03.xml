@@ -14202,7 +14202,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1811AD32</NID>
-              <NAME>scePaf_1811AD32</NAME>
+              <NAME>_ZN3paf4View8PageOpenEPvii</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1943B875</NID>
@@ -14690,7 +14690,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4ADAEF94</NID>
-              <NAME>scePaf_4ADAEF94</NAME>
+              <NAME>_ZN3paf7PhMiconC1EPNS_8PhWidgetEPNS_8PhAppearE</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4B1A374C</NID>
@@ -15314,7 +15314,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x846E1F0A</NID>
-              <NAME>scePaf_846E1F0A</NAME>
+              <NAME>_ZN3paf7Surface4CopyEiPKv10ImageOrderi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x84913A3A</NID>
@@ -16522,7 +16522,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF609FA81</NID>
-              <NAME>scePaf_F609FA81</NAME>
+              <NAME>_ZN3paf4View8PageOpenEPKcii</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF6AB6655</NID>
@@ -16574,7 +16574,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFB3A9617</NID>
-              <NAME>scePaf_FB3A9617</NAME>
+              <NAME>_ZN3paf7SurfaceC1EPNS_11SurfacePoolEii9ImageMode10ImageOrderbi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFB3DB2FF</NID>
@@ -28238,7 +28238,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x34DA1B67</NID>
-              <NAME>vsh_34DA1B67</NAME>
+              <NAME>_ZN3vsh10FixedAlloc8InstanceEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3E00F3B4</NID>
@@ -28266,7 +28266,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6286E89D</NID>
-              <NAME>vsh_6286E89D</NAME>
+              <NAME>_ZN3vsh10FixedAlloc6UnlockEPKc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x78A67F41</NID>
@@ -28286,7 +28286,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x81BBD0D1</NID>
-              <NAME>vsh_81BBD0D1</NAME>
+              <NAME>_ZN3vsh10FixedAlloc4LockEPKc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA3C7DF11</NID>

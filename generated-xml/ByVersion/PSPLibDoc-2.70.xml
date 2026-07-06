@@ -15748,7 +15748,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1811AD32</NID>
-              <NAME>scePaf_1811AD32</NAME>
+              <NAME>_ZN3paf4View8PageOpenEPvii</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1943B875</NID>
@@ -16228,7 +16228,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4ADAEF94</NID>
-              <NAME>scePaf_4ADAEF94</NAME>
+              <NAME>_ZN3paf7PhMiconC1EPNS_8PhWidgetEPNS_8PhAppearE</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4B1A374C</NID>
@@ -16848,7 +16848,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x846E1F0A</NID>
-              <NAME>scePaf_846E1F0A</NAME>
+              <NAME>_ZN3paf7Surface4CopyEiPKv10ImageOrderi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x84913A3A</NID>
@@ -18036,7 +18036,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF609FA81</NID>
-              <NAME>scePaf_F609FA81</NAME>
+              <NAME>_ZN3paf4View8PageOpenEPKcii</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF6F3E99E</NID>
@@ -18080,7 +18080,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFB3A9617</NID>
-              <NAME>scePaf_FB3A9617</NAME>
+              <NAME>_ZN3paf7SurfaceC1EPNS_11SurfacePoolEii9ImageMode10ImageOrderbi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFB3DB2FF</NID>
@@ -33137,7 +33137,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x34DA1B67</NID>
-              <NAME>vsh_34DA1B67</NAME>
+              <NAME>_ZN3vsh10FixedAlloc8InstanceEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3E00F3B4</NID>
@@ -33165,7 +33165,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6286E89D</NID>
-              <NAME>vsh_6286E89D</NAME>
+              <NAME>_ZN3vsh10FixedAlloc6UnlockEPKc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x78A67F41</NID>
@@ -33185,7 +33185,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x81BBD0D1</NID>
-              <NAME>vsh_81BBD0D1</NAME>
+              <NAME>_ZN3vsh10FixedAlloc4LockEPKc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA3C7DF11</NID>
@@ -33221,7 +33221,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x163B90CB</NID>
-              <NAME>vsh_163B90CB</NAME>
+              <NAME>_ZN3vsh12RemoveConfigEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7B9AA4D4</NID>
@@ -33405,7 +33405,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB296D591</NID>
-              <NAME>vsh_B296D591</NAME>
+              <NAME>_ZN3vsh9GetMsInfoEPjS0_S0_S0_</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBA7237F4</NID>
@@ -33437,7 +33437,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE3870928</NID>
-              <NAME>vsh_E3870928</NAME>
+              <NAME>_ZN3vsh10MSCodePage11SetCodePageEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEE3D8305</NID>
@@ -33473,23 +33473,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1D1B8F4F</NID>
-              <NAME>vsh_1D1B8F4F</NAME>
+              <NAME>vshRegSysconfGetWMAActivation</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2B8D9350</NID>
-              <NAME>vsh_2B8D9350</NAME>
+              <NAME>vshRegSysconfSetWMAActivation</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x01995126</NID>
-              <NAME>vsh_01995126</NAME>
+              <NAME>vshRegSysconfSetFlashActivation</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x78F451BB</NID>
-              <NAME>vsh_78F451BB</NAME>
+              <NAME>vshRegSysconfSetFlashPlay</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9D9DFC1B</NID>
-              <NAME>vsh_9D9DFC1B</NAME>
+              <NAME>vshRegSysconfGetFlashActivation</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
