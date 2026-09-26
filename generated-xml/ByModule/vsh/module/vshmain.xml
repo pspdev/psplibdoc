@@ -5194,7 +5194,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x31AAE310</NID>
-              <NAME>vsh_31AAE310</NAME>
+              <NAME>_ZN3vsh11ContentInfo4MenuEff</NAME>
               <VERSIONS>
                 <VERSION>6.60</VERSION>
                 <VERSION>6.61</VERSION>
@@ -6385,7 +6385,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x34DA1B67</NID>
-              <NAME>vsh_34DA1B67</NAME>
+              <NAME>_ZN3vsh10FixedAlloc8InstanceEv</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -6581,7 +6581,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6286E89D</NID>
-              <NAME>vsh_6286E89D</NAME>
+              <NAME>_ZN3vsh10FixedAlloc6UnlockEPKc</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -6728,7 +6728,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x81BBD0D1</NID>
-              <NAME>vsh_81BBD0D1</NAME>
+              <NAME>_ZN3vsh10FixedAlloc4LockEPKc</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -7017,7 +7017,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x163B90CB</NID>
-              <NAME>vsh_163B90CB</NAME>
+              <NAME>_ZN3vsh12RemoveConfigEi</NAME>
               <VERSIONS>
                 <VERSION>1.50</VERSION>
                 <VERSION>1.51</VERSION>
@@ -8099,7 +8099,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB296D591</NID>
-              <NAME>vsh_B296D591</NAME>
+              <NAME>_ZN3vsh9GetMsInfoEPjS0_S0_S0_</NAME>
               <VERSIONS>
                 <VERSION>2.00</VERSION>
                 <VERSION>2.01</VERSION>
@@ -8283,7 +8283,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE3870928</NID>
-              <NAME>vsh_E3870928</NAME>
+              <NAME>_ZN3vsh10MSCodePage11SetCodePageEi</NAME>
               <VERSIONS>
                 <VERSION>2.00</VERSION>
                 <VERSION>2.01</VERSION>
@@ -8486,7 +8486,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1D1B8F4F</NID>
-              <NAME>vsh_1D1B8F4F</NAME>
+              <NAME>vshRegSysconfGetWMAActivation</NAME>
               <VERSIONS>
                 <VERSION>2.60</VERSION>
                 <VERSION>2.70</VERSION>
@@ -8506,7 +8506,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2B8D9350</NID>
-              <NAME>vsh_2B8D9350</NAME>
+              <NAME>vshRegSysconfSetWMAActivation</NAME>
               <VERSIONS>
                 <VERSION>2.60</VERSION>
                 <VERSION>2.70</VERSION>
@@ -8526,7 +8526,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x01995126</NID>
-              <NAME>vsh_01995126</NAME>
+              <NAME>vshRegSysconfSetFlashActivation</NAME>
               <VERSIONS>
                 <VERSION>2.70</VERSION>
                 <VERSION>2.71</VERSION>
@@ -8545,7 +8545,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x78F451BB</NID>
-              <NAME>vsh_78F451BB</NAME>
+              <NAME>vshRegSysconfSetFlashPlay</NAME>
               <VERSIONS>
                 <VERSION>2.70</VERSION>
                 <VERSION>2.71</VERSION>
@@ -8564,7 +8564,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9D9DFC1B</NID>
-              <NAME>vsh_9D9DFC1B</NAME>
+              <NAME>vshRegSysconfGetFlashActivation</NAME>
               <VERSIONS>
                 <VERSION>2.70</VERSION>
                 <VERSION>2.71</VERSION>

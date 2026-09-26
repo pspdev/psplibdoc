@@ -145124,7 +145124,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1811AD32</NID>
-              <NAME>scePaf_1811AD32</NAME>
+              <NAME>_ZN3paf4View8PageOpenEPvii</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1943B875</NID>
@@ -145604,7 +145604,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4ADAEF94</NID>
-              <NAME>scePaf_4ADAEF94</NAME>
+              <NAME>_ZN3paf7PhMiconC1EPNS_8PhWidgetEPNS_8PhAppearE</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4B1A374C</NID>
@@ -146220,7 +146220,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x846E1F0A</NID>
-              <NAME>scePaf_846E1F0A</NAME>
+              <NAME>_ZN3paf7Surface4CopyEiPKv10ImageOrderi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x84913A3A</NID>
@@ -147428,7 +147428,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF609FA81</NID>
-              <NAME>scePaf_F609FA81</NAME>
+              <NAME>_ZN3paf4View8PageOpenEPKcii</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF6AB6655</NID>
@@ -147476,7 +147476,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFB3A9617</NID>
-              <NAME>scePaf_FB3A9617</NAME>
+              <NAME>_ZN3paf7SurfaceC1EPNS_11SurfacePoolEii9ImageMode10ImageOrderbi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFB3DB2FF</NID>
@@ -185684,7 +185684,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0054E918</NID>
-              <NAME>scePaf_0054E918</NAME>
+              <NAME>sinf</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0085C4A5</NID>
@@ -185748,7 +185748,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x03B20F85</NID>
-              <NAME>_ZN3paf7PhModel12SetFrameRateEf</NAME>
+              <NAME>scePaf_03B20F85</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x03E687CA</NID>
@@ -185776,7 +185776,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x05391F69</NID>
-              <NAME>sceGumDrawArray</NAME>
+              <NAME>sceGumPerspective</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x053C8A61</NID>
@@ -185788,7 +185788,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x05E14B72</NID>
-              <NAME>PAF_Resource_ResolveRefString</NAME>
+              <NAME>scePaf_05E14B72</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x072C7245</NID>
@@ -185844,7 +185844,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0C2CD696</NID>
-              <NAME>sce_paf_private_realloc2</NAME>
+              <NAME>sce_paf_private_memalign</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0C51A9F6</NID>
@@ -185932,7 +185932,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0FCDFA1E</NID>
-              <NAME>_ZdaPv</NAME>
+              <NAME>malloc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x102A49BB</NID>
@@ -185952,7 +185952,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x116FD20C</NID>
-              <NAME>scePaf_116FD20C</NAME>
+              <NAME>_ZN3paf11SurfaceCLUTC1E9ImageModePvi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x11D6461A</NID>
@@ -185964,7 +185964,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x11D950F0</NID>
-              <NAME>scePaf_11D950F0</NAME>
+              <NAME>_ZN3paf4View12PageActivateEPv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x11E03A19</NID>
@@ -186044,7 +186044,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x167BA176</NID>
-              <NAME>scePaf_167BA176</NAME>
+              <NAME>_ZN3paf7PhModel8SetFrameEf</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1688EC0C</NID>
@@ -186116,7 +186116,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1A4D9243</NID>
-              <NAME>sceGuSync</NAME>
+              <NAME>scePaf_1A4D9243</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1ADEA842</NID>
@@ -186164,7 +186164,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1EA7D29F</NID>
-              <NAME>memcpy</NAME>
+              <NAME>fwrite</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1EAFAE77</NID>
@@ -186180,7 +186180,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1F02DD65</NID>
-              <NAME>cosf</NAME>
+              <NAME>strncpy</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1F1242FE</NID>
@@ -186228,7 +186228,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x20BEF384</NID>
-              <NAME>_ZN3paf4View12PageActivateEPv</NAME>
+              <NAME>scePaf_20BEF384</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x20C15264</NID>
@@ -186280,7 +186280,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x23A245C3</NID>
-              <NAME>scePaf_23A245C3</NAME>
+              <NAME>_ZNK3paf4View10GetTextureEPKc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x23E88D78</NID>
@@ -186404,7 +186404,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2C22C6FB</NID>
-              <NAME>_ZN3paf7SurfaceC1Eii9ImageMode10ImageOrderbiPvi</NAME>
+              <NAME>_ZN3paf15CriticalSection5EnterEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2C23C4E2</NID>
@@ -186512,7 +186512,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x327B34BF</NID>
-              <NAME>memcmp</NAME>
+              <NAME>scePaf_327B34BF</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x32A5A7A2</NID>
@@ -186592,7 +186592,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3874A5F8</NID>
-              <NAME>scePaf_3874A5F8</NAME>
+              <NAME>_ZNK3paf4View9GetStringEPKc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3876721B</NID>
@@ -186636,7 +186636,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3A4504D5</NID>
-              <NAME>_ZNK3paf7PhModel8GetFrameEv</NAME>
+              <NAME>_ZN3paf7PhModel14SetFrameRepeatEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3A5E1022</NID>
@@ -186720,7 +186720,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3F65FC71</NID>
-              <NAME>scePaf_3F65FC71</NAME>
+              <NAME>_ZN3paf7SurfaceC1EPNS_11SurfacePoolEii9ImageMode10ImageOrderbi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x404A9D1E</NID>
@@ -186748,7 +186748,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x412B2F09</NID>
-              <NAME>sce_paf_private_free2</NAME>
+              <NAME>sce_paf_private_free</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x417B3B31</NID>
@@ -186792,7 +186792,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x43759F51</NID>
-              <NAME>_ZN3paf15CriticalSection5EnterEv</NAME>
+              <NAME>png_create_info_struct</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4383A387</NID>
@@ -186864,7 +186864,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x481F6E97</NID>
-              <NAME>_ZN3paf7SurfacenwEj</NAME>
+              <NAME>floorf</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4838499E</NID>
@@ -186884,7 +186884,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4888012C</NID>
-              <NAME>sce_paf_private_calloc</NAME>
+              <NAME>scePaf_4888012C</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x48AB1935</NID>
@@ -187040,7 +187040,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x50DCB767</NID>
-              <NAME>_ZNK3paf4View10GetTextureEPKc</NAME>
+              <NAME>PAF_Resource_GetPageNodeByID</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x50EF9D19</NID>
@@ -187052,11 +187052,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x516B9B01</NID>
-              <NAME>scePaf_516B9B01</NAME>
+              <NAME>_ZN8PSJSExec10RegistExecEPFvPvS0_S0_bES0_S0_S0_b</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x51F50E4E</NID>
-              <NAME>memset</NAME>
+              <NAME>_ZN3paf8PhXmList9SelectOutEf</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x52B73198</NID>
@@ -187076,7 +187076,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x533A9FB5</NID>
-              <NAME>sce_paf_private_malloc</NAME>
+              <NAME>sce_paf_private_calloc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x537B3828</NID>
@@ -187156,7 +187156,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x57AA45C1</NID>
-              <NAME>strlen</NAME>
+              <NAME>scePaf_57AA45C1</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x57AD1B04</NID>
@@ -187180,7 +187180,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x58BD2AEB</NID>
-              <NAME>_ZN3paf7PhModel16SetCurrentMotionEif</NAME>
+              <NAME>secPaf_58BD2AEB</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x58C1510D</NID>
@@ -187200,7 +187200,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5A6CAFE2</NID>
-              <NAME>_ZN3paf7PhModel8SetModelEPvi</NAME>
+              <NAME>_ZN3paf4View4FindEPKc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5A7E2DFC</NID>
@@ -187276,7 +187276,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5E909060</NID>
-              <NAME>floorf</NAME>
+              <NAME>_Znwj</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5F275780</NID>
@@ -187344,7 +187344,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x648EC521</NID>
-              <NAME>_ZdlPv</NAME>
+              <NAME>cosf</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x649CC55C</NID>
@@ -187360,7 +187360,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x65169E51</NID>
-              <NAME>sceGumUpdateMatrix</NAME>
+              <NAME>scePaf_65169E51</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x65317C41</NID>
@@ -187376,7 +187376,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x66832B20</NID>
-              <NAME>_Z11PSJS_Mallocj</NAME>
+              <NAME>scePaf_66832B20</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x668E3922</NID>
@@ -187408,7 +187408,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x678FB6EA</NID>
-              <NAME>sceFontGetCharInfo</NAME>
+              <NAME>sqrtf</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x67FF4EBC</NID>
@@ -187452,7 +187452,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6A17A477</NID>
-              <NAME>scePaf_6A17A477</NAME>
+              <NAME>_ZNK3paf7PhModel16GetCurrentMotionEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6A7B4B18</NID>
@@ -187460,7 +187460,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6AA972FF</NID>
-              <NAME>scePaf_6AA972FF</NAME>
+              <NAME>_ZNK3paf8PhWidget10GetTextureERNS_12SurfaceRCPtrINS_7SurfaceEEEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6ADEAE2F</NID>
@@ -187592,7 +187592,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x71B92320</NID>
-              <NAME>_ZN9PSJSValuedaEPv</NAME>
+              <NAME>free</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x726DFBA9</NID>
@@ -187672,7 +187672,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x77ADEAEB</NID>
-              <NAME>_ZNK3paf4View9GetStringEPKc</NAME>
+              <NAME>sce_paf_private_malloc2</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x77E8F3D7</NID>
@@ -187716,11 +187716,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x79869DE4</NID>
-              <NAME>png_create_info_struct</NAME>
+              <NAME>scePaf_79869DE4</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7A56CA5A</NID>
-              <NAME>_ZN3paf8SyncCall4CallEPFiPvES1_</NAME>
+              <NAME>sceGumDrawArray</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7A820E33</NID>
@@ -187752,7 +187752,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7C125884</NID>
-              <NAME>sce_paf_private_memalign</NAME>
+              <NAME>scePaf_7C125884</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7C21167F</NID>
@@ -187896,7 +187896,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x822EBD8B</NID>
-              <NAME>acosf</NAME>
+              <NAME>sceGumUpdateMatrix</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x826F2BA2</NID>
@@ -187908,7 +187908,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x82B37153</NID>
-              <NAME>scePaf_82B37153</NAME>
+              <NAME>_ZN3paf4View8PageOpenEPvii</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x83D049EB</NID>
@@ -187968,7 +187968,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x87741097</NID>
-              <NAME>_ZN3paf15CriticalSection5LeaveEv</NAME>
+              <NAME>scePaf_87741097</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x87D8F003</NID>
@@ -187976,7 +187976,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x88452A7D</NID>
-              <NAME>_ZN3paf9FrameworkC1ERKNS0_9InitParamE</NAME>
+              <NAME>scePaf_88452A7D</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8871CAB9</NID>
@@ -188008,7 +188008,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8BC9927A</NID>
-              <NAME>scePaf_8BC9927A</NAME>
+              <NAME>_ZN3paf4View15SetEventHandlerEPKNS_18EventFunctionEntryE</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8BFFF306</NID>
@@ -188256,7 +188256,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9A418CCC</NID>
-              <NAME>_Z6clamp4RK4vec4ff</NAME>
+              <NAME>memcpy</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9A46E3AF</NID>
@@ -188272,11 +188272,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9AE88FFF</NID>
-              <NAME>scePaf_9AE88FFF</NAME>
+              <NAME>_ZNK3paf7PhModel8GetFrameEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9AF12ADC</NID>
-              <NAME>sce_paf_private_free</NAME>
+              <NAME>sce_paf_private_free2</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9B8BDC11</NID>
@@ -188320,7 +188320,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9E236520</NID>
-              <NAME>_ZN3paf8PhWidget20SetMetaAlpha_ontimerEfb</NAME>
+              <NAME>_ZdaPv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9EEFEF9D</NID>
@@ -188388,7 +188388,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA2ADF6EC</NID>
-              <NAME>_ZNK3paf4View7GetPageEPKc</NAME>
+              <NAME>scePaf_A2ADF6EC</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA2FF828D</NID>
@@ -188440,7 +188440,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA62F0BF2</NID>
-              <NAME>_ZN3paf8PhXmList9SelectOutEf</NAME>
+              <NAME>strlen</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA631AC8B</NID>
@@ -188496,7 +188496,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA9645067</NID>
-              <NAME>scePaf_A9645067</NAME>
+              <NAME>_ZN3paf7Surface10AttachCLUTERKNS_12SurfaceRCPtrINS_11SurfaceCLUTEEE</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA9732653</NID>
@@ -188544,7 +188544,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAC29C247</NID>
-              <NAME>sce_paf_private_malloc2</NAME>
+              <NAME>scePaf_AC29C247</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAC98B0C3</NID>
@@ -188564,7 +188564,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAD454A8F</NID>
-              <NAME>paf_fini</NAME>
+              <NAME>_ZN3paf7SurfacenwEj</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAD7F0336</NID>
@@ -188612,7 +188612,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAF067FA2</NID>
-              <NAME>_ZN13PSJSValueImpl6DecRefEv</NAME>
+              <NAME>sce_paf_private_wcslen</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAF6E15DD</NID>
@@ -188688,7 +188688,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB4652CFE</NID>
-              <NAME>_Znwj</NAME>
+              <NAME>memcpy</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB4C7DE8E</NID>
@@ -188700,7 +188700,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB515A7EC</NID>
-              <NAME>_ZNK3paf7PhModel16GetCurrentMotionEv</NAME>
+              <NAME>scePaf_B515A7EC</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB57C217F</NID>
@@ -188732,7 +188732,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB6D58D98</NID>
-              <NAME>_ZN9PSJSValuenaEj</NAME>
+              <NAME>scePaf_B6D58D98</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB6F1BD2D</NID>
@@ -188780,7 +188780,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB9DDDCC8</NID>
-              <NAME>_ZN3paf7PhXmBar12AnimIconStopEii</NAME>
+              <NAME>sce_paf_private_malloc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBA0C9BC2</NID>
@@ -188788,7 +188788,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBB89C9EA</NID>
-              <NAME>sqrtf</NAME>
+              <NAME>memset</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBB9F09D7</NID>
@@ -188832,7 +188832,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBEFBCC6F</NID>
-              <NAME>sceGumPerspective</NAME>
+              <NAME>scePaf_BEFBCC6F</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBFBB7F8C</NID>
@@ -188912,7 +188912,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC45BFF80</NID>
-              <NAME>_ZN3paf4View4FindEPKc</NAME>
+              <NAME>scePaf_C45BFF80</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC48E3CEF</NID>
@@ -189216,7 +189216,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD21E2DFC</NID>
-              <NAME>_ZN3paf7PhMicon4StopEv</NAME>
+              <NAME>_ZN3paf7PhModel16SetCurrentMotionEif</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD229572C</NID>
@@ -189276,7 +189276,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD50098F9</NID>
-              <NAME>free</NAME>
+              <NAME>_ZN9PSJSValuenaEj</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD50BA6D1</NID>
@@ -189340,7 +189340,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD86519CE</NID>
-              <NAME>sce_paf_private_wcslen</NAME>
+              <NAME>scePaf_D86519CE</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD8895EA5</NID>
@@ -189384,7 +189384,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDB1612F1</NID>
-              <NAME>scePaf_DB1612F1</NAME>
+              <NAME>_ZdlPv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDB689578</NID>
@@ -189720,7 +189720,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF09010AF</NID>
-              <NAME>_ZN3paf8PhScroll10WidgetTypeEv</NAME>
+              <NAME>_ZN3paf5Image12ToCLUTBufferEb</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF0F2D03E</NID>
@@ -189772,7 +189772,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF3D1CAA9</NID>
-              <NAME>sinf</NAME>
+              <NAME>_Z11PSJS_Mallocj</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF4722DD7</NID>
@@ -189896,11 +189896,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFD048927</NID>
-              <NAME>scePaf_FD048927</NAME>
+              <NAME>_ZN3paf8PhWidget10SetTimeoutEifPFvPS0_PNS_7PhTimerEiPvES4_</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFD38EF6C</NID>
-              <NAME>scePaf_FD38EF6C</NAME>
+              <NAME>_ZNK3paf4View7GetPageEPKc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFD55CA08</NID>
@@ -298785,7 +298785,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x34DA1B67</NID>
-              <NAME>vsh_34DA1B67</NAME>
+              <NAME>_ZN3vsh10FixedAlloc8InstanceEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3E00F3B4</NID>
@@ -298813,7 +298813,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6286E89D</NID>
-              <NAME>vsh_6286E89D</NAME>
+              <NAME>_ZN3vsh10FixedAlloc6UnlockEPKc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7485813E</NID>
@@ -298837,7 +298837,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x81BBD0D1</NID>
-              <NAME>vsh_81BBD0D1</NAME>
+              <NAME>_ZN3vsh10FixedAlloc4LockEPKc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA3C7DF11</NID>
@@ -298889,7 +298889,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x163B90CB</NID>
-              <NAME>vsh_163B90CB</NAME>
+              <NAME>_ZN3vsh12RemoveConfigEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x71C15234</NID>
@@ -299085,7 +299085,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB296D591</NID>
-              <NAME>vsh_B296D591</NAME>
+              <NAME>_ZN3vsh9GetMsInfoEPjS0_S0_S0_</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBA7237F4</NID>
@@ -299117,7 +299117,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE3870928</NID>
-              <NAME>vsh_E3870928</NAME>
+              <NAME>_ZN3vsh10MSCodePage11SetCodePageEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEE3D8305</NID>
@@ -299153,23 +299153,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1D1B8F4F</NID>
-              <NAME>vsh_1D1B8F4F</NAME>
+              <NAME>vshRegSysconfGetWMAActivation</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2B8D9350</NID>
-              <NAME>vsh_2B8D9350</NAME>
+              <NAME>vshRegSysconfSetWMAActivation</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x01995126</NID>
-              <NAME>vsh_01995126</NAME>
+              <NAME>vshRegSysconfSetFlashActivation</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x78F451BB</NID>
-              <NAME>vsh_78F451BB</NAME>
+              <NAME>vshRegSysconfSetFlashPlay</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9D9DFC1B</NID>
-              <NAME>vsh_9D9DFC1B</NAME>
+              <NAME>vshRegSysconfGetFlashActivation</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x06421E9F</NID>
@@ -304425,7 +304425,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x31AAE310</NID>
-              <NAME>vsh_31AAE310</NAME>
+              <NAME>_ZN3vsh11ContentInfo4MenuEff</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x323EF1FA</NID>
