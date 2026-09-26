@@ -1696,7 +1696,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x148E487D</NID>
-              <NAME>sceMeAudio_148E487D</NAME>
+              <NAME>sceMeAudioRegisterTickCallback</NAME>
               <VERSIONS>
                 <VERSION>3.10</VERSION>
                 <VERSION>3.11</VERSION>
@@ -1728,77 +1728,77 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1AF750F2</NID>
-              <NAME>sceMeAudio_1AF750F2</NAME>
+              <NAME>sceMeAudioScUnlockv33</NAME>
               <VERSIONS>
                 <VERSION>3.30</VERSION>
               </VERSIONS>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6DCDC5BA</NID>
-              <NAME>sceMeAudio_6DCDC5BA</NAME>
+              <NAME>sceMeAudioSetVolumev33</NAME>
               <VERSIONS>
                 <VERSION>3.30</VERSION>
               </VERSIONS>
             </FUNCTION>
             <FUNCTION>
               <NID>0x745FB863</NID>
-              <NAME>sceMeAudio_745FB863</NAME>
+              <NAME>sceMeAudioSetPausev33</NAME>
               <VERSIONS>
                 <VERSION>3.30</VERSION>
               </VERSIONS>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA54D5B20</NID>
-              <NAME>sceMeAudio_A54D5B20</NAME>
+              <NAME>sceMeAudioRegisterTickCallbackv33</NAME>
               <VERSIONS>
                 <VERSION>3.30</VERSION>
               </VERSIONS>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEDD2B615</NID>
-              <NAME>sceMeAudio_EDD2B615</NAME>
+              <NAME>sceMeAudioScLockv33</NAME>
               <VERSIONS>
                 <VERSION>3.30</VERSION>
               </VERSIONS>
             </FUNCTION>
             <FUNCTION>
               <NID>0x448F65DD</NID>
-              <NAME>sceMeAudio_448F65DD</NAME>
+              <NAME>sceMeAudioSetPausev34</NAME>
               <VERSIONS>
                 <VERSION>3.40</VERSION>
               </VERSIONS>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5B571930</NID>
-              <NAME>sceMeAudio_5B571930</NAME>
+              <NAME>sceMeAudioScUnlockv34</NAME>
               <VERSIONS>
                 <VERSION>3.40</VERSION>
               </VERSIONS>
             </FUNCTION>
             <FUNCTION>
               <NID>0x83E07D86</NID>
-              <NAME>sceMeAudio_83E07D86</NAME>
+              <NAME>sceMeAudioSetVolumev34</NAME>
               <VERSIONS>
                 <VERSION>3.40</VERSION>
               </VERSIONS>
             </FUNCTION>
             <FUNCTION>
               <NID>0x94DCC979</NID>
-              <NAME>sceMeAudio_94DCC979</NAME>
+              <NAME>sceMeAudioScLockv34</NAME>
               <VERSIONS>
                 <VERSION>3.40</VERSION>
               </VERSIONS>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB745BA7C</NID>
-              <NAME>sceMeAudio_B745BA7C</NAME>
+              <NAME>sceMeAudioRegisterTickCallbackv34</NAME>
               <VERSIONS>
                 <VERSION>3.40</VERSION>
               </VERSIONS>
             </FUNCTION>
             <FUNCTION>
               <NID>0x43D9752F</NID>
-              <NAME>sceMeAudio_43D9752F</NAME>
+              <NAME>sceMeAudioSetVolumev35</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
@@ -1807,7 +1807,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7EFCF769</NID>
-              <NAME>sceMeAudio_7EFCF769</NAME>
+              <NAME>sceMeAudioScUnlockv35</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
@@ -1816,7 +1816,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA002ED78</NID>
-              <NAME>sceMeAudio_A002ED78</NAME>
+              <NAME>sceMeAudioRegisterTickCallbackv35</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
@@ -1825,7 +1825,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA345F290</NID>
-              <NAME>sceMeAudio_A345F290</NAME>
+              <NAME>sceMeAudioScLockv35</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
@@ -1834,7 +1834,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC044E289</NID>
-              <NAME>sceMeAudio_C044E289</NAME>
+              <NAME>sceMeAudioSetPausev35</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
@@ -1843,35 +1843,35 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0EEC95DF</NID>
-              <NAME>sceMeAudio_0EEC95DF</NAME>
+              <NAME>sceMeAudioScUnlockv352</NAME>
               <VERSIONS>
                 <VERSION>3.52</VERSION>
               </VERSIONS>
             </FUNCTION>
             <FUNCTION>
               <NID>0x25F12580</NID>
-              <NAME>sceMeAudio_25F12580</NAME>
+              <NAME>sceMeAudioSetVolumev352</NAME>
               <VERSIONS>
                 <VERSION>3.52</VERSION>
               </VERSIONS>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5F711DD6</NID>
-              <NAME>sceMeAudio_5F711DD6</NAME>
+              <NAME>sceMeAudioSetPausev352</NAME>
               <VERSIONS>
                 <VERSION>3.52</VERSION>
               </VERSIONS>
             </FUNCTION>
             <FUNCTION>
               <NID>0x66DA46E2</NID>
-              <NAME>sceMeAudio_66DA46E2</NAME>
+              <NAME>sceMeAudioRegisterTickCallbackv352</NAME>
               <VERSIONS>
                 <VERSION>3.52</VERSION>
               </VERSIONS>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE2ECB299</NID>
-              <NAME>sceMeAudio_E2ECB299</NAME>
+              <NAME>sceMeAudioScLockv352</NAME>
               <VERSIONS>
                 <VERSION>3.52</VERSION>
               </VERSIONS>
@@ -5419,7 +5419,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x148E487D</NID>
-              <NAME>sceMeAudio_driver_148E487D</NAME>
+              <NAME>sceMeAudioRegisterTickCallback</NAME>
               <VERSIONS>
                 <VERSION>3.10</VERSION>
                 <VERSION>3.11</VERSION>

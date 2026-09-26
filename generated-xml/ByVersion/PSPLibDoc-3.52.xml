@@ -26754,23 +26754,23 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x0EEC95DF</NID>
-              <NAME>sceMeAudio_0EEC95DF</NAME>
+              <NAME>sceMeAudioScUnlockv352</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x25F12580</NID>
-              <NAME>sceMeAudio_25F12580</NAME>
+              <NAME>sceMeAudioSetVolumev352</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5F711DD6</NID>
-              <NAME>sceMeAudio_5F711DD6</NAME>
+              <NAME>sceMeAudioSetPausev352</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x66DA46E2</NID>
-              <NAME>sceMeAudio_66DA46E2</NAME>
+              <NAME>sceMeAudioRegisterTickCallbackv352</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE2ECB299</NID>
-              <NAME>sceMeAudio_E2ECB299</NAME>
+              <NAME>sceMeAudioScLockv352</NAME>
             </FUNCTION>
           </FUNCTIONS>
           <VARIABLES/>
