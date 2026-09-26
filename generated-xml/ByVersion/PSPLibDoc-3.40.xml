@@ -35655,7 +35655,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x970F9C89</NID>
-              <NAME>sceUtility_private_970F9C89</NAME>
+              <NAME>sceUtilityDialogCtrlPeekBufferPositive</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE921B59E</NID>
