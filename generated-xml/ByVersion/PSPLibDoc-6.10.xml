@@ -11019,19 +11019,19 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x10818334</NID>
-              <NAME>sceAudioRouting_driver_10818334</NAME>
+              <NAME>sceAudioRoutingSetVolumeMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5179444F</NID>
-              <NAME>sceAudioRouting_driver_5179444F</NAME>
+              <NAME>sceAudioRoutingGetVolumeMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDE26E31E</NID>
-              <NAME>sceAudioRouting_driver_DE26E31E</NAME>
+              <NAME>sceAudioRoutingSetMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xED5795F1</NID>
-              <NAME>sceAudioRouting_driver_ED5795F1</NAME>
+              <NAME>sceAudioRoutingGetMode</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -11303,19 +11303,19 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x10818334</NID>
-              <NAME>sceAudioRouting_driver_10818334</NAME>
+              <NAME>sceAudioRoutingSetVolumeMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5179444F</NID>
-              <NAME>sceAudioRouting_driver_5179444F</NAME>
+              <NAME>sceAudioRoutingGetVolumeMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDE26E31E</NID>
-              <NAME>sceAudioRouting_driver_DE26E31E</NAME>
+              <NAME>sceAudioRoutingSetMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xED5795F1</NID>
-              <NAME>sceAudioRouting_driver_ED5795F1</NAME>
+              <NAME>sceAudioRoutingGetMode</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -11587,19 +11587,19 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x10818334</NID>
-              <NAME>sceAudioRouting_driver_10818334</NAME>
+              <NAME>sceAudioRoutingSetVolumeMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5179444F</NID>
-              <NAME>sceAudioRouting_driver_5179444F</NAME>
+              <NAME>sceAudioRoutingGetVolumeMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDE26E31E</NID>
-              <NAME>sceAudioRouting_driver_DE26E31E</NAME>
+              <NAME>sceAudioRoutingSetMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xED5795F1</NID>
-              <NAME>sceAudioRouting_driver_ED5795F1</NAME>
+              <NAME>sceAudioRoutingGetMode</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

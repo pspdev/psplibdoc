@@ -78,7 +78,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x0758D3D3</NID>
-              <NAME>sceAudioRouting_driver_0758D3D3</NAME>
+              <NAME>sceAudioRoutingGetVolumeMode</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -91,7 +91,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1A61C31F</NID>
-              <NAME>sceAudioRouting_driver_1A61C31F</NAME>
+              <NAME>sceAudioRoutingGetMode</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -104,7 +104,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2EAFCDB3</NID>
-              <NAME>sceAudioRouting_driver_2EAFCDB3</NAME>
+              <NAME>sceAudioRoutingSetVolumeMode</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>
@@ -117,7 +117,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDE1B32A8</NID>
-              <NAME>sceAudioRouting_driver_DE1B32A8</NAME>
+              <NAME>sceAudioRoutingSetMode</NAME>
               <VERSIONS>
                 <VERSION>6.30</VERSION>
                 <VERSION>6.31</VERSION>

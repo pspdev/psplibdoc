@@ -15413,19 +15413,19 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x18B6F449</NID>
-              <NAME>sceAudioRouting_driver_18B6F449</NAME>
+              <NAME>sceAudioRoutingSetMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x44B384EF</NID>
-              <NAME>sceAudioRouting_driver_44B384EF</NAME>
+              <NAME>sceAudioRoutingSetVolumeMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x931ABEF5</NID>
-              <NAME>sceAudioRouting_driver_931ABEF5</NAME>
+              <NAME>sceAudioRoutingGetMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD82D02FD</NID>
-              <NAME>sceAudioRouting_driver_D82D02FD</NAME>
+              <NAME>sceAudioRoutingGetVolumeMode</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

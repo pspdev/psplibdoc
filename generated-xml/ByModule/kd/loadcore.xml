@@ -1300,7 +1300,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4440853B</NID>
-              <NAME>LoadCoreForKernel_4440853B</NAME>
+              <NAME>sceKernelLoadCoreLock</NAME>
               <VERSIONS>
                 <VERSION>3.00</VERSION>
                 <VERSION>3.01</VERSION>
@@ -1322,7 +1322,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFA3101A4</NID>
-              <NAME>LoadCoreForKernel_FA3101A4</NAME>
+              <NAME>sceKernelLoadCoreUnlock</NAME>
               <VERSIONS>
                 <VERSION>3.00</VERSION>
                 <VERSION>3.01</VERSION>
@@ -1344,7 +1344,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCDCAA8B2</NID>
-              <NAME>LoadCoreForKernel_CDCAA8B2</NAME>
+              <NAME>sceKernelSegmentChecksum</NAME>
               <VERSIONS>
                 <VERSION>3.30</VERSION>
                 <VERSION>3.40</VERSION>
@@ -1360,7 +1360,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEC20C661</NID>
-              <NAME>LoadCoreForKernel_EC20C661</NAME>
+              <NAME>sceKernelLoadRebootBin</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>

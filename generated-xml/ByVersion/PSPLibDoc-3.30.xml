@@ -10021,15 +10021,15 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4440853B</NID>
-              <NAME>LoadCoreForKernel_4440853B</NAME>
+              <NAME>sceKernelLoadCoreLock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFA3101A4</NID>
-              <NAME>LoadCoreForKernel_FA3101A4</NAME>
+              <NAME>sceKernelLoadCoreUnlock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCDCAA8B2</NID>
-              <NAME>LoadCoreForKernel_CDCAA8B2</NAME>
+              <NAME>sceKernelSegmentChecksum</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
