@@ -47,6 +47,7 @@
               <NAME>sceAmctrl_driver_E04ADD4C</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
@@ -55,18 +56,6 @@
             <FUNCTION>
               <NID>0xD632ACDB</NID>
               <NAME>module_start</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xF01D73A7</NID>
-              <NAME>module_info</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x11B97506</NID>
-              <NAME>module_sdk_version</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x11B97506</NID>
-              <NAME>module_sdk_version</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2F064FA6</NID>
@@ -80,11 +69,25 @@
               <NID>0xD632ACDB</NID>
               <NAME>module_start</NAME>
             </FUNCTION>
-            <FUNCTION>
+          </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
               <NID>0xF01D73A7</NID>
               <NAME>module_info</NAME>
-            </FUNCTION>
-          </FUNCTIONS>
+            </VARIABLE>
+            <VARIABLE>
+              <NID>0x11B97506</NID>
+              <NAME>module_sdk_version</NAME>
+            </VARIABLE>
+            <VARIABLE>
+              <NID>0x11B97506</NID>
+              <NAME>module_sdk_version</NAME>
+            </VARIABLE>
+            <VARIABLE>
+              <NID>0xF01D73A7</NID>
+              <NAME>module_info</NAME>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -150,6 +153,7 @@
               <NAME>sceClockgenSetup</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
@@ -163,15 +167,17 @@
               <NID>0xD632ACDB</NID>
               <NAME>module_start</NAME>
             </FUNCTION>
-            <FUNCTION>
+          </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
               <NID>0xF01D73A7</NID>
               <NAME>module_info</NAME>
-            </FUNCTION>
-            <FUNCTION>
+            </VARIABLE>
+            <VARIABLE>
               <NID>0x11B97506</NID>
               <NAME>module_sdk_version</NAME>
-            </FUNCTION>
-          </FUNCTIONS>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -276,6 +282,7 @@
               <NAME>sceDisplayGetFrameBuf</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceDisplay_driver</NAME>
@@ -466,15 +473,12 @@
               <NAME>sceDisplay_driver_FF5A5D52</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
           <FLAGS>0x80000000</FLAGS>
           <FUNCTIONS>
-            <FUNCTION>
-              <NID>0x11B97506</NID>
-              <NAME>module_sdk_version</NAME>
-            </FUNCTION>
             <FUNCTION>
               <NID>0x2F064FA6</NID>
               <NAME>module_reboot_before</NAME>
@@ -483,11 +487,17 @@
               <NID>0xD632ACDB</NID>
               <NAME>module_start</NAME>
             </FUNCTION>
-            <FUNCTION>
+          </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
+              <NID>0x11B97506</NID>
+              <NAME>module_sdk_version</NAME>
+            </VARIABLE>
+            <VARIABLE>
               <NID>0xF01D73A7</NID>
               <NAME>module_info</NAME>
-            </FUNCTION>
-          </FUNCTIONS>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -588,6 +598,7 @@
               <NAME>sceKernelDmaRegisterDdrFlush</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
@@ -602,18 +613,20 @@
               <NAME>module_start</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xF01D73A7</NID>
-              <NAME>module_info</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x11B97506</NID>
-              <NAME>module_sdk_version</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x2F064FA6</NID>
               <NAME>module_reboot_before</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
+              <NID>0xF01D73A7</NID>
+              <NAME>module_info</NAME>
+            </VARIABLE>
+            <VARIABLE>
+              <NID>0x11B97506</NID>
+              <NAME>module_sdk_version</NAME>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -650,10 +663,6 @@
               <NAME>sceKernelRegisterExceptionHandler</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x60F202BE</NID>
-              <NAME>ExceptionManagerForKernel_60F202BE</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x71286CF4</NID>
               <NAME>sceKernelRegisterPriorityExceptionHandler</NAME>
             </FUNCTION>
@@ -670,6 +679,12 @@
               <NAME>sceKernelReleaseExceptionHandler</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
+              <NID>0x60F202BE</NID>
+              <NAME>ExceptionManagerForKernel_60F202BE</NAME>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
@@ -679,15 +694,17 @@
               <NID>0xD3744BE0</NID>
               <NAME>module_bootstart</NAME>
             </FUNCTION>
-            <FUNCTION>
+          </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
               <NID>0xF01D73A7</NID>
               <NAME>module_info</NAME>
-            </FUNCTION>
-            <FUNCTION>
+            </VARIABLE>
+            <VARIABLE>
               <NID>0x11B97506</NID>
               <NAME>module_sdk_version</NAME>
-            </FUNCTION>
-          </FUNCTIONS>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -704,15 +721,12 @@
               <NAME>sceFlashMapper_driver_C4C33071</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
           <FLAGS>0x80000000</FLAGS>
           <FUNCTIONS>
-            <FUNCTION>
-              <NID>0x11B97506</NID>
-              <NAME>module_sdk_version</NAME>
-            </FUNCTION>
             <FUNCTION>
               <NID>0xD3744BE0</NID>
               <NAME>module_bootstart</NAME>
@@ -721,11 +735,17 @@
               <NID>0xD632ACDB</NID>
               <NAME>module_start</NAME>
             </FUNCTION>
-            <FUNCTION>
+          </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
+              <NID>0x11B97506</NID>
+              <NAME>module_sdk_version</NAME>
+            </VARIABLE>
+            <VARIABLE>
               <NID>0xF01D73A7</NID>
               <NAME>module_info</NAME>
-            </FUNCTION>
-          </FUNCTIONS>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -874,6 +894,7 @@
               <NAME>sceGeUnsetCallback</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceGe_user</NAME>
@@ -952,6 +973,7 @@
               <NAME>sceGeGetStack</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
@@ -966,18 +988,20 @@
               <NAME>module_start</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xF01D73A7</NID>
-              <NAME>module_info</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x11B97506</NID>
-              <NAME>module_sdk_version</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xADF12745</NID>
               <NAME>module_reboot_phase</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
+              <NID>0xF01D73A7</NID>
+              <NAME>module_info</NAME>
+            </VARIABLE>
+            <VARIABLE>
+              <NID>0x11B97506</NID>
+              <NAME>module_sdk_version</NAME>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -1006,6 +1030,7 @@
               <NAME>sceAudioRoutingSetVolumeMode</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceAudioRouting_driver</NAME>
@@ -1028,6 +1053,7 @@
               <NAME>sceAudioRouting_driver_ED5795F1</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceImpose</NAME>
@@ -1106,6 +1132,7 @@
               <NAME>sceImpose_FF1A2F07</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceImpose_driver</NAME>
@@ -1236,15 +1263,12 @@
               <NAME>sceImpose_driver_FD250093</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
           <FLAGS>0x80000000</FLAGS>
           <FUNCTIONS>
-            <FUNCTION>
-              <NID>0x11B97506</NID>
-              <NAME>module_sdk_version</NAME>
-            </FUNCTION>
             <FUNCTION>
               <NID>0x2F064FA6</NID>
               <NAME>module_reboot_before</NAME>
@@ -1258,22 +1282,28 @@
               <NAME>module_start</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xF01D73A7</NID>
-              <NAME>module_info</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xD3744BE0</NID>
               <NAME>module_bootstart</NAME>
             </FUNCTION>
-            <FUNCTION>
-              <NID>0xF01D73A7</NID>
-              <NAME>module_info</NAME>
-            </FUNCTION>
-            <FUNCTION>
+          </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
               <NID>0x11B97506</NID>
               <NAME>module_sdk_version</NAME>
-            </FUNCTION>
-          </FUNCTIONS>
+            </VARIABLE>
+            <VARIABLE>
+              <NID>0xF01D73A7</NID>
+              <NAME>module_info</NAME>
+            </VARIABLE>
+            <VARIABLE>
+              <NID>0xF01D73A7</NID>
+              <NAME>module_info</NAME>
+            </VARIABLE>
+            <VARIABLE>
+              <NID>0x11B97506</NID>
+              <NAME>module_sdk_version</NAME>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -1327,6 +1357,7 @@
               <NAME>sceKernelIsSubInterruptOccurred</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>InterruptManagerForKernel</NAME>
@@ -1427,10 +1458,6 @@
             <FUNCTION>
               <NID>0x47B6E6B7</NID>
               <NAME>UnSupportIntr</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x525F4E4B</NID>
-              <NAME>InterruptManagerForKernel_525F4E4B</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x53F5A3F8</NID>
@@ -1537,14 +1564,20 @@
               <NAME>sceKernelReleaseDebuggerIntrHandler</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xFABF63C9</NID>
-              <NAME>InterruptManagerForKernel_FABF63C9</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xFEE218CE</NID>
               <NAME>_sceKernelGetCpuClockCounterLow</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
+              <NID>0x525F4E4B</NID>
+              <NAME>InterruptManagerForKernel_525F4E4B</NAME>
+            </VARIABLE>
+            <VARIABLE>
+              <NID>0xFABF63C9</NID>
+              <NAME>InterruptManagerForKernel_FABF63C9</NAME>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
@@ -1555,18 +1588,20 @@
               <NAME>module_bootstart</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xF01D73A7</NID>
-              <NAME>module_info</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x11B97506</NID>
-              <NAME>module_sdk_version</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x2F064FA6</NID>
               <NAME>module_reboot_before</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
+              <NID>0xF01D73A7</NID>
+              <NAME>module_info</NAME>
+            </VARIABLE>
+            <VARIABLE>
+              <NID>0x11B97506</NID>
+              <NAME>module_sdk_version</NAME>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -1783,6 +1818,7 @@
               <NAME>IoFileMgrForKernel_FFDD5B84</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>IoFileMgrForUser</NAME>
@@ -1937,6 +1973,7 @@
               <NAME>sceIoGetFdList</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>StdioForKernel</NAME>
@@ -2019,6 +2056,7 @@
               <NAME>sceKernelStderrReopen</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>StdioForUser</NAME>
@@ -2069,6 +2107,7 @@
               <NAME>sceKernelStderr</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
@@ -2083,14 +2122,6 @@
               <NAME>module_bootstart</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xF01D73A7</NID>
-              <NAME>module_info</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x11B97506</NID>
-              <NAME>module_sdk_version</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x2F064FA6</NID>
               <NAME>module_reboot_before</NAME>
             </FUNCTION>
@@ -2103,30 +2134,40 @@
               <NAME>module_start</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xF01D73A7</NID>
-              <NAME>module_info</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x11B97506</NID>
-              <NAME>module_sdk_version</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xD632ACDB</NID>
               <NAME>module_start</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xF01D73A7</NID>
-              <NAME>module_info</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2F064FA6</NID>
               <NAME>module_reboot_before</NAME>
             </FUNCTION>
-            <FUNCTION>
+          </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
+              <NID>0xF01D73A7</NID>
+              <NAME>module_info</NAME>
+            </VARIABLE>
+            <VARIABLE>
               <NID>0x11B97506</NID>
               <NAME>module_sdk_version</NAME>
-            </FUNCTION>
-          </FUNCTIONS>
+            </VARIABLE>
+            <VARIABLE>
+              <NID>0xF01D73A7</NID>
+              <NAME>module_info</NAME>
+            </VARIABLE>
+            <VARIABLE>
+              <NID>0x11B97506</NID>
+              <NAME>module_sdk_version</NAME>
+            </VARIABLE>
+            <VARIABLE>
+              <NID>0xF01D73A7</NID>
+              <NAME>module_info</NAME>
+            </VARIABLE>
+            <VARIABLE>
+              <NID>0x11B97506</NID>
+              <NAME>module_sdk_version</NAME>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -2165,15 +2206,12 @@
               <NAME>sceKermit_driver_DF0CA60E</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
           <FLAGS>0x80000000</FLAGS>
           <FUNCTIONS>
-            <FUNCTION>
-              <NID>0x11B97506</NID>
-              <NAME>module_sdk_version</NAME>
-            </FUNCTION>
             <FUNCTION>
               <NID>0x2F064FA6</NID>
               <NAME>module_reboot_before</NAME>
@@ -2182,11 +2220,17 @@
               <NID>0xD632ACDB</NID>
               <NAME>module_start</NAME>
             </FUNCTION>
-            <FUNCTION>
+          </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
+              <NID>0x11B97506</NID>
+              <NAME>module_sdk_version</NAME>
+            </VARIABLE>
+            <VARIABLE>
               <NID>0xF01D73A7</NID>
               <NAME>module_info</NAME>
-            </FUNCTION>
-          </FUNCTIONS>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -2307,6 +2351,7 @@
               <NAME>sceAudioGetChannelRestLen</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceAudio_driver</NAME>
@@ -2433,15 +2478,12 @@
               <NAME>sceAudio_driver_FA700131</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
           <FLAGS>0x80000000</FLAGS>
           <FUNCTIONS>
-            <FUNCTION>
-              <NID>0x11B97506</NID>
-              <NAME>module_sdk_version</NAME>
-            </FUNCTION>
             <FUNCTION>
               <NID>0x2F064FA6</NID>
               <NAME>module_reboot_before</NAME>
@@ -2454,11 +2496,17 @@
               <NID>0xD632ACDB</NID>
               <NAME>module_start</NAME>
             </FUNCTION>
-            <FUNCTION>
+          </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
+              <NID>0x11B97506</NID>
+              <NAME>module_sdk_version</NAME>
+            </VARIABLE>
+            <VARIABLE>
               <NID>0xF01D73A7</NID>
               <NAME>module_info</NAME>
-            </FUNCTION>
-          </FUNCTIONS>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -2551,6 +2599,7 @@
               <NAME>sceCtrlGetSamplingMode</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceCtrl_driver</NAME>
@@ -2701,15 +2750,12 @@
               <NAME>sceCtrl_driver_FE15E7BA</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
           <FLAGS>0x80000000</FLAGS>
           <FUNCTIONS>
-            <FUNCTION>
-              <NID>0x11B97506</NID>
-              <NAME>module_sdk_version</NAME>
-            </FUNCTION>
             <FUNCTION>
               <NID>0x2F064FA6</NID>
               <NAME>module_reboot_before</NAME>
@@ -2718,11 +2764,17 @@
               <NID>0xD632ACDB</NID>
               <NAME>module_start</NAME>
             </FUNCTION>
-            <FUNCTION>
+          </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
+              <NID>0x11B97506</NID>
+              <NAME>module_sdk_version</NAME>
+            </VARIABLE>
+            <VARIABLE>
               <NID>0xF01D73A7</NID>
               <NAME>module_info</NAME>
-            </FUNCTION>
-          </FUNCTIONS>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -2739,15 +2791,12 @@
               <NAME>sceKermitHostfs_driver_493F2EEC</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
           <FLAGS>0x80000000</FLAGS>
           <FUNCTIONS>
-            <FUNCTION>
-              <NID>0x11B97506</NID>
-              <NAME>module_sdk_version</NAME>
-            </FUNCTION>
             <FUNCTION>
               <NID>0xD3744BE0</NID>
               <NAME>module_bootstart</NAME>
@@ -2756,11 +2805,17 @@
               <NID>0xD632ACDB</NID>
               <NAME>module_start</NAME>
             </FUNCTION>
-            <FUNCTION>
+          </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
+              <NID>0x11B97506</NID>
+              <NAME>module_sdk_version</NAME>
+            </VARIABLE>
+            <VARIABLE>
               <NID>0xF01D73A7</NID>
               <NAME>module_info</NAME>
-            </FUNCTION>
-          </FUNCTIONS>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -2845,15 +2900,12 @@
               <NAME>sceIdStorageIsFormatted</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
           <FLAGS>0x80000000</FLAGS>
           <FUNCTIONS>
-            <FUNCTION>
-              <NID>0x11B97506</NID>
-              <NAME>module_sdk_version</NAME>
-            </FUNCTION>
             <FUNCTION>
               <NID>0x2F064FA6</NID>
               <NAME>module_reboot_before</NAME>
@@ -2862,11 +2914,17 @@
               <NID>0xD632ACDB</NID>
               <NAME>module_start</NAME>
             </FUNCTION>
-            <FUNCTION>
+          </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
+              <NID>0x11B97506</NID>
+              <NAME>module_sdk_version</NAME>
+            </VARIABLE>
+            <VARIABLE>
               <NID>0xF01D73A7</NID>
               <NAME>module_info</NAME>
-            </FUNCTION>
-          </FUNCTIONS>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -2935,6 +2993,7 @@
               <NAME>sceDdr_driver_FAC28535</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceDmac</NAME>
@@ -2949,6 +3008,7 @@
               <NAME>sceDmacTryMemcpy</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceDmacplus_driver</NAME>
@@ -3035,6 +3095,7 @@
               <NAME>sceDmacplus_driver_FD5BDE22</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceGpio_driver</NAME>
@@ -3105,6 +3166,7 @@
               <NAME>sceGpio_driver_EF344659</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceI2c_driver</NAME>
@@ -3139,6 +3201,7 @@
               <NAME>sceI2c_driver_F9EEC9BA</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceKermitMemory_driver</NAME>
@@ -3157,6 +3220,7 @@
               <NAME>sceKermitMemory_driver_AAF047AC</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceLcdc_driver</NAME>
@@ -3243,6 +3307,7 @@
               <NAME>sceLcdc_driver_DE3D8FD2</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceNand_driver</NAME>
@@ -3397,6 +3462,7 @@
               <NAME>sceNandReadId</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>scePwm_driver</NAME>
@@ -3427,6 +3493,7 @@
               <NAME>scePwm_driver_F2BDF112</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceSysreg_driver</NAME>
@@ -4145,15 +4212,12 @@
               <NAME>sceSysregEmcsmBusClockEnable</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
           <FLAGS>0x80000000</FLAGS>
           <FUNCTIONS>
-            <FUNCTION>
-              <NID>0x11B97506</NID>
-              <NAME>module_sdk_version</NAME>
-            </FUNCTION>
             <FUNCTION>
               <NID>0x2F064FA6</NID>
               <NAME>module_reboot_before</NAME>
@@ -4162,11 +4226,17 @@
               <NID>0xD632ACDB</NID>
               <NAME>module_start</NAME>
             </FUNCTION>
-            <FUNCTION>
+          </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
+              <NID>0x11B97506</NID>
+              <NAME>module_sdk_version</NAME>
+            </VARIABLE>
+            <VARIABLE>
               <NID>0xF01D73A7</NID>
               <NAME>module_info</NAME>
-            </FUNCTION>
-          </FUNCTIONS>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -4199,6 +4269,7 @@
               <NAME>sceMeAudio_driver_F268A558</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceMeCore_driver</NAME>
@@ -4221,6 +4292,7 @@
               <NAME>sceMeCore_driver_D0DB8EC8</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceMeMemory_driver</NAME>
@@ -4239,6 +4311,7 @@
               <NAME>sceMeMemory_driver_AAA5CFDB</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceMePower_driver</NAME>
@@ -4265,6 +4338,7 @@
               <NAME>sceMePower_driver_F70FFB2E</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceMeVideo_driver</NAME>
@@ -4299,6 +4373,7 @@
               <NAME>sceMeVideo_driver_B66EE7F5</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceMeWrapper_driver</NAME>
@@ -4397,15 +4472,12 @@
               <NAME>sceMeWrapper_driver_F70FFB2E</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
           <FLAGS>0x80000000</FLAGS>
           <FUNCTIONS>
-            <FUNCTION>
-              <NID>0x11B97506</NID>
-              <NAME>module_sdk_version</NAME>
-            </FUNCTION>
             <FUNCTION>
               <NID>0xADF12745</NID>
               <NAME>module_reboot_phase</NAME>
@@ -4415,22 +4487,28 @@
               <NAME>module_start</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xF01D73A7</NID>
-              <NAME>module_info</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x11B97506</NID>
-              <NAME>module_sdk_version</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xD632ACDB</NID>
               <NAME>module_start</NAME>
             </FUNCTION>
-            <FUNCTION>
+          </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
+              <NID>0x11B97506</NID>
+              <NAME>module_sdk_version</NAME>
+            </VARIABLE>
+            <VARIABLE>
               <NID>0xF01D73A7</NID>
               <NAME>module_info</NAME>
-            </FUNCTION>
-          </FUNCTIONS>
+            </VARIABLE>
+            <VARIABLE>
+              <NID>0x11B97506</NID>
+              <NAME>module_sdk_version</NAME>
+            </VARIABLE>
+            <VARIABLE>
+              <NID>0xF01D73A7</NID>
+              <NAME>module_info</NAME>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -4452,15 +4530,12 @@
               <NAME>sceKermitMsfs_driver_EAD1D2C6</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
           <FLAGS>0x80000000</FLAGS>
           <FUNCTIONS>
-            <FUNCTION>
-              <NID>0x11B97506</NID>
-              <NAME>module_sdk_version</NAME>
-            </FUNCTION>
             <FUNCTION>
               <NID>0xD3744BE0</NID>
               <NAME>module_bootstart</NAME>
@@ -4469,11 +4544,17 @@
               <NID>0xD632ACDB</NID>
               <NAME>module_start</NAME>
             </FUNCTION>
-            <FUNCTION>
+          </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
+              <NID>0x11B97506</NID>
+              <NAME>module_sdk_version</NAME>
+            </VARIABLE>
+            <VARIABLE>
               <NID>0xF01D73A7</NID>
               <NAME>module_info</NAME>
-            </FUNCTION>
-          </FUNCTIONS>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -4674,6 +4755,7 @@
               <NAME>sceRtcRegisterCallback</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceRtc_driver</NAME>
@@ -4932,15 +5014,12 @@
               <NAME>sceRtc_driver_FC555073</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
           <FLAGS>0x80000000</FLAGS>
           <FUNCTIONS>
-            <FUNCTION>
-              <NID>0x11B97506</NID>
-              <NAME>module_sdk_version</NAME>
-            </FUNCTION>
             <FUNCTION>
               <NID>0x2F064FA6</NID>
               <NAME>module_reboot_before</NAME>
@@ -4949,11 +5028,17 @@
               <NID>0xD632ACDB</NID>
               <NAME>module_start</NAME>
             </FUNCTION>
-            <FUNCTION>
+          </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
+              <NID>0x11B97506</NID>
+              <NAME>module_sdk_version</NAME>
+            </VARIABLE>
+            <VARIABLE>
               <NID>0xF01D73A7</NID>
               <NAME>module_info</NAME>
-            </FUNCTION>
-          </FUNCTIONS>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -4970,15 +5055,12 @@
               <NAME>sceKermitTTY_driver_33E1D00F</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
           <FLAGS>0x80000000</FLAGS>
           <FUNCTIONS>
-            <FUNCTION>
-              <NID>0x11B97506</NID>
-              <NAME>module_sdk_version</NAME>
-            </FUNCTION>
             <FUNCTION>
               <NID>0xD3744BE0</NID>
               <NAME>module_bootstart</NAME>
@@ -4987,11 +5069,17 @@
               <NID>0xD632ACDB</NID>
               <NAME>module_start</NAME>
             </FUNCTION>
-            <FUNCTION>
+          </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
+              <NID>0x11B97506</NID>
+              <NAME>module_sdk_version</NAME>
+            </VARIABLE>
+            <VARIABLE>
               <NID>0xF01D73A7</NID>
               <NAME>module_info</NAME>
-            </FUNCTION>
-          </FUNCTIONS>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -5020,23 +5108,21 @@
               <NAME>sceLFatFs_driver_0054AC89</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0x086C030B</NID>
-              <NAME>sceLFatFs_driver_086C030B</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x50700D02</NID>
               <NAME>sceLFatFs_driver_50700D02</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
+              <NID>0x086C030B</NID>
+              <NAME>sceLFatFs_driver_086C030B</NAME>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
           <FLAGS>0x80000000</FLAGS>
           <FUNCTIONS>
-            <FUNCTION>
-              <NID>0x0F7C276C</NID>
-              <NAME>module_start_thread_parameter</NAME>
-            </FUNCTION>
             <FUNCTION>
               <NID>0x2F064FA6</NID>
               <NAME>module_reboot_before</NAME>
@@ -5050,22 +5136,28 @@
               <NAME>module_start</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xF01D73A7</NID>
-              <NAME>module_info</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xADF12745</NID>
               <NAME>module_reboot_phase</NAME>
             </FUNCTION>
-            <FUNCTION>
+          </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
+              <NID>0x0F7C276C</NID>
+              <NAME>module_start_thread_parameter</NAME>
+            </VARIABLE>
+            <VARIABLE>
+              <NID>0xF01D73A7</NID>
+              <NAME>module_info</NAME>
+            </VARIABLE>
+            <VARIABLE>
               <NID>0x11B97506</NID>
               <NAME>module_sdk_version</NAME>
-            </FUNCTION>
-            <FUNCTION>
+            </VARIABLE>
+            <VARIABLE>
               <NID>0x1D4042A5</NID>
               <NAME>module_text_checksum</NAME>
-            </FUNCTION>
-          </FUNCTIONS>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -5238,6 +5330,7 @@
               <NAME>sceKernelGetModuleListWithAlloc</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
@@ -5247,15 +5340,17 @@
               <NID>0xD3744BE0</NID>
               <NAME>module_bootstart</NAME>
             </FUNCTION>
-            <FUNCTION>
+          </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
               <NID>0xF01D73A7</NID>
               <NAME>module_info</NAME>
-            </FUNCTION>
-            <FUNCTION>
+            </VARIABLE>
+            <VARIABLE>
               <NID>0x11B97506</NID>
               <NAME>module_sdk_version</NAME>
-            </FUNCTION>
-          </FUNCTIONS>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -5306,10 +5401,6 @@
             <FUNCTION>
               <NID>0x4259F89F</NID>
               <NAME>LoadExecForKernel_4259F89F</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x54B39392</NID>
-              <NAME>LoadExecForKernel_54B39392</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x596ABD6B</NID>
@@ -5412,6 +5503,12 @@
               <NAME>LoadExecForKernel_FABD21E5</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
+              <NID>0x54B39392</NID>
+              <NAME>LoadExecForKernel_54B39392</NAME>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
         <LIBRARY>
           <NAME>LoadExecForUser</NAME>
@@ -5446,36 +5543,39 @@
               <NAME>LoadExecForUser_D1FB50DC</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
           <FLAGS>0x80000000</FLAGS>
           <FUNCTIONS>
             <FUNCTION>
-              <NID>0x11B97506</NID>
-              <NAME>module_sdk_version</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xD3744BE0</NID>
               <NAME>module_bootstart</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0xF01D73A7</NID>
-              <NAME>module_info</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD632ACDB</NID>
               <NAME>module_start</NAME>
             </FUNCTION>
-            <FUNCTION>
-              <NID>0xF01D73A7</NID>
-              <NAME>module_info</NAME>
-            </FUNCTION>
-            <FUNCTION>
+          </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
               <NID>0x11B97506</NID>
               <NAME>module_sdk_version</NAME>
-            </FUNCTION>
-          </FUNCTIONS>
+            </VARIABLE>
+            <VARIABLE>
+              <NID>0xF01D73A7</NID>
+              <NAME>module_info</NAME>
+            </VARIABLE>
+            <VARIABLE>
+              <NID>0xF01D73A7</NID>
+              <NAME>module_info</NAME>
+            </VARIABLE>
+            <VARIABLE>
+              <NID>0x11B97506</NID>
+              <NAME>module_sdk_version</NAME>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -5529,6 +5629,7 @@
               <NAME>memlmd_EB740EA3</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>semaphore</NAME>
@@ -5551,15 +5652,12 @@
               <NAME>sceUtilsBufferCopyByPolling</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
           <FLAGS>0x80000000</FLAGS>
           <FUNCTIONS>
-            <FUNCTION>
-              <NID>0x11B97506</NID>
-              <NAME>module_sdk_version</NAME>
-            </FUNCTION>
             <FUNCTION>
               <NID>0x2F064FA6</NID>
               <NAME>module_reboot_before</NAME>
@@ -5568,11 +5666,17 @@
               <NID>0xD632ACDB</NID>
               <NAME>module_start</NAME>
             </FUNCTION>
-            <FUNCTION>
+          </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
+              <NID>0x11B97506</NID>
+              <NAME>module_sdk_version</NAME>
+            </VARIABLE>
+            <VARIABLE>
               <NID>0xF01D73A7</NID>
               <NAME>module_info</NAME>
-            </FUNCTION>
-          </FUNCTIONS>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -5593,6 +5697,7 @@
               <NAME>sceDbmanSelect</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceDbsvr_driver</NAME>
@@ -5603,6 +5708,7 @@
               <NAME>sceDbsvrGetData</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceMesgIns_driver</NAME>
@@ -5617,6 +5723,7 @@
               <NAME>sceMesgIns_driver_FF5BFAC5</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceMesgLed_driver</NAME>
@@ -5723,6 +5830,7 @@
               <NAME>sceMesgLed_driver_FCA75F43</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceMesgd_driver</NAME>
@@ -5737,6 +5845,7 @@
               <NAME>sceMesgd_driver_ADD0CB66</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceNwman_driver</NAME>
@@ -5747,6 +5856,7 @@
               <NAME>sceNwman_driver_9555D68D</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>scePauth</NAME>
@@ -5757,6 +5867,7 @@
               <NAME>scePauth_F7AA47F6</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>scePauth_driver</NAME>
@@ -5767,6 +5878,7 @@
               <NAME>scePauth_driver_F7AA47F6</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceResmap_driver</NAME>
@@ -5781,6 +5893,7 @@
               <NAME>sceResmapPrepare</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceResmgr</NAME>
@@ -5795,6 +5908,7 @@
               <NAME>sceResmgr_8E6C62C8</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceResmgr_driver</NAME>
@@ -5809,6 +5923,7 @@
               <NAME>sceResmgr_driver_8E6C62C8</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceWmd_driver</NAME>
@@ -5823,24 +5938,27 @@
               <NAME>sceWmd_driver_B7CE9041</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
           <FLAGS>0x80000000</FLAGS>
           <FUNCTIONS>
             <FUNCTION>
-              <NID>0x11B97506</NID>
-              <NAME>module_sdk_version</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xD632ACDB</NID>
               <NAME>module_start</NAME>
             </FUNCTION>
-            <FUNCTION>
+          </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
+              <NID>0x11B97506</NID>
+              <NAME>module_sdk_version</NAME>
+            </VARIABLE>
+            <VARIABLE>
               <NID>0xF01D73A7</NID>
               <NAME>module_info</NAME>
-            </FUNCTION>
-          </FUNCTIONS>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -5917,6 +6035,7 @@
               <NAME>InitForKernel_D4797373</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>ModuleMgrForKernel</NAME>
@@ -6127,6 +6246,7 @@
               <NAME>ModuleMgrForKernel_F8CA0D9D</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>ModuleMgrForUser</NAME>
@@ -6221,6 +6341,7 @@
               <NAME>sceKernelCheckTextSegment</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
@@ -6231,10 +6352,6 @@
               <NAME>module_bootstart</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xF01D73A7</NID>
-              <NAME>module_info</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x2F064FA6</NID>
               <NAME>module_reboot_before</NAME>
             </FUNCTION>
@@ -6242,11 +6359,17 @@
               <NID>0xADF12745</NID>
               <NAME>module_reboot_phase</NAME>
             </FUNCTION>
-            <FUNCTION>
+          </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
+              <NID>0xF01D73A7</NID>
+              <NAME>module_info</NAME>
+            </VARIABLE>
+            <VARIABLE>
               <NID>0x11B97506</NID>
               <NAME>module_sdk_version</NAME>
-            </FUNCTION>
-          </FUNCTIONS>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -6267,6 +6390,7 @@
               <NAME>sceNp9660_driver_5051FD70</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceUmd</NAME>
@@ -6345,6 +6469,7 @@
               <NAME>sceUmdSetDriveStatus</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceUmd9660_driver</NAME>
@@ -6363,6 +6488,7 @@
               <NAME>sceUmd9660_driver_7CB291E3</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceUmdMan_driver</NAME>
@@ -6389,6 +6515,7 @@
               <NAME>sceUmdManIsDvdDrive</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceUmdUser</NAME>
@@ -6451,15 +6578,12 @@
               <NAME>sceUmdDeactivate</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
           <FLAGS>0x80000000</FLAGS>
           <FUNCTIONS>
-            <FUNCTION>
-              <NID>0x11B97506</NID>
-              <NAME>module_sdk_version</NAME>
-            </FUNCTION>
             <FUNCTION>
               <NID>0x2F064FA6</NID>
               <NAME>module_reboot_before</NAME>
@@ -6469,14 +6593,20 @@
               <NAME>module_start</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xF01D73A7</NID>
-              <NAME>module_info</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xCEE8593C</NID>
               <NAME>module_stop</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
+              <NID>0x11B97506</NID>
+              <NAME>module_sdk_version</NAME>
+            </VARIABLE>
+            <VARIABLE>
+              <NID>0xF01D73A7</NID>
+              <NAME>module_info</NAME>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -6561,6 +6691,7 @@
               <NAME>sceNpDrmSetRifDevice</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>scePspNpDrm_user</NAME>
@@ -6587,6 +6718,7 @@
               <NAME>sceNpDrmSetLicenseeKey</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
@@ -6600,15 +6732,17 @@
               <NID>0xD632ACDB</NID>
               <NAME>module_start</NAME>
             </FUNCTION>
-            <FUNCTION>
+          </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
               <NID>0xF01D73A7</NID>
               <NAME>module_info</NAME>
-            </FUNCTION>
-            <FUNCTION>
+            </VARIABLE>
+            <VARIABLE>
               <NID>0x11B97506</NID>
               <NAME>module_sdk_version</NAME>
-            </FUNCTION>
-          </FUNCTIONS>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -6625,6 +6759,7 @@
               <NAME>sceDdrdb_F013F8BF</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceDdrdb_driver</NAME>
@@ -6667,6 +6802,7 @@
               <NAME>sceDdrdbMul1</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceMlnpsnl_driver</NAME>
@@ -6681,6 +6817,7 @@
               <NAME>sceMlnpsnlAuth1BB</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceOpenPSID</NAME>
@@ -6695,6 +6832,7 @@
               <NAME>sceOpenPSIDGetProductCode</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceOpenPSID_driver</NAME>
@@ -6717,6 +6855,7 @@
               <NAME>sceOpenPSID_driver_E8A338F3</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>scePcact_driver</NAME>
@@ -6731,6 +6870,7 @@
               <NAME>scePcactAuth1BB</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
@@ -6740,15 +6880,17 @@
               <NID>0xD632ACDB</NID>
               <NAME>module_start</NAME>
             </FUNCTION>
-            <FUNCTION>
+          </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
               <NID>0xF01D73A7</NID>
               <NAME>module_info</NAME>
-            </FUNCTION>
-            <FUNCTION>
+            </VARIABLE>
+            <VARIABLE>
               <NID>0x11B97506</NID>
               <NAME>module_sdk_version</NAME>
-            </FUNCTION>
-          </FUNCTIONS>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -6993,6 +7135,7 @@
               <NAME>scePowerGetCpuClockFrequency</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>scePower_driver</NAME>
@@ -7339,15 +7482,12 @@
               <NAME>scePowerGetCpuClockFrequencyInt</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
           <FLAGS>0x80000000</FLAGS>
           <FUNCTIONS>
-            <FUNCTION>
-              <NID>0x11B97506</NID>
-              <NAME>module_sdk_version</NAME>
-            </FUNCTION>
             <FUNCTION>
               <NID>0x2F064FA6</NID>
               <NAME>module_reboot_before</NAME>
@@ -7360,11 +7500,17 @@
               <NID>0xD632ACDB</NID>
               <NAME>module_start</NAME>
             </FUNCTION>
-            <FUNCTION>
+          </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
+              <NID>0x11B97506</NID>
+              <NAME>module_sdk_version</NAME>
+            </VARIABLE>
+            <VARIABLE>
               <NID>0xF01D73A7</NID>
               <NAME>module_info</NAME>
-            </FUNCTION>
-          </FUNCTIONS>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -7457,6 +7603,7 @@
               <NAME>sceRegGetCategoryNumAtRoot</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceReg_driver</NAME>
@@ -7547,6 +7694,7 @@
               <NAME>sceRegGetKeysNum</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
@@ -7557,10 +7705,6 @@
               <NAME>module_start</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xF01D73A7</NID>
-              <NAME>module_info</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x2F064FA6</NID>
               <NAME>module_reboot_before</NAME>
             </FUNCTION>
@@ -7568,11 +7712,17 @@
               <NID>0xADF12745</NID>
               <NAME>module_reboot_phase</NAME>
             </FUNCTION>
-            <FUNCTION>
+          </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
+              <NID>0xF01D73A7</NID>
+              <NAME>module_info</NAME>
+            </VARIABLE>
+            <VARIABLE>
               <NID>0x11B97506</NID>
               <NAME>module_sdk_version</NAME>
-            </FUNCTION>
-          </FUNCTIONS>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -8185,6 +8335,7 @@
               <NAME>sceSysconSetWlanSwitchCallback</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
@@ -8198,15 +8349,17 @@
               <NID>0xD632ACDB</NID>
               <NAME>module_start</NAME>
             </FUNCTION>
-            <FUNCTION>
+          </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
               <NID>0xF01D73A7</NID>
               <NAME>module_info</NAME>
-            </FUNCTION>
-            <FUNCTION>
+            </VARIABLE>
+            <VARIABLE>
               <NID>0x11B97506</NID>
               <NAME>module_sdk_version</NAME>
-            </FUNCTION>
-          </FUNCTIONS>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -8335,6 +8488,7 @@
               <NAME>sceKernelAssert</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>SysMemForKernel</NAME>
@@ -8761,6 +8915,7 @@
               <NAME>sceKernelGetBlockHeadAddr</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>SysMemUserForUser</NAME>
@@ -8867,6 +9022,7 @@
               <NAME>SysMemUserForUser_945E45DA</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>SysclibForKernel</NAME>
@@ -9005,6 +9161,7 @@
               <NAME>snprintf</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>UtilsForKernel</NAME>
@@ -9299,6 +9456,7 @@
               <NAME>sceKernelL2cacheInvalidateRange</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>UtilsForUser</NAME>
@@ -9497,6 +9655,7 @@
               <NAME>sceKernelL2cacheWritebackInvalidateRange</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceSuspendForKernel</NAME>
@@ -9567,6 +9726,7 @@
               <NAME>sceKernelVolatileMemUnlock</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceSuspendForUser</NAME>
@@ -9597,6 +9757,7 @@
               <NAME>sceKernelVolatileMemUnlock</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceSysEventForKernel</NAME>
@@ -9623,6 +9784,7 @@
               <NAME>sceKernelReferSysEventHandlers</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
@@ -9632,15 +9794,17 @@
               <NID>0xD3744BE0</NID>
               <NAME>module_bootstart</NAME>
             </FUNCTION>
-            <FUNCTION>
+          </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
               <NID>0xF01D73A7</NID>
               <NAME>module_info</NAME>
-            </FUNCTION>
-            <FUNCTION>
+            </VARIABLE>
+            <VARIABLE>
               <NID>0x11B97506</NID>
               <NAME>module_sdk_version</NAME>
-            </FUNCTION>
-          </FUNCTIONS>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -9689,6 +9853,7 @@
               <NAME>sceSTimerStartCount</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
@@ -9702,15 +9867,17 @@
               <NID>0xD3744BE0</NID>
               <NAME>module_bootstart</NAME>
             </FUNCTION>
-            <FUNCTION>
+          </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
               <NID>0xF01D73A7</NID>
               <NAME>module_info</NAME>
-            </FUNCTION>
-            <FUNCTION>
+            </VARIABLE>
+            <VARIABLE>
               <NID>0x11B97506</NID>
               <NAME>module_sdk_version</NAME>
-            </FUNCTION>
-          </FUNCTIONS>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -10315,14 +10482,16 @@
               <NAME>sceKernelReferTlsplStatus</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xD22EE018</NID>
-              <NAME>ThreadManForKernel_D22EE018</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0xD366D35A</NID>
               <NAME>ThreadManForKernel_D366D35A</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
+              <NID>0xD22EE018</NID>
+              <NAME>ThreadManForKernel_D22EE018</NAME>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
         <LIBRARY>
           <NAME>ThreadManForUser</NAME>
@@ -10933,6 +11102,7 @@
               <NAME>sceKernelExtendThreadStack</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
@@ -10943,18 +11113,20 @@
               <NAME>module_bootstart</NAME>
             </FUNCTION>
             <FUNCTION>
-              <NID>0xF01D73A7</NID>
-              <NAME>module_info</NAME>
-            </FUNCTION>
-            <FUNCTION>
-              <NID>0x11B97506</NID>
-              <NAME>module_sdk_version</NAME>
-            </FUNCTION>
-            <FUNCTION>
               <NID>0x2F064FA6</NID>
               <NAME>module_reboot_before</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
+              <NID>0xF01D73A7</NID>
+              <NAME>module_info</NAME>
+            </VARIABLE>
+            <VARIABLE>
+              <NID>0x11B97506</NID>
+              <NAME>module_sdk_version</NAME>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -11035,6 +11207,7 @@
               <NAME>sceKernelMemset</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceGe_lazy</NAME>
@@ -11045,6 +11218,7 @@
               <NAME>sceGe_lazy_31129B95</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
@@ -11054,19 +11228,21 @@
               <NID>0xD632ACDB</NID>
               <NAME>module_start</NAME>
             </FUNCTION>
-            <FUNCTION>
+          </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
               <NID>0xF01D73A7</NID>
               <NAME>module_info</NAME>
-            </FUNCTION>
-            <FUNCTION>
+            </VARIABLE>
+            <VARIABLE>
               <NID>0x11B97506</NID>
               <NAME>module_sdk_version</NAME>
-            </FUNCTION>
-            <FUNCTION>
+            </VARIABLE>
+            <VARIABLE>
               <NID>0x0F7C276C</NID>
               <NAME>module_start_thread_parameter</NAME>
-            </FUNCTION>
-          </FUNCTIONS>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>
@@ -11495,6 +11671,7 @@
               <NAME>sceUtilityAutoConnectGetStatus</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceUtility_driver</NAME>
@@ -11509,6 +11686,7 @@
               <NAME>sceUtilityInit</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceUtility_netparam_internal</NAME>
@@ -11551,6 +11729,7 @@
               <NAME>sceUtility_netparam_internal_F676A29D</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>sceUtility_private</NAME>
@@ -11773,6 +11952,7 @@
               <NAME>sceUtilityAppletGetParam</NAME>
             </FUNCTION>
           </FUNCTIONS>
+          <VARIABLES/>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
@@ -11782,15 +11962,17 @@
               <NID>0xD632ACDB</NID>
               <NAME>module_start</NAME>
             </FUNCTION>
-            <FUNCTION>
+          </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
               <NID>0xF01D73A7</NID>
               <NAME>module_info</NAME>
-            </FUNCTION>
-            <FUNCTION>
+            </VARIABLE>
+            <VARIABLE>
               <NID>0x11B97506</NID>
               <NAME>module_sdk_version</NAME>
-            </FUNCTION>
-          </FUNCTIONS>
+            </VARIABLE>
+          </VARIABLES>
         </LIBRARY>
       </LIBRARIES>
     </PRXFILE>

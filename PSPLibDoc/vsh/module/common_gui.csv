@@ -75,7 +75,6 @@ sceVshCommonGui,fun,77812115,sceVshCommonGui_77812115,
 sceVshCommonGui,fun,C00B308F,_ZN3vsh12GetString_OKEv,matching
 sceVshCommonGui,fun,44961EFA,sceVshCommonGui_44961EFA,
 sceVshCommonGui,fun,DE8FC339,sceVshCommonGui_DE8FC339,
-sceVshCommonGui,var,4AF8E417,_ZN3paf8PhXmItem12AnimIconStopEv,matching
 syslib,fun,D632ACDB,module_start,matching
 syslib,fun,CEE8593C,module_stop,matching
 syslib,var,F01D73A7,module_info,matching

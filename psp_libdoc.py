@@ -312,20 +312,24 @@ def exportPSPLibdocCombined(nidEntries, outFile, firmwareVersion=None, includeAl
 			flags.text = entry.libraryFlags
 
 			functions = ET.SubElement(library, "FUNCTIONS")
+			variables = ET.SubElement(library, "VARIABLES")
 
 			lastLibrary = entry.libraryName
 
-		function = ET.SubElement(functions, "FUNCTION")
+		if entry.nidtype == 'fun':
+			cur = ET.SubElement(functions, "FUNCTION")
+		else:
+			cur = ET.SubElement(variables, "VARIABLE")
 
-		nid = ET.SubElement(function, "NID")
+		nid = ET.SubElement(cur, "NID")
 		nid.text = "0x" + entry.nid
 
-		name = ET.SubElement(function, "NAME")
+		name = ET.SubElement(cur, "NAME")
 		name.text = entry.name
 
 		# Do not export the "VERSIONS" field in the combined libdoc, in order to save space
 		if includeAll:
-			versions = ET.SubElement(function, "VERSIONS")
+			versions = ET.SubElement(cur, "VERSIONS")
 			for v in entry.versions:
 				ET.SubElement(versions, "VERSION").text = v
 

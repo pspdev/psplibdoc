@@ -8971,18 +8971,6 @@
               </VERSIONS>
             </FUNCTION>
           </FUNCTIONS>
-          <VARIABLES>
-            <VARIABLE>
-              <NID>0x4AF8E417</NID>
-              <NAME>_ZN3paf8PhXmItem12AnimIconStopEv</NAME>
-              <VERSIONS>
-                <VERSION>1.03</VERSION>
-                <VERSION>1.50</VERSION>
-                <VERSION>1.51</VERSION>
-                <VERSION>1.52</VERSION>
-              </VERSIONS>
-            </VARIABLE>
-          </VARIABLES>
         </LIBRARY>
         <LIBRARY>
           <NAME>syslib</NAME>
