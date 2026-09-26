@@ -3838,7 +3838,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE066B45F</NID>
-              <NAME>sceAudiocodec_E066B45F</NAME>
+              <NAME>sceAudiocodecSetInfo</NAME>
               <VERSIONS>
                 <VERSION>2.80</VERSION>
                 <VERSION>2.81</VERSION>

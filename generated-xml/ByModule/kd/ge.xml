@@ -748,7 +748,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3EFC0D64</NID>
-              <NAME>sceGe_driver_3EFC0D64</NAME>
+              <NAME>sceGeDecodeListId</NAME>
               <VERSIONS>
                 <VERSION>2.00</VERSION>
                 <VERSION>2.01</VERSION>

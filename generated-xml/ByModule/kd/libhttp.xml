@@ -8560,7 +8560,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCC920C12</NID>
-              <NAME>sceHttp_CC920C12</NAME>
+              <NAME>sceHttpEnableNagle</NAME>
               <VERSIONS>
                 <VERSION>2.80</VERSION>
                 <VERSION>2.81</VERSION>
@@ -8665,7 +8665,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD29163DA</NID>
-              <NAME>sceHttp_D29163DA</NAME>
+              <NAME>sceHttpDisableNagle</NAME>
               <VERSIONS>
                 <VERSION>2.80</VERSION>
                 <VERSION>2.81</VERSION>

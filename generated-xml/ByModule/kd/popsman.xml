@@ -1688,7 +1688,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x05115756</NID>
-              <NAME>sceMeAudio_05115756</NAME>
+              <NAME>sceMeAudioScUnlock</NAME>
               <VERSIONS>
                 <VERSION>3.10</VERSION>
                 <VERSION>3.11</VERSION>
@@ -1704,7 +1704,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x29798EF3</NID>
-              <NAME>sceMeAudio_29798EF3</NAME>
+              <NAME>sceMeAudioSetPause</NAME>
               <VERSIONS>
                 <VERSION>3.10</VERSION>
                 <VERSION>3.11</VERSION>
@@ -1712,7 +1712,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5EDA8D33</NID>
-              <NAME>sceMeAudio_5EDA8D33</NAME>
+              <NAME>sceMeAudioScLock</NAME>
               <VERSIONS>
                 <VERSION>3.10</VERSION>
                 <VERSION>3.11</VERSION>
@@ -1720,7 +1720,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDDB5FA7A</NID>
-              <NAME>sceMeAudio_DDB5FA7A</NAME>
+              <NAME>sceMeAudioSetVolume</NAME>
               <VERSIONS>
                 <VERSION>3.10</VERSION>
                 <VERSION>3.11</VERSION>
@@ -5427,7 +5427,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x29798EF3</NID>
-              <NAME>sceMeAudio_driver_29798EF3</NAME>
+              <NAME>sceMeAudioSetPause</NAME>
               <VERSIONS>
                 <VERSION>3.10</VERSION>
                 <VERSION>3.11</VERSION>

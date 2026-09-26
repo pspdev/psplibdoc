@@ -5992,7 +5992,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE49EB257</NID>
-              <NAME>sceMpeg_E49EB257</NAME>
+              <NAME>sceMpegAvcCscInfoInit</NAME>
               <VERSIONS>
                 <VERSION>3.70</VERSION>
                 <VERSION>3.71</VERSION>

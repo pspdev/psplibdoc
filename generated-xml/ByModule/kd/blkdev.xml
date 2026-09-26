@@ -132,7 +132,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA86B6778</NID>
-              <NAME>sceBLK_driver_A86B6778</NAME>
+              <NAME>sceBLKInvalidateDeviceName</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>

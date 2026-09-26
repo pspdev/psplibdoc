@@ -2912,7 +2912,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x67346A2A</NID>
-              <NAME>sceNetAdhoc_67346A2A</NAME>
+              <NAME>sceNetAdhocPdpRecvWithRfInfo</NAME>
               <VERSIONS>
                 <VERSION>2.70</VERSION>
                 <VERSION>2.71</VERSION>
@@ -3257,7 +3257,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x67346A2A</NID>
-              <NAME>sceNetAdhoc_lib_67346A2A</NAME>
+              <NAME>sceNetAdhocPdpRecvWithRfInfo</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>

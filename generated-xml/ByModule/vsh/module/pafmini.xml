@@ -992,7 +992,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x15947A70</NID>
-              <NAME>scePaf_15947A70</NAME>
+              <NAME>_ZN3paf8PhXmItem11PlayerStartEff</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
               </VERSIONS>
@@ -2987,7 +2987,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x359CBCAF</NID>
-              <NAME>scePaf_359CBCAF</NAME>
+              <NAME>_ZN3paf7Surface4LockEv</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -3702,7 +3702,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x40B21F4F</NID>
-              <NAME>scePaf_40B21F4F</NAME>
+              <NAME>_ZN3paf8PhXmList9InfoEnterEff</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -4805,7 +4805,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x501E9BC9</NID>
-              <NAME>scePaf_501E9BC9</NAME>
+              <NAME>_ZN3paf8PhXmList8InfoExitEff</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -11832,7 +11832,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB0FD305A</NID>
-              <NAME>scePaf_B0FD305A</NAME>
+              <NAME>_ZN3paf8PhXmList10InsertItemEi</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -16655,7 +16655,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF1C70408</NID>
-              <NAME>scePaf_F1C70408</NAME>
+              <NAME>_ZN3paf8PhXmList11PlayerStartEf</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
               </VERSIONS>
@@ -17039,7 +17039,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF6AB6655</NID>
-              <NAME>scePaf_F6AB6655</NAME>
+              <NAME>_ZN3paf7PhClock13SetDateFormatEi</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -23415,7 +23415,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC3AD96FE</NID>
-              <NAME>scePaf_C3AD96FE</NAME>
+              <NAME>_ZN3paf10PhMenuList10SetTextureERKNS_12SurfaceRCPtrINS_7SurfaceEEEi</NAME>
               <VERSIONS>
                 <VERSION>2.50</VERSION>
                 <VERSION>2.60</VERSION>
@@ -24013,7 +24013,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x03064559</NID>
-              <NAME>scePaf_03064559</NAME>
+              <NAME>_ZN3paf10PhProgress9StopValueEi</NAME>
               <VERSIONS>
                 <VERSION>2.80</VERSION>
                 <VERSION>2.81</VERSION>
@@ -24030,7 +24030,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2D0E2A03</NID>
-              <NAME>scePaf_2D0E2A03</NAME>
+              <NAME>_ZN3paf8PhXmList15ProgressLineSetEif</NAME>
               <VERSIONS>
                 <VERSION>2.80</VERSION>
                 <VERSION>2.81</VERSION>
@@ -24098,7 +24098,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5A99AE67</NID>
-              <NAME>scePaf_5A99AE67</NAME>
+              <NAME>_ZN3paf10PhMenuList10SetItemNumEi</NAME>
               <VERSIONS>
                 <VERSION>2.80</VERSION>
                 <VERSION>2.81</VERSION>
@@ -24183,7 +24183,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x85696453</NID>
-              <NAME>scePaf_85696453</NAME>
+              <NAME>_ZN3paf10PhProgress8GetValueEi</NAME>
               <VERSIONS>
                 <VERSION>2.80</VERSION>
                 <VERSION>2.81</VERSION>
@@ -24228,7 +24228,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3A4DA05B</NID>
-              <NAME>scePaf_3A4DA05B</NAME>
+              <NAME>png_set_add_alpha</NAME>
               <VERSIONS>
                 <VERSION>3.00</VERSION>
                 <VERSION>3.01</VERSION>
@@ -24502,7 +24502,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x92AAF5DF</NID>
-              <NAME>scePaf_92AAF5DF</NAME>
+              <NAME>_ZN3paf7PhXmBar8ShowListEi</NAME>
               <VERSIONS>
                 <VERSION>3.10</VERSION>
                 <VERSION>3.11</VERSION>
@@ -24522,7 +24522,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x97FBA635</NID>
-              <NAME>scePaf_97FBA635</NAME>
+              <NAME>_ZN3paf7PhXmBar8HideListEi</NAME>
               <VERSIONS>
                 <VERSION>3.10</VERSION>
                 <VERSION>3.11</VERSION>
@@ -24542,7 +24542,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBED6EA9E</NID>
-              <NAME>scePaf_BED6EA9E</NAME>
+              <NAME>_ZN3paf7PhClock9SetFormatEiii</NAME>
               <VERSIONS>
                 <VERSION>3.10</VERSION>
                 <VERSION>3.11</VERSION>
@@ -181137,7 +181137,7 @@
             </VARIABLE>
             <VARIABLE>
               <NID>0x5CE4C6C9</NID>
-              <NAME>scePaf_5CE4C6C9</NAME>
+              <NAME>_ZTVN3paf7PhSPrimE</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -181165,7 +181165,7 @@
             </VARIABLE>
             <VARIABLE>
               <NID>0x56855329</NID>
-              <NAME>scePaf_56855329</NAME>
+              <NAME>_ZN3paf13PhApplication10draw_stateE</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -181193,7 +181193,7 @@
             </VARIABLE>
             <VARIABLE>
               <NID>0xF7912F20</NID>
-              <NAME>scePaf_F7912F20</NAME>
+              <NAME>_ZN3paf13PhApplication14focused_widgetE</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -181221,7 +181221,7 @@
             </VARIABLE>
             <VARIABLE>
               <NID>0x3FC154C6</NID>
-              <NAME>scePaf_3FC154C6</NAME>
+              <NAME>_ZTV10PSJSObject</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -181249,7 +181249,7 @@
             </VARIABLE>
             <VARIABLE>
               <NID>0x92A13795</NID>
-              <NAME>scePaf_92A13795</NAME>
+              <NAME>_ZN10psjsstring18null_psjs_char_strE</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -181277,7 +181277,7 @@
             </VARIABLE>
             <VARIABLE>
               <NID>0xA6F1DBDD</NID>
-              <NAME>scePaf_A6F1DBDD</NAME>
+              <NAME>_ZN3paf6PhFont11error_stateE</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>1.50</VERSION>
@@ -181304,7 +181304,7 @@
             </VARIABLE>
             <VARIABLE>
               <NID>0x281B3AD6</NID>
-              <NAME>scePaf_281B3AD6</NAME>
+              <NAME>_ZN3paf13PhApplication11robust_drawE</NAME>
               <VERSIONS>
                 <VERSION>1.50</VERSION>
                 <VERSION>1.51</VERSION>
@@ -181330,7 +181330,7 @@
             </VARIABLE>
             <VARIABLE>
               <NID>0x241D0B88</NID>
-              <NAME>scePaf_241D0B88</NAME>
+              <NAME>_ZN3paf23MainThreadExclusiveLock2csE</NAME>
               <VERSIONS>
                 <VERSION>1.50</VERSION>
                 <VERSION>1.51</VERSION>
@@ -181356,7 +181356,7 @@
             </VARIABLE>
             <VARIABLE>
               <NID>0xC35080CC</NID>
-              <NAME>scePaf_C35080CC</NAME>
+              <NAME>_ZTVN3paf13MovieResourceE</NAME>
               <VERSIONS>
                 <VERSION>2.50</VERSION>
                 <VERSION>2.60</VERSION>
@@ -181377,7 +181377,7 @@
             </VARIABLE>
             <VARIABLE>
               <NID>0x83C90703</NID>
-              <NAME>scePaf_83C90703</NAME>
+              <NAME>_ZN8PSJSHeap7heap_idE</NAME>
               <VERSIONS>
                 <VERSION>2.50</VERSION>
                 <VERSION>2.60</VERSION>
@@ -181398,7 +181398,7 @@
             </VARIABLE>
             <VARIABLE>
               <NID>0x4EC78B1E</NID>
-              <NAME>scePaf_4EC78B1E</NAME>
+              <NAME>_ZN3paf18MainThreadSyncCall8synccallE</NAME>
               <VERSIONS>
                 <VERSION>2.60</VERSION>
                 <VERSION>2.70</VERSION>

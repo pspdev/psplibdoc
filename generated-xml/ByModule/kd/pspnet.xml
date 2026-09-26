@@ -5802,7 +5802,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6DC71518</NID>
-              <NAME>sceNet_lib_6DC71518</NAME>
+              <NAME>_sce_pspnet_spllock_owner</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -16033,7 +16033,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x384EFE14</NID>
-              <NAME>sceNet_lib_384EFE14</NAME>
+              <NAME>sceNetHmacSha1</NAME>
               <VERSIONS>
                 <VERSION>3.95</VERSION>
                 <VERSION>3.96</VERSION>

@@ -73,7 +73,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0B53CAD8</NID>
-              <NAME>sceAta_driver_0B53CAD8</NAME>
+              <NAME>sceAtaGetByteLimitCount</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x110D3739</NID>
@@ -89,7 +89,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2AE26E08</NID>
-              <NAME>sceAta_driver_2AE26E08</NAME>
+              <NAME>sceAtaSetDescriptorTableIntr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3A61BF97</NID>
@@ -129,7 +129,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6FD8E2AB</NID>
-              <NAME>sceAta_driver_6FD8E2AB</NAME>
+              <NAME>sceAtaDisplayReqSense</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x76C0923D</NID>
@@ -165,11 +165,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xACCEE63F</NID>
-              <NAME>sceAta_driver_ACCEE63F</NAME>
+              <NAME>sceAtaDoSoftResetBit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xACFF7CB5</NID>
-              <NAME>sceAta_driver_ACFF7CB5</NAME>
+              <NAME>sceAtaIsReadableDriveStat</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAE100256</NID>
@@ -4529,7 +4529,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9BA61B49</NID>
-              <NAME>sceImpose_9BA61B49</NAME>
+              <NAME>sceImposeReadSpecialButton</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8F6E3518</NID>
@@ -4632,11 +4632,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7084E72C</NID>
-              <NAME>sceImpose_driver_7084E72C</NAME>
+              <NAME>sceImposeGetSpecialButtonMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9DBCE0C4</NID>
-              <NAME>sceImpose_driver_9DBCE0C4</NAME>
+              <NAME>sceImposeSetSpecialButtonMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8F6E3518</NID>
@@ -5941,11 +5941,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5DCBF455</NID>
-              <NAME>sceVshLftvMw_5DCBF455</NAME>
+              <NAME>EasyRegUtil_Base_getMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x651CA450</NID>
-              <NAME>sceVshLftvMw_651CA450</NAME>
+              <NAME>NetAVMgr_setbitrate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x657DD3BE</NID>
@@ -5977,7 +5977,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7C7EE31C</NID>
-              <NAME>sceVshLftvMw_7C7EE31C</NAME>
+              <NAME>TvMgr_ChangeAudioBli</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7CA858EC</NID>
@@ -5997,7 +5997,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8F731E0A</NID>
-              <NAME>sceVshLftvMw_8F731E0A</NAME>
+              <NAME>M_lfxRegisterRendererCallback</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x90C5573D</NID>
@@ -6009,7 +6009,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x948EDB31</NID>
-              <NAME>sceVshLftvMw_948EDB31</NAME>
+              <NAME>uninit_private_stdio</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x95745BE1</NID>
@@ -6021,7 +6021,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA39AF99E</NID>
-              <NAME>sceVshLftvMw_A39AF99E</NAME>
+              <NAME>EasyRegUtil_discovery</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAEAC8F33</NID>
@@ -6029,7 +6029,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB45A02C2</NID>
-              <NAME>sceVshLftvMw_B45A02C2</NAME>
+              <NAME>NetAVMgr_Cleanup</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBA716E6D</NID>
@@ -6037,7 +6037,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC31DB15F</NID>
-              <NAME>sceVshLftvMw_C31DB15F</NAME>
+              <NAME>EasyRegUtil_registration</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC758B54C</NID>
@@ -6077,11 +6077,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFF42F668</NID>
-              <NAME>sceVshLftvMw_FF42F668</NAME>
+              <NAME>NetAVMgr_Init</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFFC9E6E4</NID>
-              <NAME>sceVshLftvMw_FFC9E6E4</NAME>
+              <NAME>EasyRegUtil_Initialize</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x02B90A77</NID>
@@ -7157,11 +7157,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCC920C12</NID>
-              <NAME>sceHttp_CC920C12</NAME>
+              <NAME>sceHttpEnableNagle</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD29163DA</NID>
-              <NAME>sceHttp_D29163DA</NAME>
+              <NAME>sceHttpDisableNagle</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x951D310E</NID>
@@ -9590,7 +9590,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6078F911</NID>
-              <NAME>sceDdr_driver_6078F911</NAME>
+              <NAME>sceDdrReadDllDelay</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x623A233F</NID>
@@ -10802,7 +10802,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB08A4E85</NID>
-              <NAME>sceSysreg_driver_B08A4E85</NAME>
+              <NAME>sceSysregSramAtomicRead</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB21B6CBF</NID>
@@ -11189,7 +11189,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x55F11AF6</NID>
-              <NAME>sceMePower_driver_55F11AF6</NAME>
+              <NAME>sceMePowerSetCpuClockGear</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x579ACEA9</NID>
@@ -11197,11 +11197,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8EBBBBA3</NID>
-              <NAME>sceMePower_driver_8EBBBBA3</NAME>
+              <NAME>sceMePowerSetBusClockGear</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB6FE3E62</NID>
-              <NAME>sceMePower_driver_B6FE3E62</NAME>
+              <NAME>sceMePowerControlDmacplusClock</NAME>
             </FUNCTION>
           </FUNCTIONS>
           <VARIABLES/>
@@ -11327,7 +11327,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x55F11AF6</NID>
-              <NAME>sceMeWrapper_driver_55F11AF6</NAME>
+              <NAME>sceMePowerSetCpuClockGear</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x579ACEA9</NID>
@@ -11335,11 +11335,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8EBBBBA3</NID>
-              <NAME>sceMeWrapper_driver_8EBBBBA3</NAME>
+              <NAME>sceMePowerSetBusClockGear</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB6FE3E62</NID>
-              <NAME>sceMeWrapper_driver_B6FE3E62</NAME>
+              <NAME>sceMePowerControlDmacplusClock</NAME>
             </FUNCTION>
           </FUNCTIONS>
           <VARIABLES/>
@@ -11681,7 +11681,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x531E144B</NID>
-              <NAME>sceMemab_driver_531E144B</NAME>
+              <NAME>sceAdhocBBGMCreateSessionKey</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF94CA9B8</NID>
@@ -13756,7 +13756,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0D8D6A54</NID>
-              <NAME>sceMScm_driver_0D8D6A54</NAME>
+              <NAME>sceMScmQueryMSCMStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x12BD8FEC</NID>
@@ -13764,7 +13764,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x18DD6E90</NID>
-              <NAME>sceMScm_driver_18DD6E90</NAME>
+              <NAME>sceMScmWaitAndEndDMA</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x21183216</NID>
@@ -13808,7 +13808,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4E4C3099</NID>
-              <NAME>sceMScm_driver_4E4C3099</NAME>
+              <NAME>sceMScmIconStartUcode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4E923738</NID>
@@ -13824,7 +13824,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5AB92658</NID>
-              <NAME>sceMScm_driver_5AB92658</NAME>
+              <NAME>sceMScmGetRegisteredCLDMCount</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5BAAB238</NID>
@@ -13840,11 +13840,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6F4F7E4C</NID>
-              <NAME>sceMScm_driver_6F4F7E4C</NAME>
+              <NAME>sceMScmIconStopUcode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7B5396BA</NID>
-              <NAME>sceMScm_driver_7B5396BA</NAME>
+              <NAME>sceMScmSetPullDownReg</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x907D7766</NID>
@@ -13864,11 +13864,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB01C378C</NID>
-              <NAME>sceMScm_driver_B01C378C</NAME>
+              <NAME>sceMScmClearALEvents</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB1D1C718</NID>
-              <NAME>sceMScm_driver_B1D1C718</NAME>
+              <NAME>sceMScmSetHCTransferMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBE455B5D</NID>
@@ -13876,7 +13876,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC003705D</NID>
-              <NAME>sceMScm_driver_C003705D</NAME>
+              <NAME>sceMScmIconLoadUcode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCBB2BF6F</NID>
@@ -13884,7 +13884,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCFD8F662</NID>
-              <NAME>sceMScm_driver_CFD8F662</NAME>
+              <NAME>sceMScmIconResetIcon</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD6DB3199</NID>
@@ -13896,7 +13896,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE24B5D0C</NID>
-              <NAME>sceMScm_driver_E24B5D0C</NAME>
+              <NAME>sceMScmHCSetBusyCount</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEF42A4A3</NID>
@@ -13904,11 +13904,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF0CC24D1</NID>
-              <NAME>sceMScm_driver_F0CC24D1</NAME>
+              <NAME>sceMScmSetPullDownRegByDesc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF1133DAF</NID>
-              <NAME>sceMScm_driver_F1133DAF</NAME>
+              <NAME>sceMScmTPCSetRWRegAdrs</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF1924A06</NID>
@@ -27901,7 +27901,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6DC71518</NID>
-              <NAME>sceNet_lib_6DC71518</NAME>
+              <NAME>_sce_pspnet_spllock_owner</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x701DDDC3</NID>
@@ -28389,7 +28389,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x67346A2A</NID>
-              <NAME>sceNetAdhoc_67346A2A</NAME>
+              <NAME>sceNetAdhocPdpRecvWithRfInfo</NAME>
             </FUNCTION>
           </FUNCTIONS>
           <VARIABLES/>
@@ -28408,7 +28408,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x67346A2A</NID>
-              <NAME>sceNetAdhoc_lib_67346A2A</NAME>
+              <NAME>sceNetAdhocPdpRecvWithRfInfo</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAF6DFB15</NID>
@@ -28452,7 +28452,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x1F9A90B8</NID>
-              <NAME>sceNetAdhocAuth_driver_1F9A90B8</NAME>
+              <NAME>_sce_pspnet_adhoc_prp_get_addr_by_name</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2AD8C677</NID>
@@ -28472,7 +28472,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x76F26AB0</NID>
-              <NAME>sceNetAdhocAuth_driver_76F26AB0</NAME>
+              <NAME>_sce_pspnet_adhoc_prp_get_name_by_addr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x86004235</NID>
@@ -28515,7 +28515,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x1F9A90B8</NID>
-              <NAME>sceNetAdhocAuth_lib_1F9A90B8</NAME>
+              <NAME>_sce_pspnet_adhoc_prp_get_addr_by_name</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2AD8C677</NID>
@@ -28535,7 +28535,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x76F26AB0</NID>
-              <NAME>sceNetAdhocAuth_lib_76F26AB0</NAME>
+              <NAME>_sce_pspnet_adhoc_prp_get_name_by_addr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x86004235</NID>
@@ -29105,7 +29105,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF8BABD85</NID>
-              <NAME>sceNetAdhocctl_lib_F8BABD85</NAME>
+              <NAME>sceNetAdhocctlAddInternalHandler</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCDEA7ACB</NID>
@@ -29113,7 +29113,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1572422C</NID>
-              <NAME>sceNetAdhocctl_lib_1572422C</NAME>
+              <NAME>sceNetAdhocctlRequestSuspend</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1A2B6D03</NID>
@@ -29121,7 +29121,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF6057CC4</NID>
-              <NAME>sceNetAdhocctl_lib_F6057CC4</NAME>
+              <NAME>sceNetAdhocctlHostDiscoverStart</NAME>
             </FUNCTION>
           </FUNCTIONS>
           <VARIABLES/>
@@ -29193,11 +29193,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6F5D2981</NID>
-              <NAME>sceNetApctl_6F5D2981</NAME>
+              <NAME>sceNetApctlDelInternal03Handler</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA7BB73DF</NID>
-              <NAME>sceNetApctl_A7BB73DF</NAME>
+              <NAME>sceNetApctlAddInternal03Handler</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE9B2E5E6</NID>
@@ -29411,15 +29411,15 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1D023504</NID>
-              <NAME>sceNetInet_1D023504</NAME>
+              <NAME>sceNetInetGetArpInfo</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2D5868C0</NID>
-              <NAME>sceNetInet_2D5868C0</NAME>
+              <NAME>sceNetInetDelArp</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCCC18C45</NID>
-              <NAME>sceNetInet_CCC18C45</NAME>
+              <NAME>sceNetInetAddArp</NAME>
             </FUNCTION>
           </FUNCTIONS>
           <VARIABLES/>
@@ -29446,7 +29446,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4C13BE10</NID>
-              <NAME>sceNetInet_lib_4C13BE10</NAME>
+              <NAME>_sce_pspnet_pppoe_term</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4F68DB0E</NID>
@@ -29470,11 +29470,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7CB1D9E3</NID>
-              <NAME>sceNetInet_lib_7CB1D9E3</NAME>
+              <NAME>_sce_pspnet_pppoe_init</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x824CBC6D</NID>
-              <NAME>sceNetInet_lib_824CBC6D</NAME>
+              <NAME>sceNetConfigGetArpInfo</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8FE19FC4</NID>
@@ -29490,7 +29490,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAEE60F84</NID>
-              <NAME>sceNetInet_lib_AEE60F84</NAME>
+              <NAME>_sce_pspnet_ioctl_wait</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB3FF98EB</NID>
@@ -29506,7 +29506,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDE9E5174</NID>
-              <NAME>sceNetInet_lib_DE9E5174</NAME>
+              <NAME>sceNetConfigFlushArp</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE6F67D14</NID>
@@ -34119,7 +34119,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3DCFAA71</NID>
-              <NAME>sceUmdMan_driver_3DCFAA71</NAME>
+              <NAME>sceUmdManTaskIsInQueue</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4217E7F5</NID>
@@ -34135,7 +34135,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9814DCF3</NID>
-              <NAME>sceUmdMan_driver_9814DCF3</NAME>
+              <NAME>sceUmdManGetQueueingTask</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9F106F73</NID>
@@ -34147,7 +34147,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBD13A488</NID>
-              <NAME>sceUmdMan_driver_BD13A488</NAME>
+              <NAME>sceUmdManGetProcessingTaskId</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBF8AED79</NID>
@@ -34538,7 +34538,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2A100C1F</NID>
-              <NAME>sceUsbAcc_internal_2A100C1F</NAME>
+              <NAME>sceUsbAccIntrInReq</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2E251404</NID>

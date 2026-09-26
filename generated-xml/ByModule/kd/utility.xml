@@ -7437,7 +7437,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x06AE20E5</NID>
-              <NAME>sceUtility_private_06AE20E5</NAME>
+              <NAME>sceUtilityDialogCtrlGetSamplingMode</NAME>
               <VERSIONS>
                 <VERSION>2.60</VERSION>
                 <VERSION>2.70</VERSION>
@@ -7517,7 +7517,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE921B59E</NID>
-              <NAME>sceUtility_private_E921B59E</NAME>
+              <NAME>sceUtilityDialogCtrlSetSamplingMode</NAME>
               <VERSIONS>
                 <VERSION>2.60</VERSION>
                 <VERSION>2.70</VERSION>

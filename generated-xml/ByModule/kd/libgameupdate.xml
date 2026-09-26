@@ -12,7 +12,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x381CB9B3</NID>
-              <NAME>sceGameUpdate_381CB9B3</NAME>
+              <NAME>sceGameUpdateInitInternal</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -79,7 +79,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3EBB6055</NID>
-              <NAME>sceGameUpdate_3EBB6055</NAME>
+              <NAME>sceGameUpdateRunInternal</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>

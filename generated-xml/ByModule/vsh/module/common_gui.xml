@@ -212,7 +212,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5C161337</NID>
-              <NAME>sceVshCommonGui_5C161337</NAME>
+              <NAME>_ZN3vsh14GetString_BackE6Locale</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -379,7 +379,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7C7B935B</NID>
-              <NAME>sceVshCommonGui_7C7B935B</NAME>
+              <NAME>_ZN3vsh10OptionMenu10SetItemNumEi</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -407,7 +407,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7DB9C54A</NID>
-              <NAME>sceVshCommonGui_7DB9C54A</NAME>
+              <NAME>_ZN3vsh16GetString_OptionE6Locale</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -538,7 +538,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA0334323</NID>
-              <NAME>sceVshCommonGui_A0334323</NAME>
+              <NAME>_ZN3vsh13Infobar_CloseEv</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
               </VERSIONS>
@@ -799,7 +799,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE9930C29</NID>
-              <NAME>sceVshCommonGui_E9930C29</NAME>
+              <NAME>_ZN3vsh15GetString_EnterE6Locale</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>

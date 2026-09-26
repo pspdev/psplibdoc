@@ -2886,7 +2886,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF8BABD85</NID>
-              <NAME>sceNetAdhocctl_lib_F8BABD85</NAME>
+              <NAME>sceNetAdhocctlAddInternalHandler</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>1.50</VERSION>
@@ -3115,7 +3115,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1572422C</NID>
-              <NAME>sceNetAdhocctl_lib_1572422C</NAME>
+              <NAME>sceNetAdhocctlRequestSuspend</NAME>
               <VERSIONS>
                 <VERSION>2.60</VERSION>
                 <VERSION>2.70</VERSION>
@@ -3331,7 +3331,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF6057CC4</NID>
-              <NAME>sceNetAdhocctl_lib_F6057CC4</NAME>
+              <NAME>sceNetAdhocctlHostDiscoverStart</NAME>
               <VERSIONS>
                 <VERSION>2.60</VERSION>
                 <VERSION>2.70</VERSION>

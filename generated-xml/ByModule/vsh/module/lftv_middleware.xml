@@ -378,7 +378,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1E1128CD</NID>
-              <NAME>sceVshLftvMw_1E1128CD</NAME>
+              <NAME>TvMgr_Input_Select</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>2.50</VERSION>
@@ -1243,7 +1243,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5DCBF455</NID>
-              <NAME>sceVshLftvMw_5DCBF455</NAME>
+              <NAME>EasyRegUtil_Base_getMode</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>2.50</VERSION>
@@ -1304,7 +1304,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x651CA450</NID>
-              <NAME>sceVshLftvMw_651CA450</NAME>
+              <NAME>NetAVMgr_setbitrate</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>2.50</VERSION>
@@ -1791,7 +1791,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7C7EE31C</NID>
-              <NAME>sceVshLftvMw_7C7EE31C</NAME>
+              <NAME>TvMgr_ChangeAudioBli</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>2.50</VERSION>
@@ -2096,7 +2096,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8F731E0A</NID>
-              <NAME>sceVshLftvMw_8F731E0A</NAME>
+              <NAME>M_lfxRegisterRendererCallback</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>2.50</VERSION>
@@ -2279,7 +2279,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x948EDB31</NID>
-              <NAME>sceVshLftvMw_948EDB31</NAME>
+              <NAME>uninit_private_stdio</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>2.50</VERSION>
@@ -2462,7 +2462,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA39AF99E</NID>
-              <NAME>sceVshLftvMw_A39AF99E</NAME>
+              <NAME>EasyRegUtil_discovery</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>2.50</VERSION>
@@ -2584,7 +2584,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB45A02C2</NID>
-              <NAME>sceVshLftvMw_B45A02C2</NAME>
+              <NAME>NetAVMgr_Cleanup</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>2.50</VERSION>
@@ -2706,7 +2706,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC31DB15F</NID>
-              <NAME>sceVshLftvMw_C31DB15F</NAME>
+              <NAME>EasyRegUtil_registration</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>2.50</VERSION>
@@ -3072,7 +3072,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDC43D852</NID>
-              <NAME>sceVshLftvMw_DC43D852</NAME>
+              <NAME>TvMgr_CH_Enter</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>2.50</VERSION>
@@ -3327,7 +3327,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFF42F668</NID>
-              <NAME>sceVshLftvMw_FF42F668</NAME>
+              <NAME>NetAVMgr_Init</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>2.50</VERSION>
@@ -3388,7 +3388,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFFC9E6E4</NID>
-              <NAME>sceVshLftvMw_FFC9E6E4</NAME>
+              <NAME>EasyRegUtil_Initialize</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>2.50</VERSION>

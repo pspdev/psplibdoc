@@ -3283,7 +3283,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7084E72C</NID>
-              <NAME>sceImpose_7084E72C</NAME>
+              <NAME>sceImposeGetSpecialButtonMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x72189C48</NID>
@@ -3303,11 +3303,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9BA61B49</NID>
-              <NAME>sceImpose_9BA61B49</NAME>
+              <NAME>sceImposeReadSpecialButton</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9DBCE0C4</NID>
-              <NAME>sceImpose_9DBCE0C4</NAME>
+              <NAME>sceImposeSetSpecialButtonMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA9884B00</NID>
@@ -10176,11 +10176,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE955E83A</NID>
-              <NAME>sceAac_E955E83A</NAME>
+              <NAME>sceAacLowLevelInit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFA01FCB6</NID>
-              <NAME>sceAac_FA01FCB6</NAME>
+              <NAME>sceAacLowLevelDecode</NAME>
             </FUNCTION>
           </FUNCTIONS>
           <VARIABLES/>
@@ -10822,11 +10822,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x381CB9B3</NID>
-              <NAME>sceGameUpdate_381CB9B3</NAME>
+              <NAME>sceGameUpdateInitInternal</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3EBB6055</NID>
-              <NAME>sceGameUpdate_3EBB6055</NAME>
+              <NAME>sceGameUpdateRunInternal</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x596AD78C</NID>
@@ -11163,11 +11163,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCC920C12</NID>
-              <NAME>sceHttp_CC920C12</NAME>
+              <NAME>sceHttpEnableNagle</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD29163DA</NID>
-              <NAME>sceHttp_D29163DA</NAME>
+              <NAME>sceHttpDisableNagle</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x951D310E</NID>
@@ -12768,11 +12768,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x34243B86</NID>
-              <NAME>sceLibUpdateDL_34243B86</NAME>
+              <NAME>sceUpdateDownloadSetSystemSoftwareVersion</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x36D8F34B</NID>
-              <NAME>sceLibUpdateDL_36D8F34B</NAME>
+              <NAME>sceUpdateDownloadSetUpdateMode</NAME>
             </FUNCTION>
           </FUNCTIONS>
           <VARIABLES/>
@@ -28535,7 +28535,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x384EFE14</NID>
-              <NAME>sceNet_lib_384EFE14</NAME>
+              <NAME>sceNetHmacSha1</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3A0668D5</NID>
@@ -28699,7 +28699,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x67346A2A</NID>
-              <NAME>sceNetAdhoc_67346A2A</NAME>
+              <NAME>sceNetAdhocPdpRecvWithRfInfo</NAME>
             </FUNCTION>
           </FUNCTIONS>
           <VARIABLES/>
@@ -28718,7 +28718,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x67346A2A</NID>
-              <NAME>sceNetAdhoc_lib_67346A2A</NAME>
+              <NAME>sceNetAdhocPdpRecvWithRfInfo</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAF6DFB15</NID>
@@ -28762,7 +28762,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x1F9A90B8</NID>
-              <NAME>sceNetAdhocAuth_driver_1F9A90B8</NAME>
+              <NAME>_sce_pspnet_adhoc_prp_get_addr_by_name</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2AD8C677</NID>
@@ -28782,7 +28782,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x76F26AB0</NID>
-              <NAME>sceNetAdhocAuth_driver_76F26AB0</NAME>
+              <NAME>_sce_pspnet_adhoc_prp_get_name_by_addr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x86004235</NID>
@@ -28825,7 +28825,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x1F9A90B8</NID>
-              <NAME>sceNetAdhocAuth_lib_1F9A90B8</NAME>
+              <NAME>_sce_pspnet_adhoc_prp_get_addr_by_name</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2AD8C677</NID>
@@ -28845,7 +28845,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x76F26AB0</NID>
-              <NAME>sceNetAdhocAuth_lib_76F26AB0</NAME>
+              <NAME>_sce_pspnet_adhoc_prp_get_name_by_addr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x86004235</NID>
@@ -29451,7 +29451,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF8BABD85</NID>
-              <NAME>sceNetAdhocctl_lib_F8BABD85</NAME>
+              <NAME>sceNetAdhocctlAddInternalHandler</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCDEA7ACB</NID>
@@ -29459,7 +29459,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1572422C</NID>
-              <NAME>sceNetAdhocctl_lib_1572422C</NAME>
+              <NAME>sceNetAdhocctlRequestSuspend</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1A2B6D03</NID>
@@ -29467,7 +29467,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF6057CC4</NID>
-              <NAME>sceNetAdhocctl_lib_F6057CC4</NAME>
+              <NAME>sceNetAdhocctlHostDiscoverStart</NAME>
             </FUNCTION>
           </FUNCTIONS>
           <VARIABLES/>
@@ -29539,11 +29539,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6F5D2981</NID>
-              <NAME>sceNetApctl_6F5D2981</NAME>
+              <NAME>sceNetApctlDelInternal03Handler</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA7BB73DF</NID>
-              <NAME>sceNetApctl_A7BB73DF</NAME>
+              <NAME>sceNetApctlAddInternal03Handler</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE9B2E5E6</NID>
@@ -29800,15 +29800,15 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1D023504</NID>
-              <NAME>sceNetInet_1D023504</NAME>
+              <NAME>sceNetInetGetArpInfo</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2D5868C0</NID>
-              <NAME>sceNetInet_2D5868C0</NAME>
+              <NAME>sceNetInetDelArp</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCCC18C45</NID>
-              <NAME>sceNetInet_CCC18C45</NAME>
+              <NAME>sceNetInetAddArp</NAME>
             </FUNCTION>
           </FUNCTIONS>
           <VARIABLES/>
@@ -29835,7 +29835,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4C13BE10</NID>
-              <NAME>sceNetInet_lib_4C13BE10</NAME>
+              <NAME>_sce_pspnet_pppoe_term</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4F68DB0E</NID>
@@ -29859,11 +29859,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7CB1D9E3</NID>
-              <NAME>sceNetInet_lib_7CB1D9E3</NAME>
+              <NAME>_sce_pspnet_pppoe_init</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x824CBC6D</NID>
-              <NAME>sceNetInet_lib_824CBC6D</NAME>
+              <NAME>sceNetConfigGetArpInfo</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8FE19FC4</NID>
@@ -29879,7 +29879,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAEE60F84</NID>
-              <NAME>sceNetInet_lib_AEE60F84</NAME>
+              <NAME>_sce_pspnet_ioctl_wait</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB3FF98EB</NID>
@@ -29895,7 +29895,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDE9E5174</NID>
-              <NAME>sceNetInet_lib_DE9E5174</NAME>
+              <NAME>sceNetConfigFlushArp</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE6F67D14</NID>
@@ -33602,7 +33602,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2A100C1F</NID>
-              <NAME>sceUsbAcc_internal_2A100C1F</NAME>
+              <NAME>sceUsbAccIntrInReq</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2E251404</NID>

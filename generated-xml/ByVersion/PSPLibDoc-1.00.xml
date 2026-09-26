@@ -24,7 +24,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0B53CAD8</NID>
-              <NAME>sceAta_driver_0B53CAD8</NAME>
+              <NAME>sceAtaGetByteLimitCount</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x110D3739</NID>
@@ -52,7 +52,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2AE26E08</NID>
-              <NAME>sceAta_driver_2AE26E08</NAME>
+              <NAME>sceAtaSetDescriptorTableIntr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2E32045A</NID>
@@ -104,7 +104,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6FD8E2AB</NID>
-              <NAME>sceAta_driver_6FD8E2AB</NAME>
+              <NAME>sceAtaDisplayReqSense</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x76C0923D</NID>
@@ -160,11 +160,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xACCEE63F</NID>
-              <NAME>sceAta_driver_ACCEE63F</NAME>
+              <NAME>sceAtaDoSoftResetBit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xACFF7CB5</NID>
-              <NAME>sceAta_driver_ACFF7CB5</NAME>
+              <NAME>sceAtaIsReadableDriveStat</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAE100256</NID>
@@ -646,7 +646,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA86B6778</NID>
-              <NAME>sceBLK_driver_A86B6778</NAME>
+              <NAME>sceBLKInvalidateDeviceName</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDC4A18BC</NID>
@@ -1034,7 +1034,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5C161337</NID>
-              <NAME>sceVshCommonGui_5C161337</NAME>
+              <NAME>_ZN3vsh14GetString_BackE6Locale</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5D36BCE6</NID>
@@ -1070,11 +1070,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7C7B935B</NID>
-              <NAME>sceVshCommonGui_7C7B935B</NAME>
+              <NAME>_ZN3vsh10OptionMenu10SetItemNumEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7DB9C54A</NID>
-              <NAME>sceVshCommonGui_7DB9C54A</NAME>
+              <NAME>_ZN3vsh16GetString_OptionE6Locale</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x80271F41</NID>
@@ -1102,7 +1102,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA0334323</NID>
-              <NAME>sceVshCommonGui_A0334323</NAME>
+              <NAME>_ZN3vsh13Infobar_CloseEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA06734FF</NID>
@@ -1154,7 +1154,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE9930C29</NID>
-              <NAME>sceVshCommonGui_E9930C29</NAME>
+              <NAME>_ZN3vsh15GetString_EnterE6Locale</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEEB86F0E</NID>
@@ -1275,7 +1275,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4DE8BDCB</NID>
-              <NAME>sceVshCommonUtil_4DE8BDCB</NAME>
+              <NAME>_ZN3vsh9PowerLockC1Ev</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x53120F49</NID>
@@ -1397,7 +1397,7 @@
           <VARIABLES>
             <VARIABLE>
               <NID>0xDBD6B255</NID>
-              <NAME>sceVshCommonUtil_DBD6B255</NAME>
+              <NAME>_ZN3vsh14registry_cacheE</NAME>
             </VARIABLE>
           </VARIABLES>
         </LIBRARY>
@@ -2220,7 +2220,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6078F911</NID>
-              <NAME>sceDdr_driver_6078F911</NAME>
+              <NAME>sceDdrReadDllDelay</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x623A233F</NID>
@@ -5865,7 +5865,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1A2485D2</NID>
-              <NAME>sceUmd_1A2485D2</NAME>
+              <NAME>sceUmdUseUMDDetectIntr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1FB77367</NID>
@@ -5893,7 +5893,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3BA4EC53</NID>
-              <NAME>sceUmd_3BA4EC53</NAME>
+              <NAME>sceUmdUnuseUMDDetectIntr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3D0DECD5</NID>
@@ -7283,7 +7283,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0D8D6A54</NID>
-              <NAME>sceMScm_driver_0D8D6A54</NAME>
+              <NAME>sceMScmQueryMSCMStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x12BD8FEC</NID>
@@ -7291,7 +7291,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x18DD6E90</NID>
-              <NAME>sceMScm_driver_18DD6E90</NAME>
+              <NAME>sceMScmWaitAndEndDMA</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x21183216</NID>
@@ -7335,7 +7335,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4E4C3099</NID>
-              <NAME>sceMScm_driver_4E4C3099</NAME>
+              <NAME>sceMScmIconStartUcode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4E923738</NID>
@@ -7351,7 +7351,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5AB92658</NID>
-              <NAME>sceMScm_driver_5AB92658</NAME>
+              <NAME>sceMScmGetRegisteredCLDMCount</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5BAAB238</NID>
@@ -7367,11 +7367,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6F4F7E4C</NID>
-              <NAME>sceMScm_driver_6F4F7E4C</NAME>
+              <NAME>sceMScmIconStopUcode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7B5396BA</NID>
-              <NAME>sceMScm_driver_7B5396BA</NAME>
+              <NAME>sceMScmSetPullDownReg</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x907D7766</NID>
@@ -7391,11 +7391,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB01C378C</NID>
-              <NAME>sceMScm_driver_B01C378C</NAME>
+              <NAME>sceMScmClearALEvents</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB1D1C718</NID>
-              <NAME>sceMScm_driver_B1D1C718</NAME>
+              <NAME>sceMScmSetHCTransferMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBE455B5D</NID>
@@ -7403,7 +7403,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC003705D</NID>
-              <NAME>sceMScm_driver_C003705D</NAME>
+              <NAME>sceMScmIconLoadUcode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCBB2BF6F</NID>
@@ -7411,7 +7411,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCFD8F662</NID>
-              <NAME>sceMScm_driver_CFD8F662</NAME>
+              <NAME>sceMScmIconResetIcon</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD6DB3199</NID>
@@ -7423,7 +7423,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE24B5D0C</NID>
-              <NAME>sceMScm_driver_E24B5D0C</NAME>
+              <NAME>sceMScmHCSetBusyCount</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEF42A4A3</NID>
@@ -7431,11 +7431,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF0CC24D1</NID>
-              <NAME>sceMScm_driver_F0CC24D1</NAME>
+              <NAME>sceMScmSetPullDownRegByDesc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF1133DAF</NID>
-              <NAME>sceMScm_driver_F1133DAF</NAME>
+              <NAME>sceMScmTPCSetRWRegAdrs</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF1924A06</NID>
@@ -7853,7 +7853,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x15947A70</NID>
-              <NAME>scePaf_15947A70</NAME>
+              <NAME>_ZN3paf8PhXmItem11PlayerStartEff</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x15EF8E18</NID>
@@ -8141,7 +8141,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x359CBCAF</NID>
-              <NAME>scePaf_359CBCAF</NAME>
+              <NAME>_ZN3paf7Surface4LockEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x35F003C0</NID>
@@ -8245,7 +8245,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x40B21F4F</NID>
-              <NAME>scePaf_40B21F4F</NAME>
+              <NAME>_ZN3paf8PhXmList9InfoEnterEff</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x40C95283</NID>
@@ -8405,7 +8405,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x501E9BC9</NID>
-              <NAME>scePaf_501E9BC9</NAME>
+              <NAME>_ZN3paf8PhXmList8InfoExitEff</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x503BA324</NID>
@@ -9417,7 +9417,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB0FD305A</NID>
-              <NAME>scePaf_B0FD305A</NAME>
+              <NAME>_ZN3paf8PhXmList10InsertItemEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB104EC1B</NID>
@@ -10117,7 +10117,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF1C70408</NID>
-              <NAME>scePaf_F1C70408</NAME>
+              <NAME>_ZN3paf8PhXmList11PlayerStartEf</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF1CF9579</NID>
@@ -10177,7 +10177,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF6AB6655</NID>
-              <NAME>scePaf_F6AB6655</NAME>
+              <NAME>_ZN3paf7PhClock13SetDateFormatEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF6F3E99E</NID>
@@ -10303,15 +10303,15 @@
             </VARIABLE>
             <VARIABLE>
               <NID>0x3FC154C6</NID>
-              <NAME>scePaf_3FC154C6</NAME>
+              <NAME>_ZTV10PSJSObject</NAME>
             </VARIABLE>
             <VARIABLE>
               <NID>0x56855329</NID>
-              <NAME>scePaf_56855329</NAME>
+              <NAME>_ZN3paf13PhApplication10draw_stateE</NAME>
             </VARIABLE>
             <VARIABLE>
               <NID>0x5CE4C6C9</NID>
-              <NAME>scePaf_5CE4C6C9</NAME>
+              <NAME>_ZTVN3paf7PhSPrimE</NAME>
             </VARIABLE>
             <VARIABLE>
               <NID>0x7C94404D</NID>
@@ -10319,11 +10319,11 @@
             </VARIABLE>
             <VARIABLE>
               <NID>0x92A13795</NID>
-              <NAME>scePaf_92A13795</NAME>
+              <NAME>_ZN10psjsstring18null_psjs_char_strE</NAME>
             </VARIABLE>
             <VARIABLE>
               <NID>0xF7912F20</NID>
-              <NAME>scePaf_F7912F20</NAME>
+              <NAME>_ZN3paf13PhApplication14focused_widgetE</NAME>
             </VARIABLE>
           </VARIABLES>
         </LIBRARY>
@@ -10499,7 +10499,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x15947A70</NID>
-              <NAME>scePaf_15947A70</NAME>
+              <NAME>_ZN3paf8PhXmItem11PlayerStartEff</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x15EF8E18</NID>
@@ -10787,7 +10787,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x359CBCAF</NID>
-              <NAME>scePaf_359CBCAF</NAME>
+              <NAME>_ZN3paf7Surface4LockEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x35F003C0</NID>
@@ -10891,7 +10891,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x40B21F4F</NID>
-              <NAME>scePaf_40B21F4F</NAME>
+              <NAME>_ZN3paf8PhXmList9InfoEnterEff</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x40C95283</NID>
@@ -11051,7 +11051,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x501E9BC9</NID>
-              <NAME>scePaf_501E9BC9</NAME>
+              <NAME>_ZN3paf8PhXmList8InfoExitEff</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x503BA324</NID>
@@ -12063,7 +12063,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB0FD305A</NID>
-              <NAME>scePaf_B0FD305A</NAME>
+              <NAME>_ZN3paf8PhXmList10InsertItemEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB104EC1B</NID>
@@ -12763,7 +12763,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF1C70408</NID>
-              <NAME>scePaf_F1C70408</NAME>
+              <NAME>_ZN3paf8PhXmList11PlayerStartEf</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF1CF9579</NID>
@@ -12823,7 +12823,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF6AB6655</NID>
-              <NAME>scePaf_F6AB6655</NAME>
+              <NAME>_ZN3paf7PhClock13SetDateFormatEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF6F3E99E</NID>
@@ -12949,15 +12949,15 @@
             </VARIABLE>
             <VARIABLE>
               <NID>0x3FC154C6</NID>
-              <NAME>scePaf_3FC154C6</NAME>
+              <NAME>_ZTV10PSJSObject</NAME>
             </VARIABLE>
             <VARIABLE>
               <NID>0x56855329</NID>
-              <NAME>scePaf_56855329</NAME>
+              <NAME>_ZN3paf13PhApplication10draw_stateE</NAME>
             </VARIABLE>
             <VARIABLE>
               <NID>0x5CE4C6C9</NID>
-              <NAME>scePaf_5CE4C6C9</NAME>
+              <NAME>_ZTVN3paf7PhSPrimE</NAME>
             </VARIABLE>
             <VARIABLE>
               <NID>0x7C94404D</NID>
@@ -12965,11 +12965,11 @@
             </VARIABLE>
             <VARIABLE>
               <NID>0x92A13795</NID>
-              <NAME>scePaf_92A13795</NAME>
+              <NAME>_ZN10psjsstring18null_psjs_char_strE</NAME>
             </VARIABLE>
             <VARIABLE>
               <NID>0xF7912F20</NID>
-              <NAME>scePaf_F7912F20</NAME>
+              <NAME>_ZN3paf13PhApplication14focused_widgetE</NAME>
             </VARIABLE>
           </VARIABLES>
         </LIBRARY>
@@ -13661,7 +13661,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6DC71518</NID>
-              <NAME>sceNet_lib_6DC71518</NAME>
+              <NAME>_sce_pspnet_spllock_owner</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x701DDDC3</NID>
@@ -14049,7 +14049,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x67346A2A</NID>
-              <NAME>sceNetAdhoc_lib_67346A2A</NAME>
+              <NAME>sceNetAdhocPdpRecvWithRfInfo</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAF6DFB15</NID>
@@ -14090,7 +14090,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x1F9A90B8</NID>
-              <NAME>sceNetAdhocAuth_driver_1F9A90B8</NAME>
+              <NAME>_sce_pspnet_adhoc_prp_get_addr_by_name</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2AD8C677</NID>
@@ -14110,7 +14110,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x76F26AB0</NID>
-              <NAME>sceNetAdhocAuth_driver_76F26AB0</NAME>
+              <NAME>_sce_pspnet_adhoc_prp_get_name_by_addr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x86004235</NID>
@@ -14133,7 +14133,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x1F9A90B8</NID>
-              <NAME>sceNetAdhocAuth_lib_1F9A90B8</NAME>
+              <NAME>_sce_pspnet_adhoc_prp_get_addr_by_name</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2AD8C677</NID>
@@ -14153,7 +14153,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x76F26AB0</NID>
-              <NAME>sceNetAdhocAuth_lib_76F26AB0</NAME>
+              <NAME>_sce_pspnet_adhoc_prp_get_name_by_addr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x86004235</NID>
@@ -14804,7 +14804,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4C13BE10</NID>
-              <NAME>sceNetInet_lib_4C13BE10</NAME>
+              <NAME>_sce_pspnet_pppoe_term</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4F68DB0E</NID>
@@ -14828,11 +14828,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7CB1D9E3</NID>
-              <NAME>sceNetInet_lib_7CB1D9E3</NAME>
+              <NAME>_sce_pspnet_pppoe_init</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x824CBC6D</NID>
-              <NAME>sceNetInet_lib_824CBC6D</NAME>
+              <NAME>sceNetConfigGetArpInfo</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8FE19FC4</NID>
@@ -14848,7 +14848,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAEE60F84</NID>
-              <NAME>sceNetInet_lib_AEE60F84</NAME>
+              <NAME>_sce_pspnet_ioctl_wait</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB3FF98EB</NID>
@@ -14864,7 +14864,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDE9E5174</NID>
-              <NAME>sceNetInet_lib_DE9E5174</NAME>
+              <NAME>sceNetConfigFlushArp</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE6F67D14</NID>
@@ -19354,7 +19354,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC1D7C860</NID>
-              <NAME>sceUmdMan_driver_C1D7C860</NAME>
+              <NAME>sceUmdManGetXferStat</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC4A99D78</NID>
@@ -20773,7 +20773,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB8C7406A</NID>
-              <NAME>sceVshBridge_B8C7406A</NAME>
+              <NAME>vshSircsSend</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC58D0939</NID>
@@ -21011,7 +21011,7 @@
           <VARIABLES>
             <VARIABLE>
               <NID>0x2F25CF15</NID>
-              <NAME>vsh_2F25CF15</NAME>
+              <NAME>_ZTV11PageManager</NAME>
             </VARIABLE>
           </VARIABLES>
         </LIBRARY>

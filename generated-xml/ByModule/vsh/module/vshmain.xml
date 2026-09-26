@@ -16973,7 +16973,7 @@
             </VARIABLE>
             <VARIABLE>
               <NID>0x2F25CF15</NID>
-              <NAME>vsh_2F25CF15</NAME>
+              <NAME>_ZTV11PageManager</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>

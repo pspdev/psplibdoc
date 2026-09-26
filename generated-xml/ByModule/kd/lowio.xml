@@ -85,7 +85,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6078F911</NID>
-              <NAME>sceDdr_driver_6078F911</NAME>
+              <NAME>sceDdrReadDllDelay</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
@@ -14613,7 +14613,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB08A4E85</NID>
-              <NAME>sceSysreg_driver_B08A4E85</NAME>
+              <NAME>sceSysregSramAtomicRead</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
