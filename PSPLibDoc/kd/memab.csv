@@ -10,7 +10,7 @@ sceMemab_driver,fun,DC598EF3,sceAdhocBBAuth2,matching
 sceMemab_driver,fun,E6D3ACE2,sceMemab_driver_E6D3ACE2,
 sceMemab_driver,fun,F1D2B9B0,sceMemab_driver_F1D2B9B0,
 sceMemab_driver,fun,34EBFB6A,sceAdhocBBGMDecrypt,matching
-sceMemab_driver,fun,531E144B,sceMemab_driver_531E144B,
+sceMemab_driver,fun,531E144B,sceAdhocBBGMCreateSessionKey,matching
 sceMemab_driver,fun,F94CA9B8,sceAdhocBBGMEncrypt,matching
 syslib,fun,D632ACDB,module_start,matching
 syslib,fun,CEE8593C,module_stop,matching

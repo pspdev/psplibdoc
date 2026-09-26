@@ -4,7 +4,7 @@ sceUsbAcc_driver,fun,0CD7D4AA,sceUsbAccGetInfo,matching
 sceUsbAcc_driver,fun,79A1C743,sceUsbAccGetAuthStat,matching
 sceUsbAcc_internal,fun,0CD7D4AA,sceUsbAccGetInfo,matching
 sceUsbAcc_internal,fun,18B04C82,sceUsbAccUnregisterType,matching
-sceUsbAcc_internal,fun,2A100C1F,sceUsbAcc_internal_2A100C1F,
+sceUsbAcc_internal,fun,2A100C1F,sceUsbAccIntrInReq,matching
 sceUsbAcc_internal,fun,2E251404,sceUsbAccRegisterType,matching
 sceUsbAcc_internal,fun,79A1C743,sceUsbAccGetAuthStat,matching
 syslib,fun,D632ACDB,module_start,matching

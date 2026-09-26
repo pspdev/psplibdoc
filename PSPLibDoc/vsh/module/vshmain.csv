@@ -127,4 +127,4 @@ vsh,fun,9021C976,vsh_9021C976,
 vsh,fun,BC0B92B0,vsh_BC0B92B0,
 vsh,fun,DBC3F7AD,vsh_DBC3F7AD,
 vsh,fun,F63A468F,vsh_F63A468F,
-vsh,var,2F25CF15,vsh_2F25CF15,
+vsh,var,2F25CF15,_ZTV11PageManager,matching

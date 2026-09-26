@@ -1,14 +1,14 @@
 sceAta_driver,fun,010F750B,sceAtaExecSetFeaturesCmd,matching
 sceAta_driver,fun,01248DA2,sceAtaAhbClearIntr,matching
 sceAta_driver,fun,071D3D4D,sceAtaTerm,matching
-sceAta_driver,fun,0B53CAD8,sceAta_driver_0B53CAD8,
+sceAta_driver,fun,0B53CAD8,sceAtaGetByteLimitCount,matching
 sceAta_driver,fun,110D3739,sceAtaSetDriveStat,matching
 sceAta_driver,fun,1C8DA2FD,sceAtaSetDeviceIntr,matching
 sceAta_driver,fun,1DF6C4D2,sceAtaExecCmd,matching
 sceAta_driver,fun,1E6202F8,sceAtaAhbGetIntrMask,matching
 sceAta_driver,fun,1F05F48C,sceAtaCheckXferReady,matching
 sceAta_driver,fun,298DDC3D,sceAtaAhbInit,matching
-sceAta_driver,fun,2AE26E08,sceAta_driver_2AE26E08,
+sceAta_driver,fun,2AE26E08,sceAtaSetDescriptorTableIntr,matching
 sceAta_driver,fun,2E32045A,sceAtaAhbSetIntrMask,matching
 sceAta_driver,fun,322460B6,sceAtaAhbSetAHBCtl,matching
 sceAta_driver,fun,3A61BF97,sceAtaIsNormalDriveStat,matching
@@ -21,7 +21,7 @@ sceAta_driver,fun,638EEA14,sceAta_driver_638EEA14,
 sceAta_driver,fun,689FCB7D,sceAta_driver_689FCB7D,
 sceAta_driver,fun,6C58F096,sceAtaWaitBusBusy1,matching
 sceAta_driver,fun,6E639701,sceAtaScanDevice,matching
-sceAta_driver,fun,6FD8E2AB,sceAta_driver_6FD8E2AB,
+sceAta_driver,fun,6FD8E2AB,sceAtaDisplayReqSense,matching
 sceAta_driver,fun,76C0923D,sceAta_driver_76C0923D,
 sceAta_driver,fun,7BBA095C,sceAtaClearDriveStat,matching
 sceAta_driver,fun,7C6B31D8,sceAtaDisplayIPD,matching
@@ -35,8 +35,8 @@ sceAta_driver,fun,9D98086E,sceAtaSetBusErrorIntr,matching
 sceAta_driver,fun,A62258FD,sceAtaAhbGetRevisionId,matching
 sceAta_driver,fun,AC800B1D,sceAtaDisableClkIo,matching
 sceAta_driver,fun,AC84FF0A,sceAtaAhbSetUDMATiming,matching
-sceAta_driver,fun,ACCEE63F,sceAta_driver_ACCEE63F,
-sceAta_driver,fun,ACFF7CB5,sceAta_driver_ACFF7CB5,
+sceAta_driver,fun,ACCEE63F,sceAtaDoSoftResetBit,matching
+sceAta_driver,fun,ACFF7CB5,sceAtaIsReadableDriveStat,matching
 sceAta_driver,fun,AE100256,sceAtaAhbSetAtaBlock,matching
 sceAta_driver,fun,B176BB2E,sceAtaInit,matching
 sceAta_driver,fun,B5982381,sceAta_driver_B5982381,

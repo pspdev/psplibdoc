@@ -17,8 +17,8 @@ sceMgVideo_driver,fun,F27A69C2,sceMgVideoGetLicenseInfo,matching
 sceMgVideo_driver,fun,F3E7EE9B,sceMgVideoNetBindLicense,matching
 sceMgVideo_driver,fun,F7F9279A,sceMgVideo_driver_F7F9279A,
 sceMgVideo_driver,fun,F80FED94,sceMgVideo_driver_F80FED94,
-sceMgVideo_driver,fun,1A30EF4B,sceMgVideo_driver_1A30EF4B,
-sceMgVideo_driver,fun,26AA0AF7,sceMgVideo_driver_26AA0AF7,
+sceMgVideo_driver,fun,1A30EF4B,sceMgVideoFormatGroupID,matching
+sceMgVideo_driver,fun,26AA0AF7,sceMgVideoCheckGroupID,matching
 sceMgVideo_driver,fun,2C3149A3,sceMgVideo_driver_2C3149A3,
 sceMgVideo_driver,fun,46AF872B,sceMgVideo_driver_46AF872B,
 sceMgVideo_driver,fun,F56A60EC,sceMgVideo_driver_F56A60EC,

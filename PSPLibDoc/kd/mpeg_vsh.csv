@@ -55,7 +55,7 @@ sceMpeg,fun,01977054,sceMpegGetUserdataAu,matching
 sceMpeg,fun,C45C99CC,sceMpegQueryUserdataEsSize,matching
 sceMpeg,fun,AE693D0B,sceMpeg_AE693D0B,
 sceMpeg,fun,D1CE4950,sceMpegAvcCscMode,matching
-sceMpeg,fun,E49EB257,sceMpeg_E49EB257,
+sceMpeg,fun,E49EB257,sceMpegAvcCscInfoInit,matching
 sceMpeg,fun,E95838F6,sceMpegAvcCscInfo,matching
 sceMpeg,fun,42C679F6,sceMpeg_42C679F6,
 sceMpeg,fun,75E21135,sceMpeg_75E21135,

@@ -3,7 +3,7 @@ sceDdr_driver,fun,17D39E17,sceDdrInit,matching
 sceDdr_driver,fun,286E1372,sceDdrSetPowerDownCounter,matching
 sceDdr_driver,fun,4CE55E76,sceDdrChangePllClock,matching
 sceDdr_driver,fun,5B5831E5,sceDdr_driver_5B5831E5,
-sceDdr_driver,fun,6078F911,sceDdr_driver_6078F911,
+sceDdr_driver,fun,6078F911,sceDdrReadDllDelay,matching
 sceDdr_driver,fun,623A233F,sceDdrSuspend,matching
 sceDdr_driver,fun,655A9AB0,sceDdrWriteMaxAllocate,matching
 sceDdr_driver,fun,6955346C,sceDdr_driver_6955346C,

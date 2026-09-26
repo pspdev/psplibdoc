@@ -15,7 +15,7 @@ sceImpose,fun,5595A71A,sceImposeSetHomePopup,matching
 sceImpose,fun,72189C48,sceImposeSetUMDPopup,matching
 sceImpose,fun,8C943191,sceImposeGetBatteryIconStatus,matching
 sceImpose,fun,E0887BC8,sceImposeGetUMDPopup,matching
-sceImpose,fun,9BA61B49,sceImpose_9BA61B49,
+sceImpose,fun,9BA61B49,sceImposeReadSpecialButton,matching
 sceImpose,fun,8F6E3518,sceImposeGetBacklightOffTime,matching
 sceImpose,fun,967F6D4A,sceImposeSetBacklightOffTime,matching
 sceImpose,fun,A9884B00,sceImpose_A9884B00,
@@ -40,8 +40,8 @@ sceImpose_driver,fun,5595A71A,sceImposeSetHomePopup,matching
 sceImpose_driver,fun,72189C48,sceImposeSetUMDPopup,matching
 sceImpose_driver,fun,8C943191,sceImposeGetBatteryIconStatus,matching
 sceImpose_driver,fun,E0887BC8,sceImposeGetUMDPopup,matching
-sceImpose_driver,fun,7084E72C,sceImpose_driver_7084E72C,
-sceImpose_driver,fun,9DBCE0C4,sceImpose_driver_9DBCE0C4,
+sceImpose_driver,fun,7084E72C,sceImposeGetSpecialButtonMode,matching
+sceImpose_driver,fun,9DBCE0C4,sceImposeSetSpecialButtonMode,matching
 sceImpose_driver,fun,8F6E3518,sceImposeGetBacklightOffTime,matching
 sceImpose_driver,fun,967F6D4A,sceImposeSetBacklightOffTime,matching
 sceImpose_driver,fun,116CFF64,sceImposeCheckVideoOut,matching

@@ -13,8 +13,8 @@ sceAac,fun,BBDD6403,sceAacSetLoopNum,matching
 sceAac,fun,D2DA2BBA,sceAacResetPlayPosition,matching
 sceAac,fun,D7C51541,sceAacCheckStreamDataNeeded,matching
 sceAac,fun,E0C89ACA,sceAacInit,matching
-sceAac,fun,E955E83A,sceAac_E955E83A,
-sceAac,fun,FA01FCB6,sceAac_FA01FCB6,
+sceAac,fun,E955E83A,sceAacLowLevelInit,matching
+sceAac,fun,FA01FCB6,sceAacLowLevelDecode,matching
 syslib,fun,D632ACDB,module_start,matching
 syslib,fun,CEE8593C,module_stop,matching
 syslib,var,F01D73A7,module_info,matching

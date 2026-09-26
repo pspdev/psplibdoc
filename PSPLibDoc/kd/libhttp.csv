@@ -73,8 +73,8 @@ sceHttp,fun,DD6E7857,sceHttpSaveAuthList,matching
 sceHttp,fun,F1657B22,sceHttpLoadSystemCookie,matching
 sceHttp,fun,4E4A284A,sceHttpCloneTemplate,matching
 sceHttp,fun,C6330B0D,sceHttpChangeHttpVersion,matching
-sceHttp,fun,CC920C12,sceHttp_CC920C12,
-sceHttp,fun,D29163DA,sceHttp_D29163DA,
+sceHttp,fun,CC920C12,sceHttpEnableNagle,matching
+sceHttp,fun,D29163DA,sceHttpDisableNagle,matching
 sceHttp,fun,951D310E,sceHttpDisableProxyAuth,matching
 sceHttp,fun,CDB0DC58,sceHttpEnableProxyAuth,matching
 sceHttp,fun,C0E69162,sceHttp_C0E69162,

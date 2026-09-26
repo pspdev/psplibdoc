@@ -1,5 +1,5 @@
-sceGameUpdate,fun,381CB9B3,sceGameUpdate_381CB9B3,
-sceGameUpdate,fun,3EBB6055,sceGameUpdate_3EBB6055,
+sceGameUpdate,fun,381CB9B3,sceGameUpdateInitInternal,matching
+sceGameUpdate,fun,3EBB6055,sceGameUpdateRunInternal,matching
 sceGameUpdate,fun,596AD78C,sceGameUpdateRun,matching
 sceGameUpdate,fun,5F5D98A6,sceGameUpdateAbort,matching
 sceGameUpdate,fun,BB4B68DE,sceGameUpdateTerm,matching

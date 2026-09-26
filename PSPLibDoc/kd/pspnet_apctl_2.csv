@@ -5,10 +5,10 @@ sceNetApctl,fun,2BEFDF23,sceNetApctlGetInfo,matching
 sceNetApctl,fun,5963991B,sceNetApctlDelHandler,matching
 sceNetApctl,fun,5DEAC81B,sceNetApctlGetState,matching
 sceNetApctl,fun,6BDDCB8C,sceNetApctlGetBSSDescIDListUser,matching
-sceNetApctl,fun,6F5D2981,sceNetApctl_6F5D2981,
+sceNetApctl,fun,6F5D2981,sceNetApctlDelInternal03Handler,matching
 sceNetApctl,fun,8ABADD51,sceNetApctlAddHandler,matching
 sceNetApctl,fun,A3E77E13,sceNetApctlScanSSID2,matching
-sceNetApctl,fun,A7BB73DF,sceNetApctl_A7BB73DF,
+sceNetApctl,fun,A7BB73DF,sceNetApctlAddInternal03Handler,matching
 sceNetApctl,fun,B3EDD0EC,sceNetApctlTerm,matching
 sceNetApctl,fun,CFB957C6,sceNetApctlConnect,matching
 sceNetApctl,fun,E2F91F9B,sceNetApctlInit,matching

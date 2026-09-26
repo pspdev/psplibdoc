@@ -8,8 +8,8 @@ sceNetApctl,fun,CFB957C6,sceNetApctlConnect,matching
 sceNetApctl,fun,E2F91F9B,sceNetApctlInit,matching
 sceNetApctl,fun,04776994,sceNetApctlGetBSSDescEntryUser,matching
 sceNetApctl,fun,6BDDCB8C,sceNetApctlGetBSSDescIDListUser,matching
-sceNetApctl,fun,6F5D2981,sceNetApctl_6F5D2981,
-sceNetApctl,fun,A7BB73DF,sceNetApctl_A7BB73DF,
+sceNetApctl,fun,6F5D2981,sceNetApctlDelInternal03Handler,matching
+sceNetApctl,fun,A7BB73DF,sceNetApctlAddInternal03Handler,matching
 sceNetApctl,fun,E9B2E5E6,sceNetApctlScanUser,matching
 sceNetApctl,fun,2935C45B,sceNetApctlGetBSSDescEntry2,matching
 sceNetApctl,fun,A3E77E13,sceNetApctlScanSSID2,matching
