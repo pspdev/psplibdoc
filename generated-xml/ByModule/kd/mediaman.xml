@@ -84,7 +84,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1A2485D2</NID>
-              <NAME>sceUmd_1A2485D2</NAME>
+              <NAME>sceUmdUseUMDDetectIntr</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -212,7 +212,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3BA4EC53</NID>
-              <NAME>sceUmd_3BA4EC53</NAME>
+              <NAME>sceUmdUnuseUMDDetectIntr</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>

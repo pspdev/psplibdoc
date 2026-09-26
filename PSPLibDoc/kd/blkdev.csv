@@ -6,7 +6,7 @@ sceBLK_driver,fun,46C91FF8,sceBLKGetUnitNum,matching
 sceBLK_driver,fun,550511CE,sceBLKRegister,matching
 sceBLK_driver,fun,5E5285A5,sceBLKGetDeviceData,matching
 sceBLK_driver,fun,6216FF5D,sceBLKInit,matching
-sceBLK_driver,fun,A86B6778,sceBLK_driver_A86B6778,
+sceBLK_driver,fun,A86B6778,sceBLKInvalidateDeviceName,matching
 sceBLK_driver,fun,DC4A18BC,sceBLKStartFeatures,matching
 syslib,fun,D632ACDB,module_start,matching
 syslib,var,F01D73A7,module_info,matching

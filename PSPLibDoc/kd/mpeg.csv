@@ -62,5 +62,5 @@ sceMpeg,fun,CF3547A2,sceMpegAvcDecodeDetail2,matching
 sceMpeg,fun,D1CE4950,sceMpegAvcCscMode,matching
 sceMpeg,fun,D4DD6E75,sceMpeg_D4DD6E75,
 sceMpeg,fun,DBB60658,sceMpegFlushAu,matching
-sceMpeg,fun,E49EB257,sceMpeg_E49EB257,
+sceMpeg,fun,E49EB257,sceMpegAvcCscInfoInit,matching
 sceMpeg,fun,E95838F6,sceMpegAvcCscInfo,matching

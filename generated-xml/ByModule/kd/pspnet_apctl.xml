@@ -1162,7 +1162,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6F5D2981</NID>
-              <NAME>sceNetApctl_6F5D2981</NAME>
+              <NAME>sceNetApctlDelInternal03Handler</NAME>
               <VERSIONS>
                 <VERSION>2.00</VERSION>
                 <VERSION>2.01</VERSION>
@@ -1273,7 +1273,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA7BB73DF</NID>
-              <NAME>sceNetApctl_A7BB73DF</NAME>
+              <NAME>sceNetApctlAddInternal03Handler</NAME>
               <VERSIONS>
                 <VERSION>2.00</VERSION>
                 <VERSION>2.01</VERSION>

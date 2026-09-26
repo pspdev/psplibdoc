@@ -12,13 +12,13 @@ sceImpose,fun,24FD7BCF,sceImposeGetLanguageMode,matching
 sceImpose,fun,36AA6E91,sceImposeSetLanguageMode,matching
 sceImpose,fun,381BD9E7,sceImposeHomeButton,matching
 sceImpose,fun,5595A71A,sceImposeSetHomePopup,matching
-sceImpose,fun,7084E72C,sceImpose_7084E72C,
+sceImpose,fun,7084E72C,sceImposeGetSpecialButtonMode,matching
 sceImpose,fun,72189C48,sceImposeSetUMDPopup,matching
 sceImpose,fun,8C943191,sceImposeGetBatteryIconStatus,matching
 sceImpose,fun,8F6E3518,sceImposeGetBacklightOffTime,matching
 sceImpose,fun,967F6D4A,sceImposeSetBacklightOffTime,matching
-sceImpose,fun,9BA61B49,sceImpose_9BA61B49,
-sceImpose,fun,9DBCE0C4,sceImpose_9DBCE0C4,
+sceImpose,fun,9BA61B49,sceImposeReadSpecialButton,matching
+sceImpose,fun,9DBCE0C4,sceImposeSetSpecialButtonMode,matching
 sceImpose,fun,A9884B00,sceImpose_A9884B00,
 sceImpose,fun,BB3F5DEC,sceImpose_BB3F5DEC,
 sceImpose,fun,E0887BC8,sceImposeGetUMDPopup,matching

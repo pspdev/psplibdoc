@@ -23,10 +23,10 @@ sceNetAdhoc,fun,E08BDAC1,sceNetAdhocPtpListen,matching
 sceNetAdhoc,fun,E1D621D7,sceNetAdhocInit,matching
 sceNetAdhoc,fun,FA324B4E,sceNetAdhocGameModeUpdateReplica,matching
 sceNetAdhoc,fun,FC6FC07B,sceNetAdhocPtpConnect,matching
-sceNetAdhoc,fun,67346A2A,sceNetAdhoc_67346A2A,
+sceNetAdhoc,fun,67346A2A,sceNetAdhocPdpRecvWithRfInfo,matching
 sceNetAdhoc_lib,fun,2CA12790,sceNetAdhoc_lib_2CA12790,
 sceNetAdhoc_lib,fun,62B875A8,sceNetAdhoc_lib_62B875A8,
-sceNetAdhoc_lib,fun,67346A2A,sceNetAdhoc_lib_67346A2A,
+sceNetAdhoc_lib,fun,67346A2A,sceNetAdhocPdpRecvWithRfInfo,matching
 sceNetAdhoc_lib,fun,AF6DFB15,sceNetAdhocGameModeUpdateReplicaInternal,matching
 sceNetAdhoc_lib,fun,1059683E,sceNetAdhoc_lib_1059683E,
 sceNetAdhoc_lib,fun,F9240FBA,sceNetAdhoc_lib_F9240FBA,

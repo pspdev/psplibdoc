@@ -442,7 +442,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x531E144B</NID>
-              <NAME>sceMemab_driver_531E144B</NAME>
+              <NAME>sceAdhocBBGMCreateSessionKey</NAME>
               <VERSIONS>
                 <VERSION>1.50</VERSION>
                 <VERSION>1.51</VERSION>

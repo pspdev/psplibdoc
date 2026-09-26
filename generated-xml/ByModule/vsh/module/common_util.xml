@@ -320,7 +320,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4DE8BDCB</NID>
-              <NAME>sceVshCommonUtil_4DE8BDCB</NAME>
+              <NAME>_ZN3vsh9PowerLockC1Ev</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
               </VERSIONS>
@@ -8691,7 +8691,7 @@
             </VARIABLE>
             <VARIABLE>
               <NID>0xDBD6B255</NID>
-              <NAME>sceVshCommonUtil_DBD6B255</NAME>
+              <NAME>_ZN3vsh14registry_cacheE</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>

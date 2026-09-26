@@ -73,7 +73,7 @@ sceUmdMan_driver,fun,B5CFC459,sceUmdManReset,matching
 sceUmdMan_driver,fun,B989E127,sceUmdManLeptonAliveOnOff,matching
 sceUmdMan_driver,fun,BEA40117,sceUmdManDeleteStateManThread,matching
 sceUmdMan_driver,fun,BF88476F,sceUmdExecSetCDSpeedCmd,matching
-sceUmdMan_driver,fun,C1D7C860,sceUmdMan_driver_C1D7C860,
+sceUmdMan_driver,fun,C1D7C860,sceUmdManGetXferStat,matching
 sceUmdMan_driver,fun,C4A99D78,sceUmdManAbort,matching
 sceUmdMan_driver,fun,C634697D,sceUmdMan_driver_C634697D,
 sceUmdMan_driver,fun,C83EB3E2,sceUmdManGpioIntrStop,matching
@@ -112,14 +112,14 @@ sceUmdMan_driver,fun,0DC8D26D,sceUmdManWaitSema,matching
 sceUmdMan_driver,fun,1F9AFFF4,sceUmdManMediaPresent,matching
 sceUmdMan_driver,fun,2787078E,sceUmdManUnRegisterImposeCallBack,matching
 sceUmdMan_driver,fun,2C756C37,sceUmdManGetErrorStatus,matching
-sceUmdMan_driver,fun,3DCFAA71,sceUmdMan_driver_3DCFAA71,
+sceUmdMan_driver,fun,3DCFAA71,sceUmdManTaskIsInQueue,matching
 sceUmdMan_driver,fun,4217E7F5,sceUmdManUnRegisterInsertEjectUMDCallBack,matching
 sceUmdMan_driver,fun,42D28DD1,sceUmdManGetReadyFlag,matching
 sceUmdMan_driver,fun,4FB913A3,sceUmdManGetIntrStateFlag,matching
-sceUmdMan_driver,fun,9814DCF3,sceUmdMan_driver_9814DCF3,
+sceUmdMan_driver,fun,9814DCF3,sceUmdManGetQueueingTask,matching
 sceUmdMan_driver,fun,9F106F73,sceUmdManPollSema,matching
 sceUmdMan_driver,fun,B0A43DA7,sceUmdManSignalSema,matching
-sceUmdMan_driver,fun,BD13A488,sceUmdMan_driver_BD13A488,
+sceUmdMan_driver,fun,BD13A488,sceUmdManGetProcessingTaskId,matching
 sceUmdMan_driver,fun,BF8AED79,sceUmdManRegisterInsertEjectUMDCallBack,matching
 sceUmdMan_driver,fun,CC80CFC6,sceUmdManActivate,matching
 sceUmdMan_driver,fun,F65D819F,sceUmdManRegisterImposeCallBack,matching

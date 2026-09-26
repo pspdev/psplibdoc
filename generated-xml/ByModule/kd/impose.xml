@@ -932,7 +932,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9BA61B49</NID>
-              <NAME>sceImpose_9BA61B49</NAME>
+              <NAME>sceImposeReadSpecialButton</NAME>
               <VERSIONS>
                 <VERSION>2.80</VERSION>
                 <VERSION>2.81</VERSION>
@@ -1793,7 +1793,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7084E72C</NID>
-              <NAME>sceImpose_driver_7084E72C</NAME>
+              <NAME>sceImposeGetSpecialButtonMode</NAME>
               <VERSIONS>
                 <VERSION>2.80</VERSION>
                 <VERSION>2.81</VERSION>
@@ -1818,7 +1818,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9DBCE0C4</NID>
-              <NAME>sceImpose_driver_9DBCE0C4</NAME>
+              <NAME>sceImposeSetSpecialButtonMode</NAME>
               <VERSIONS>
                 <VERSION>2.80</VERSION>
                 <VERSION>2.81</VERSION>

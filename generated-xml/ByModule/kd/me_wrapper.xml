@@ -1492,7 +1492,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x55F11AF6</NID>
-              <NAME>sceMePower_driver_55F11AF6</NAME>
+              <NAME>sceMePowerSetCpuClockGear</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>1.50</VERSION>
@@ -1554,7 +1554,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8EBBBBA3</NID>
-              <NAME>sceMePower_driver_8EBBBBA3</NAME>
+              <NAME>sceMePowerSetBusClockGear</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>1.50</VERSION>
@@ -1585,7 +1585,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB6FE3E62</NID>
-              <NAME>sceMePower_driver_B6FE3E62</NAME>
+              <NAME>sceMePowerControlDmacplusClock</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>1.50</VERSION>
@@ -3500,7 +3500,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x55F11AF6</NID>
-              <NAME>sceMeWrapper_driver_55F11AF6</NAME>
+              <NAME>sceMePowerSetCpuClockGear</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>1.50</VERSION>
@@ -3562,7 +3562,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8EBBBBA3</NID>
-              <NAME>sceMeWrapper_driver_8EBBBBA3</NAME>
+              <NAME>sceMePowerSetBusClockGear</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>1.50</VERSION>
@@ -3593,7 +3593,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB6FE3E62</NID>
-              <NAME>sceMeWrapper_driver_B6FE3E62</NAME>
+              <NAME>sceMePowerControlDmacplusClock</NAME>
               <VERSIONS>
                 <VERSION>1.03</VERSION>
                 <VERSION>1.50</VERSION>

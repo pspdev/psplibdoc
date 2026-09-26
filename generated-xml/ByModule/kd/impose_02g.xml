@@ -90,7 +90,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x10818334</NID>
-              <NAME>sceAudioRouting_driver_10818334</NAME>
+              <NAME>sceAudioRoutingSetVolumeMode</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -99,7 +99,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5179444F</NID>
-              <NAME>sceAudioRouting_driver_5179444F</NAME>
+              <NAME>sceAudioRoutingGetVolumeMode</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -108,7 +108,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDE26E31E</NID>
-              <NAME>sceAudioRouting_driver_DE26E31E</NAME>
+              <NAME>sceAudioRoutingSetMode</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -117,7 +117,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xED5795F1</NID>
-              <NAME>sceAudioRouting_driver_ED5795F1</NAME>
+              <NAME>sceAudioRoutingGetMode</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -324,7 +324,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7084E72C</NID>
-              <NAME>sceImpose_7084E72C</NAME>
+              <NAME>sceImposeGetSpecialButtonMode</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -414,7 +414,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9BA61B49</NID>
-              <NAME>sceImpose_9BA61B49</NAME>
+              <NAME>sceImposeReadSpecialButton</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -432,7 +432,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9DBCE0C4</NID>
-              <NAME>sceImpose_9DBCE0C4</NAME>
+              <NAME>sceImposeSetSpecialButtonMode</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>

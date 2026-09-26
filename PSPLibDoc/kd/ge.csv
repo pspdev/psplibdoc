@@ -21,7 +21,7 @@ sceGe_driver,fun,B77905EA,sceGeEdramSetAddrTranslation,matching
 sceGe_driver,fun,DC93CFEF,sceGeGetCmd,matching
 sceGe_driver,fun,E0D68148,sceGeListUpdateStallAddr,matching
 sceGe_driver,fun,E47E40E4,sceGeEdramGetAddr,matching
-sceGe_driver,fun,3EFC0D64,sceGe_driver_3EFC0D64,
+sceGe_driver,fun,3EFC0D64,sceGeDecodeListId,matching
 sceGe_driver,fun,51C8BB60,sceGeSetReg,matching
 sceGe_driver,fun,51D44C58,sceGeSetCmd,matching
 sceGe_driver,fun,5A0103E6,sceGeSetMtx,matching

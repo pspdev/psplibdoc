@@ -49,7 +49,7 @@ sceNet_lib,fun,5C7C7381,_sce_pspnet_stop_of_inet_module_in_netintr,matching
 sceNet_lib,fun,5ED457BE,_sce_pspnet_start_of_inet_module_in_if_ethersubr_core,matching
 sceNet_lib,fun,6B294EE4,_sce_pspnet_adhoc_sabort,matching
 sceNet_lib,fun,6D5D42D7,_sce_pspnet_lock_threadinfo,matching
-sceNet_lib,fun,6DC71518,sceNet_lib_6DC71518,
+sceNet_lib,fun,6DC71518,_sce_pspnet_spllock_owner,matching
 sceNet_lib,fun,701DDDC3,_sce_pspnet_if_attach,matching
 sceNet_lib,fun,710BD467,_sce_pspnet_get_ifindex,matching
 sceNet_lib,fun,757085B0,_sce_pspnet_thread_leave,matching
@@ -140,7 +140,7 @@ sceNet_lib,fun,E9D457B6,sceNet_lib_E9D457B6,
 sceNet_lib,fun,EB38431E,sceNet_lib_EB38431E,
 sceNet_lib,fun,EF097716,sceNetMemcpy,matching
 sceNet_lib,fun,F48963C6,sceNetStrrchr,matching
-sceNet_lib,fun,384EFE14,sceNet_lib_384EFE14,
+sceNet_lib,fun,384EFE14,sceNetHmacSha1,matching
 sceNet_lib,fun,3A0668D5,sceNet_lib_3A0668D5,
 sceNet_lib,fun,4A3E75C1,sceNet_lib_4A3E75C1,
 sceNet_lib,fun,8D34E686,sceNet_lib_8D34E686,

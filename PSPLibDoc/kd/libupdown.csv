@@ -8,8 +8,8 @@ sceLibUpdateDL,fun,F7E66CB4,sceUpdateDownloadSetUrl,matching
 sceLibUpdateDL,fun,FA9AA797,sceUpdateDownloadReadData,matching
 sceLibUpdateDL,fun,FC1AB540,sceUpdateDownloadInit,matching
 sceLibUpdateDL,fun,FD675E8D,sceUpdateDownloadConnectServer,matching
-sceLibUpdateDL,fun,34243B86,sceLibUpdateDL_34243B86,
-sceLibUpdateDL,fun,36D8F34B,sceLibUpdateDL_36D8F34B,
+sceLibUpdateDL,fun,34243B86,sceUpdateDownloadSetSystemSoftwareVersion,matching
+sceLibUpdateDL,fun,36D8F34B,sceUpdateDownloadSetUpdateMode,matching
 syslib,fun,D632ACDB,module_start,matching
 syslib,fun,CEE8593C,module_stop,matching
 syslib,var,F01D73A7,module_info,matching

@@ -13,10 +13,10 @@ sceMeMemory_driver,fun,5AD660FA,sceMeFree,matching
 sceMeMemory_driver,fun,A177798D,sceMeMalloc,matching
 sceMeMemory_driver,fun,C86500E3,sceMeCalloc,matching
 sceMePower_driver,fun,05B2C420,sceMePowerControlAvcPower,matching
-sceMePower_driver,fun,55F11AF6,sceMePower_driver_55F11AF6,
+sceMePower_driver,fun,55F11AF6,sceMePowerSetCpuClockGear,matching
 sceMePower_driver,fun,579ACEA9,sceMePowerSelectAvcClock,matching
-sceMePower_driver,fun,8EBBBBA3,sceMePower_driver_8EBBBBA3,
-sceMePower_driver,fun,B6FE3E62,sceMePower_driver_B6FE3E62,
+sceMePower_driver,fun,8EBBBBA3,sceMePowerSetBusClockGear,matching
+sceMePower_driver,fun,B6FE3E62,sceMePowerControlDmacplusClock,matching
 sceMeVideo_driver,fun,06F0236A,sceMeVideo_driver_06F0236A,
 sceMeVideo_driver,fun,176BBE07,sceMeVideo_driver_176BBE07,
 sceMeVideo_driver,fun,1C6A60E1,sceMeVideo_driver_1C6A60E1,
@@ -44,10 +44,10 @@ sceMeWrapper_driver,fun,E67F4E0A,sceMeWrapper_driver_E67F4E0A,
 sceMeWrapper_driver,fun,FEE0A97D,sceMeWrapper_driver_FEE0A97D,
 sceMeWrapper_driver,fun,05B2C420,sceMePowerControlAvcPower,matching
 sceMeWrapper_driver,fun,4794C05C,sceMeEnableFunctions,matching
-sceMeWrapper_driver,fun,55F11AF6,sceMeWrapper_driver_55F11AF6,
+sceMeWrapper_driver,fun,55F11AF6,sceMePowerSetCpuClockGear,matching
 sceMeWrapper_driver,fun,579ACEA9,sceMePowerSelectAvcClock,matching
-sceMeWrapper_driver,fun,8EBBBBA3,sceMeWrapper_driver_8EBBBBA3,
-sceMeWrapper_driver,fun,B6FE3E62,sceMeWrapper_driver_B6FE3E62,
+sceMeWrapper_driver,fun,8EBBBBA3,sceMePowerSetBusClockGear,matching
+sceMeWrapper_driver,fun,B6FE3E62,sceMePowerControlDmacplusClock,matching
 syslib,fun,ADF12745,module_reboot_phase,matching
 syslib,fun,D632ACDB,module_start,matching
 syslib,fun,2F064FA6,module_reboot_before,matching

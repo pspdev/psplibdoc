@@ -23,11 +23,11 @@ sceNetAdhocctl,fun,B0B80E80,sceNetAdhocctlCreateEnterGameModeMin,matching
 sceNetAdhocctl_lib,fun,1593C05D,sceNetThreadExitDeleteEventFlag,matching
 sceNetAdhocctl_lib,fun,EFA6AEAF,sceNetAdhocctl_lib_EFA6AEAF,
 sceNetAdhocctl_lib,fun,1C679240,LinkDiscoverSkip,matching
-sceNetAdhocctl_lib,fun,F8BABD85,sceNetAdhocctl_lib_F8BABD85,
+sceNetAdhocctl_lib,fun,F8BABD85,sceNetAdhocctlAddInternalHandler,matching
 sceNetAdhocctl_lib,fun,CDEA7ACB,sceNetAdhocctl_lib_CDEA7ACB,
-sceNetAdhocctl_lib,fun,1572422C,sceNetAdhocctl_lib_1572422C,
+sceNetAdhocctl_lib,fun,1572422C,sceNetAdhocctlRequestSuspend,matching
 sceNetAdhocctl_lib,fun,1A2B6D03,sceNetAdhocctl_lib_1A2B6D03,
-sceNetAdhocctl_lib,fun,F6057CC4,sceNetAdhocctl_lib_F6057CC4,
+sceNetAdhocctl_lib,fun,F6057CC4,sceNetAdhocctlHostDiscoverStart,matching
 syslib,fun,D632ACDB,module_start,matching
 syslib,fun,CEE8593C,module_stop,matching
 syslib,var,F01D73A7,module_info,matching

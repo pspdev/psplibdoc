@@ -2,6 +2,8 @@
 
 PRX_FOLDERS=("kd" "vsh/module")
 
+# Update the function/variable names in the ./generated-xml/ByModule/<prx>/<module>.xml
+
 PRX_FILES=()
 for PRX_FOLDER in ${PRX_FOLDERS[@]}; do
     PRX_PATH="./PSPLibDoc/${PRX_FOLDER}"
@@ -12,6 +14,8 @@ for PRX_FOLDER in ${PRX_FOLDERS[@]}; do
         done
     fi
 done
+
+# Regenerate the other XMLs from scratch
 
 ./scripts/save_combined.sh
 ./scripts/save_per_fw_version.sh

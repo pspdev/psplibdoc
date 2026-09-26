@@ -411,7 +411,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1A30EF4B</NID>
-              <NAME>sceMgVideo_driver_1A30EF4B</NAME>
+              <NAME>sceMgVideoFormatGroupID</NAME>
               <VERSIONS>
                 <VERSION>3.00</VERSION>
                 <VERSION>3.01</VERSION>
@@ -425,7 +425,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x26AA0AF7</NID>
-              <NAME>sceMgVideo_driver_26AA0AF7</NAME>
+              <NAME>sceMgVideoCheckGroupID</NAME>
               <VERSIONS>
                 <VERSION>3.00</VERSION>
                 <VERSION>3.01</VERSION>

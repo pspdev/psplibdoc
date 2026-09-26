@@ -1596,7 +1596,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB8C7406A</NID>
-              <NAME>sceVshBridge_B8C7406A</NAME>
+              <NAME>vshSircsSend</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
               </VERSIONS>
@@ -2538,7 +2538,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x33EEEF3E</NID>
-              <NAME>sceVshBridge_33EEEF3E</NAME>
+              <NAME>vshMePowerSetCpuClockGear</NAME>
               <VERSIONS>
                 <VERSION>2.00</VERSION>
                 <VERSION>2.01</VERSION>
@@ -2622,7 +2622,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAFB59B52</NID>
-              <NAME>sceVshBridge_AFB59B52</NAME>
+              <NAME>vshMePowerSetBusClockGear</NAME>
               <VERSIONS>
                 <VERSION>2.00</VERSION>
                 <VERSION>2.01</VERSION>
@@ -3206,7 +3206,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5C63B6D2</NID>
-              <NAME>sceVshBridge_5C63B6D2</NAME>
+              <NAME>vshUsbstorMsSetNickname</NAME>
               <VERSIONS>
                 <VERSION>2.70</VERSION>
                 <VERSION>2.71</VERSION>
@@ -3274,7 +3274,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x39995897</NID>
-              <NAME>sceVshBridge_39995897</NAME>
+              <NAME>vshUsbstorMsSetVSHInfo</NAME>
               <VERSIONS>
                 <VERSION>2.80</VERSION>
                 <VERSION>2.81</VERSION>
@@ -3289,7 +3289,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5D09ED94</NID>
-              <NAME>sceVshBridge_5D09ED94</NAME>
+              <NAME>vshKernelGetModel</NAME>
               <VERSIONS>
                 <VERSION>2.80</VERSION>
                 <VERSION>2.81</VERSION>
@@ -3316,7 +3316,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1022075A</NID>
-              <NAME>sceVshBridge_1022075A</NAME>
+              <NAME>vshMgVideoFormatGroupID</NAME>
               <VERSIONS>
                 <VERSION>3.00</VERSION>
                 <VERSION>3.01</VERSION>
@@ -3328,7 +3328,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x316CE7AE</NID>
-              <NAME>sceVshBridge_316CE7AE</NAME>
+              <NAME>vshImposeGetSpecialButtonMode</NAME>
               <VERSIONS>
                 <VERSION>3.00</VERSION>
                 <VERSION>3.01</VERSION>
@@ -3340,7 +3340,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3D54E418</NID>
-              <NAME>sceVshBridge_3D54E418</NAME>
+              <NAME>vshMgVideoCheckGroupID</NAME>
               <VERSIONS>
                 <VERSION>3.00</VERSION>
                 <VERSION>3.01</VERSION>
@@ -3364,7 +3364,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x72D4B3A8</NID>
-              <NAME>sceVshBridge_72D4B3A8</NAME>
+              <NAME>vshImposeSetSpecialButtonMode</NAME>
               <VERSIONS>
                 <VERSION>3.00</VERSION>
                 <VERSION>3.01</VERSION>
@@ -3376,7 +3376,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x81B535B2</NID>
-              <NAME>sceVshBridge_81B535B2</NAME>
+              <NAME>vshKernelLoadExecVSHMs5</NAME>
               <VERSIONS>
                 <VERSION>3.00</VERSION>
                 <VERSION>3.01</VERSION>
@@ -3400,7 +3400,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFB27F59B</NID>
-              <NAME>sceVshBridge_FB27F59B</NAME>
+              <NAME>vshKernelLoadExecVSHMs4</NAME>
               <VERSIONS>
                 <VERSION>3.00</VERSION>
                 <VERSION>3.01</VERSION>
@@ -3412,7 +3412,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x172C990E</NID>
-              <NAME>sceVshBridge_172C990E</NAME>
+              <NAME>vshDisplayIsPseudoField</NAME>
               <VERSIONS>
                 <VERSION>3.10</VERSION>
                 <VERSION>3.11</VERSION>
@@ -3420,7 +3420,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x22971D45</NID>
-              <NAME>sceVshBridge_22971D45</NAME>
+              <NAME>vshDisplaySetPseudoVsync</NAME>
               <VERSIONS>
                 <VERSION>3.10</VERSION>
                 <VERSION>3.11</VERSION>
@@ -3444,7 +3444,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x40DAF7AA</NID>
-              <NAME>sceVshBridge_40DAF7AA</NAME>
+              <NAME>vshUsbstorMsNotifyEventDone</NAME>
               <VERSIONS>
                 <VERSION>3.10</VERSION>
                 <VERSION>3.11</VERSION>
@@ -3452,7 +3452,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5D307BD9</NID>
-              <NAME>sceVshBridge_5D307BD9</NAME>
+              <NAME>vshDisplaySetMode</NAME>
               <VERSIONS>
                 <VERSION>3.10</VERSION>
                 <VERSION>3.11</VERSION>
@@ -3460,7 +3460,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9A1BEEE4</NID>
-              <NAME>sceVshBridge_9A1BEEE4</NAME>
+              <NAME>vshGeEdramSetSize</NAME>
               <VERSIONS>
                 <VERSION>3.10</VERSION>
                 <VERSION>3.11</VERSION>
@@ -3468,7 +3468,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA8415BEB</NID>
-              <NAME>sceVshBridge_A8415BEB</NAME>
+              <NAME>vshUsbstorMsGetApInfo</NAME>
               <VERSIONS>
                 <VERSION>3.10</VERSION>
                 <VERSION>3.11</VERSION>
@@ -3476,7 +3476,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC95B9265</NID>
-              <NAME>sceVshBridge_C95B9265</NAME>
+              <NAME>vshGeEdramGetHwSize</NAME>
               <VERSIONS>
                 <VERSION>3.10</VERSION>
                 <VERSION>3.11</VERSION>
@@ -3484,7 +3484,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC9C7BB70</NID>
-              <NAME>sceVshBridge_C9C7BB70</NAME>
+              <NAME>vshUsbstorMsRegisterEventFlag</NAME>
               <VERSIONS>
                 <VERSION>3.10</VERSION>
                 <VERSION>3.11</VERSION>
@@ -3508,7 +3508,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF78AA466</NID>
-              <NAME>sceVshBridge_F78AA466</NAME>
+              <NAME>vshUsbstorMsUnregisterEventFlag</NAME>
               <VERSIONS>
                 <VERSION>3.10</VERSION>
                 <VERSION>3.11</VERSION>

@@ -14,7 +14,7 @@ sceVshCommonUtil,fun,3412B578,vshRegSysconfGetAuthPassword,matching
 sceVshCommonUtil,fun,36BA6A54,vshRegSysconfGetDateTimeFormat,matching
 sceVshCommonUtil,fun,3E95607D,vshRegSysconfCloseRegistry,matching
 sceVshCommonUtil,fun,46931A6C,sceSystemFileInitFormatW,matching
-sceVshCommonUtil,fun,4DE8BDCB,sceVshCommonUtil_4DE8BDCB,
+sceVshCommonUtil,fun,4DE8BDCB,_ZN3vsh9PowerLockC1Ev,matching
 sceVshCommonUtil,fun,53120F49,vshRegSysconfSetRegistry,matching
 sceVshCommonUtil,fun,53CF01CA,vshRegSysconfGetRegistry,matching
 sceVshCommonUtil,fun,5A3449D5,vshRegSysconfGetParentalLockLevel,matching
@@ -72,7 +72,7 @@ sceVshCommonUtil,fun,622815DD,sceVshCommonUtil_622815DD,
 sceVshCommonUtil,fun,8584376D,sceVshCommonUtil_8584376D,
 sceVshCommonUtil,fun,9E42444E,sceVshCommonUtil_9E42444E,
 sceVshCommonUtil,fun,B9B916C5,sceVshCommonUtil_B9B916C5,
-sceVshCommonUtil,var,DBD6B255,sceVshCommonUtil_DBD6B255,
+sceVshCommonUtil,var,DBD6B255,_ZN3vsh14registry_cacheE,matching
 syslib,fun,D632ACDB,module_start,matching
 syslib,fun,CEE8593C,module_stop,matching
 syslib,var,F01D73A7,module_info,matching

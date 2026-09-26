@@ -68,7 +68,7 @@ sceAudiocodec,fun,5B37EB1D,sceAudiocodecInit,matching
 sceAudiocodec,fun,70A703F8,sceAudiocodecDecode,matching
 sceAudiocodec,fun,8ACA11D5,sceAudiocodecGetInfo,matching
 sceAudiocodec,fun,9D3F790C,sceAudiocodecCheckNeedMem,matching
-sceAudiocodec,fun,E066B45F,sceAudiocodec_E066B45F,
+sceAudiocodec,fun,E066B45F,sceAudiocodecSetInfo,matching
 sceAvcodec_driver,fun,4A0592C7,sceAvcodecStartEntry,matching
 sceAvcodec_driver,fun,C692C906,sceAvcodecEndEntry,matching
 sceJpeg,fun,0425B986,sceJpegDecompressAllImage,matching

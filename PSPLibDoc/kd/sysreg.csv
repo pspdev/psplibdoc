@@ -169,7 +169,7 @@ sceSysreg_driver,fun,FFEB6E00,sceSysregUsbhostQueryIntr,matching
 sceSysreg_driver,fun,312F9419,sceSysregGenerateVblankIRQ,matching
 sceSysreg_driver,fun,F3443B9A,sceSysregSetAwEdramSize,matching
 sceSysreg_driver,fun,A41929DA,sceSysreg_driver_A41929DA,
-sceSysreg_driver,fun,B08A4E85,sceSysreg_driver_B08A4E85,
+sceSysreg_driver,fun,B08A4E85,sceSysregSramAtomicRead,matching
 sceSysreg_driver,fun,EE8760C6,sceSysregAcquireIntr,matching
 syslib,fun,D632ACDB,module_start,matching
 syslib,fun,2F064FA6,module_reboot_before,matching

@@ -4,14 +4,14 @@ sceUmd,fun,075F1E0B,sceUmdSetDetectUMDCallBackId,matching
 sceUmd,fun,08709F2D,sceUmdAssertLeptonWakeup,matching
 sceUmd,fun,0F7E578A,sceUmd_0F7E578A,
 sceUmd,fun,18624052,sceUmdRegisterGetUMDPowerOnOffCallBack,matching
-sceUmd,fun,1A2485D2,sceUmd_1A2485D2,
+sceUmd,fun,1A2485D2,sceUmdUseUMDDetectIntr,matching
 sceUmd,fun,1FB77367,sceUmdRegisterActivateDVDCallBack,matching
 sceUmd,fun,230666E3,sceUmdSetDriveStatus,matching
 sceUmd,fun,27A764A1,sceUmdUnRegisterGetUMDInfoCallBack,matching
 sceUmd,fun,28355079,sceUmdRegisterSuspendResumeUMDCallBack,matching
 sceUmd,fun,3342000C,sceUmdIsUMD,matching
 sceUmd,fun,3925CBD8,sceUmdSetAssignedFlag,matching
-sceUmd,fun,3BA4EC53,sceUmd_3BA4EC53,
+sceUmd,fun,3BA4EC53,sceUmdUnuseUMDDetectIntr,matching
 sceUmd,fun,3D0DECD5,sceUmdGetUserEventFlagId,matching
 sceUmd,fun,46EBB729,sceUmdCheckMedium,matching
 sceUmd,fun,725DFB14,sceUmdEnableUMDDetectIntr,matching

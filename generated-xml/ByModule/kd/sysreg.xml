@@ -4606,7 +4606,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB08A4E85</NID>
-              <NAME>sceSysreg_driver_B08A4E85</NAME>
+              <NAME>sceSysregSramAtomicRead</NAME>
               <VERSIONS>
                 <VERSION>3.10</VERSION>
                 <VERSION>3.11</VERSION>

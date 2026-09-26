@@ -12,14 +12,14 @@ sceAsfParser,fun,95AD7B34,sceAsfCheckNeedMem,matching
 sceAsfParser,fun,B9E4BD9E,sceAsfParserStartEntry,matching
 sceAsfParser,fun,C6D98C54,sceAsfGetStreamObjectInfo,matching
 sceAsfParser,fun,002052FF,sceAsfParser_002052FF,
-sceAsfParser,fun,385E1320,sceAsfParser_385E1320,
-sceAsfParser,fun,49E09367,sceAsfParser_49E09367,
+sceAsfParser,fun,385E1320,sceAsfGetAudioStreamInfo,matching
+sceAsfParser,fun,49E09367,sceAsfGetVariableObjectInfo,matching
 sceAsfParser,fun,5EC678CB,sceAsfGetVariableObject,matching
 sceAsfParser,fun,AA881A7B,sceAsfGetExtContent,matching
 sceAsfParser,fun,D2DD1778,sceAsfGetContentDescription,matching
 sceAsfParser,fun,EFC704C3,sceAsfGetHeaderExtension,matching
 sceAsfParser,fun,F4502CB5,sceAsfParser_F4502CB5,
-sceAsfParser,fun,F5F356F6,sceAsfParser_F5F356F6,
+sceAsfParser,fun,F5F356F6,sceAsfGetExtContentDescription,matching
 sceAsfParser,fun,BC85F4D8,sceAsfParser_BC85F4D8,
 sceAsfParser,fun,F2306E89,sceAsfParser_F2306E89,
 syslib,fun,D632ACDB,module_start,matching

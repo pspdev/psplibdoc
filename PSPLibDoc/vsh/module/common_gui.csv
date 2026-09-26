@@ -10,7 +10,7 @@ sceVshCommonGui,fun,473110B6,sceVshCommonGui_473110B6,
 sceVshCommonGui,fun,54BC644C,_ZN3vsh30SetButtonNavigationString_BackEPKw,matching
 sceVshCommonGui,fun,566AA22F,_ZN3vsh11ContentInfo10SetTextureERKN3paf12SurfaceRCPtrINS1_7SurfaceEEEi,matching
 sceVshCommonGui,fun,57F57F40,_ZN3vsh11ContentInfoD1Ev,matching
-sceVshCommonGui,fun,5C161337,sceVshCommonGui_5C161337,
+sceVshCommonGui,fun,5C161337,_ZN3vsh14GetString_BackE6Locale,matching
 sceVshCommonGui,fun,5D36BCE6,_ZN3vsh11ContentInfo4InfoEff,matching
 sceVshCommonGui,fun,607D5C82,_ZN3vsh10OptionMenu5CloseEPN3paf4ViewEPKcS5_,matching
 sceVshCommonGui,fun,61A1FA3A,_ZN3vsh11ContentInfo4MenuEff,matching
@@ -19,15 +19,15 @@ sceVshCommonGui,fun,6C81492F,_ZN3vsh31SetButtonNavigationString_EnterEPKw,matchi
 sceVshCommonGui,fun,72C75A14,_ZN3vsh11ContentInfo8SetMusicERKN3paf10MiconRCPtrINS1_13MusicResourceEEE,matching
 sceVshCommonGui,fun,72E652AA,_ZN3vsh13MessageDialog10HideDeleteEv,matching
 sceVshCommonGui,fun,7B52F0E6,sceVshCommonGui_7B52F0E6,
-sceVshCommonGui,fun,7C7B935B,sceVshCommonGui_7C7B935B,
-sceVshCommonGui,fun,7DB9C54A,sceVshCommonGui_7DB9C54A,
+sceVshCommonGui,fun,7C7B935B,_ZN3vsh10OptionMenu10SetItemNumEi,matching
+sceVshCommonGui,fun,7DB9C54A,_ZN3vsh16GetString_OptionE6Locale,matching
 sceVshCommonGui,fun,80271F41,_ZN3vsh12BusyIcon_IncEv,matching
 sceVshCommonGui,fun,891E0954,_ZN3vsh10OptionMenu8SetAlphaEf,matching
 sceVshCommonGui,fun,8EB783F5,_ZN3vsh10OptionMenu11UpdateItemsEv,matching
 sceVshCommonGui,fun,9C50A821,_ZN3vsh11ContentInfo6DeleteEff,matching
 sceVshCommonGui,fun,9F196654,sceVshCommonGui_9F196654,
 sceVshCommonGui,fun,9FAA1BC2,_ZN3vsh11ContentInfo12DeleteMotionEff,matching
-sceVshCommonGui,fun,A0334323,sceVshCommonGui_A0334323,
+sceVshCommonGui,fun,A0334323,_ZN3vsh13Infobar_CloseEv,matching
 sceVshCommonGui,fun,A06734FF,sceVshCommonGui_A06734FF,
 sceVshCommonGui,fun,A0DE7090,_ZN3vsh26ShowButtonNavigation_EnterEb,matching
 sceVshCommonGui,fun,A1C3DDD6,_ZN3vsh10OptionMenu4HideEv,matching
@@ -40,7 +40,7 @@ sceVshCommonGui,fun,C5B53362,_ZN3vsh10OptionMenu4ShowEv,matching
 sceVshCommonGui,fun,CC7BFDB1,sceVshCommonGui_CC7BFDB1,
 sceVshCommonGui,fun,D27E08EE,sceVshCommonGui_D27E08EE,
 sceVshCommonGui,fun,D4353F96,sceVshCommonGui_D4353F96,
-sceVshCommonGui,fun,E9930C29,sceVshCommonGui_E9930C29,
+sceVshCommonGui,fun,E9930C29,_ZN3vsh15GetString_EnterE6Locale,matching
 sceVshCommonGui,fun,EEB86F0E,_ZN3vsh27ShowButtonNavigation_OptionEb,matching
 sceVshCommonGui,fun,F7A03543,_ZN3vsh10OptionMenu6IsOpenEv,matching
 sceVshCommonGui,fun,FA1DE461,_ZN3vsh11ContentInfo13SetOnplayFuncEPFvPvES1_,matching
@@ -75,7 +75,6 @@ sceVshCommonGui,fun,77812115,sceVshCommonGui_77812115,
 sceVshCommonGui,fun,C00B308F,_ZN3vsh12GetString_OKEv,matching
 sceVshCommonGui,fun,44961EFA,sceVshCommonGui_44961EFA,
 sceVshCommonGui,fun,DE8FC339,sceVshCommonGui_DE8FC339,
-sceVshCommonGui,var,4AF8E417,_ZN3paf8PhXmItem12AnimIconStopEv,matching
 syslib,fun,D632ACDB,module_start,matching
 syslib,fun,CEE8593C,module_stop,matching
 syslib,var,F01D73A7,module_info,matching

@@ -647,7 +647,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2A100C1F</NID>
-              <NAME>sceUsbAcc_internal_2A100C1F</NAME>
+              <NAME>sceUsbAccIntrInReq</NAME>
               <VERSIONS>
                 <VERSION>2.70</VERSION>
                 <VERSION>2.71</VERSION>

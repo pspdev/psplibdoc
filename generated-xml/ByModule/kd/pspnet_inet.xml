@@ -3603,7 +3603,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1D023504</NID>
-              <NAME>sceNetInet_1D023504</NAME>
+              <NAME>sceNetInetGetArpInfo</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
@@ -3697,7 +3697,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2D5868C0</NID>
-              <NAME>sceNetInet_2D5868C0</NAME>
+              <NAME>sceNetInetDelArp</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
@@ -3791,7 +3791,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCCC18C45</NID>
-              <NAME>sceNetInet_CCC18C45</NAME>
+              <NAME>sceNetInetAddArp</NAME>
               <VERSIONS>
                 <VERSION>3.50</VERSION>
                 <VERSION>3.51</VERSION>
@@ -4355,7 +4355,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4C13BE10</NID>
-              <NAME>sceNetInet_lib_4C13BE10</NAME>
+              <NAME>_sce_pspnet_pppoe_term</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -5051,7 +5051,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7CB1D9E3</NID>
-              <NAME>sceNetInet_lib_7CB1D9E3</NAME>
+              <NAME>_sce_pspnet_pppoe_init</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -5167,7 +5167,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x824CBC6D</NID>
-              <NAME>sceNetInet_lib_824CBC6D</NAME>
+              <NAME>sceNetConfigGetArpInfo</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -5631,7 +5631,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAEE60F84</NID>
-              <NAME>sceNetInet_lib_AEE60F84</NAME>
+              <NAME>_sce_pspnet_ioctl_wait</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -6095,7 +6095,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDE9E5174</NID>
-              <NAME>sceNetInet_lib_DE9E5174</NAME>
+              <NAME>sceNetConfigFlushArp</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>

@@ -1736,7 +1736,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC1D7C860</NID>
-              <NAME>sceUmdMan_driver_C1D7C860</NAME>
+              <NAME>sceUmdManGetXferStat</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>
@@ -2677,7 +2677,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3DCFAA71</NID>
-              <NAME>sceUmdMan_driver_3DCFAA71</NAME>
+              <NAME>sceUmdManTaskIsInQueue</NAME>
               <VERSIONS>
                 <VERSION>1.50</VERSION>
                 <VERSION>1.51</VERSION>
@@ -2832,7 +2832,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9814DCF3</NID>
-              <NAME>sceUmdMan_driver_9814DCF3</NAME>
+              <NAME>sceUmdManGetQueueingTask</NAME>
               <VERSIONS>
                 <VERSION>1.50</VERSION>
                 <VERSION>1.51</VERSION>
@@ -2992,7 +2992,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBD13A488</NID>
-              <NAME>sceUmdMan_driver_BD13A488</NAME>
+              <NAME>sceUmdManGetProcessingTaskId</NAME>
               <VERSIONS>
                 <VERSION>1.50</VERSION>
                 <VERSION>1.51</VERSION>

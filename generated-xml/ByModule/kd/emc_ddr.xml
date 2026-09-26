@@ -152,7 +152,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6078F911</NID>
-              <NAME>sceDdr_driver_6078F911</NAME>
+              <NAME>sceDdrReadDllDelay</NAME>
               <VERSIONS>
                 <VERSION>1.00</VERSION>
                 <VERSION>1.03</VERSION>

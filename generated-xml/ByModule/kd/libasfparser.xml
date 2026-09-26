@@ -1282,14 +1282,14 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x385E1320</NID>
-              <NAME>sceAsfParser_385E1320</NAME>
+              <NAME>sceAsfGetAudioStreamInfo</NAME>
               <VERSIONS>
                 <VERSION>2.50</VERSION>
               </VERSIONS>
             </FUNCTION>
             <FUNCTION>
               <NID>0x49E09367</NID>
-              <NAME>sceAsfParser_49E09367</NAME>
+              <NAME>sceAsfGetVariableObjectInfo</NAME>
               <VERSIONS>
                 <VERSION>2.50</VERSION>
               </VERSIONS>
@@ -1331,7 +1331,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF5F356F6</NID>
-              <NAME>sceAsfParser_F5F356F6</NAME>
+              <NAME>sceAsfGetExtContentDescription</NAME>
               <VERSIONS>
                 <VERSION>2.50</VERSION>
               </VERSIONS>

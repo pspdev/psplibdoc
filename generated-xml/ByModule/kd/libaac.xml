@@ -1257,7 +1257,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE955E83A</NID>
-              <NAME>sceAac_E955E83A</NAME>
+              <NAME>sceAacLowLevelInit</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>
@@ -1324,7 +1324,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFA01FCB6</NID>
-              <NAME>sceAac_FA01FCB6</NAME>
+              <NAME>sceAacLowLevelDecode</NAME>
               <VERSIONS>
                 <VERSION>6.00</VERSION>
                 <VERSION>6.10</VERSION>

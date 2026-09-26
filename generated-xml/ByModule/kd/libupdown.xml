@@ -1032,7 +1032,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x34243B86</NID>
-              <NAME>sceLibUpdateDL_34243B86</NAME>
+              <NAME>sceUpdateDownloadSetSystemSoftwareVersion</NAME>
               <VERSIONS>
                 <VERSION>5.50</VERSION>
                 <VERSION>5.51</VERSION>
@@ -1103,7 +1103,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x36D8F34B</NID>
-              <NAME>sceLibUpdateDL_36D8F34B</NAME>
+              <NAME>sceUpdateDownloadSetUpdateMode</NAME>
               <VERSIONS>
                 <VERSION>5.50</VERSION>
                 <VERSION>5.51</VERSION>
