@@ -18,6 +18,10 @@ for csv in glob.glob('PSPLibDoc/kd/*.csv') + glob.glob('PSPLibDoc/vsh/module/*.c
             if source == 'matching':
                 print('wrongly marked as matching:', csv, line)
                 fail = True
+        if source == '' and name != lib + '_' + nid:
+            print('modified without comment:', csv, line)
+        if source != 'matching' and source != '':
+            print('info:', csv, line)
         # all the rest is considered guesses so is ok
 
 if fail:

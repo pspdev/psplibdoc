@@ -26,10 +26,10 @@ sceAudio,fun,E2D56B2D,sceAudioOutputPanned,matching
 sceAudio,fun,E926D3FB,sceAudioInputInitEx,matching
 sceAudio,fun,E9D97901,sceAudioGetChannelRestLen,matching
 sceMeAudio,fun,05115756,sceMeAudioScUnlock,matching
-sceMeAudio,fun,148E487D,sceMeAudio_148E487D,
+sceMeAudio,fun,148E487D,sceMeAudioRegisterTickCallback,matching
 sceMeAudio,fun,29798EF3,sceMeAudioSetPause,matching
 sceMeAudio,fun,5EDA8D33,sceMeAudioScLock,matching
-sceMeAudio_driver,fun,148E487D,sceMeAudio_driver_148E487D,
+sceMeAudio_driver,fun,148E487D,sceMeAudioRegisterTickCallback,matching
 sceMeAudio_driver,fun,29798EF3,sceMeAudioSetPause,matching
 syslib,fun,D632ACDB,module_start,matching
 syslib,fun,2F064FA6,module_reboot_before,matching

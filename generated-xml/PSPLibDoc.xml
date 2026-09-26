@@ -96784,7 +96784,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x148E487D</NID>
-              <NAME>sceMeAudio_148E487D</NAME>
+              <NAME>sceMeAudioRegisterTickCallback</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x29798EF3</NID>
@@ -96803,7 +96803,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x148E487D</NID>
-              <NAME>sceMeAudio_driver_148E487D</NAME>
+              <NAME>sceMeAudioRegisterTickCallback</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x29798EF3</NID>

@@ -301,7 +301,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x148E487D</NID>
-              <NAME>sceMeAudio_148E487D</NAME>
+              <NAME>sceMeAudioRegisterTickCallback</NAME>
               <VERSIONS>
                 <VERSION>2.80</VERSION>
                 <VERSION>2.81</VERSION>
@@ -346,7 +346,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x148E487D</NID>
-              <NAME>sceMeAudio_driver_148E487D</NAME>
+              <NAME>sceMeAudioRegisterTickCallback</NAME>
               <VERSIONS>
                 <VERSION>2.80</VERSION>
                 <VERSION>2.81</VERSION>
